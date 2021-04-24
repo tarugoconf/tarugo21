@@ -3,6 +3,8 @@ import postcss from "https://deno.land/x/lume@v0.18.0/plugins/postcss.js";
 
 const site = lume();
 
-site.use(postcss());
+site
+  .ignore("README.md")
+  .use(postcss());
 
 export default site;
