@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+
+:root {
+  --color-black: #282828;
+
+  --color-grey-500: #656969;
+  --color-grey-200: #D1D1D1;
+  --color-grey-100: #E8E8E8;
+  --color-grey-50: #FBFBFA;
+
+  --color-primary: #05ce78;
+  --color-primary-500: #009e74;
+  --color-primary-600: #028858;
+  --color-primary-900: #015738;
+
+  --font-family: 'Source Sans Pro', sans-serif;
+  --font-weight-normal: 300;
+  --font-weight-bold: 400;
+
+  --font-14: var(--font-weight-normal) 1.4rem / 2.4rem var(--font-family);
+  --font-14-bold: var(--font-weight-bold) 1.4rem / 2.4rem var(--font-family);
+  --font-18: var(--font-weight-normal) 1.8rem / 2.4rem var(--font-family);
+  --font-18-bold: var(--font-weight-bold) 1.8rem / 2.4rem var(--font-family);
+  --font-24: var(--font-weight-normal) 2.4rem / 3rem var(--font-family);
+  --font-24-bold: var(--font-weight-bold) 2.4rem / 3rem var(--font-family);
+  --font-28: var(--font-weight-normal) 2.8rem / 3.6rem var(--font-family);
+  --font-28-bold: var(--font-weight-bold) 2.8rem / 3.6rem var(--font-family);
+
+  --max-width: 1246px;
+}

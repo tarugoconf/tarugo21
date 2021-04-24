@@ -1,0 +1,20 @@
+layout: layouts/home.njk
+title: '#tarugo21'
+header:
+  title: Tecnología y negocios en un mundo diferente
+  subtitle: Una experiencia online / 21-23 de octubre de 2021
+video:
+  poster: https://ksr-ugc.imgix.net/assets/033/024/974/efd51b376e3ff0ca6e85e82fca32e78a_original.png?ixlib=rb-2.1.0&crop=faces&w=1024&h=576&fit=crop&v=1617748451&auto=format&frame=1&q=92&s=851be22d34c92d1c88c912a6e1419c64
+metrics:
+  tickets: 257
+  sponsors: 7
+  days: 98
+menu:
+  - text: Qué
+  - text: Por qué
+  - text: Agenda
+  - text: Speakers
+  - text: Partners
+  - text: FAQ
+  - text: Blog
+  - text: Tarugoff

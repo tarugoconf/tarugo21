@@ -1,0 +1,72 @@
+---
+layout: layouts/layout.njk
+---
+
+<nav class="mainbar">
+  <strong class="mainbar-logo">{{ title }}</strong>
+</nav>
+
+<div class="project-container">
+  <div class="project">
+    <header class="project-header">
+      <h1>{{ header.title }}</h1>
+      <p>{{ header.subtitle }}</p>
+    </header>
+
+    <figure class="project-video">
+      <img src="{{ video.poster }}">
+    </figure>
+
+    <div class="project-actions">
+      <ul class="project-details">
+        <li class="project-details-tickets">
+          <progress class="progress" value="{{ metrics.tickets }}" max="500"></progress>
+          <strong>{{ metrics.tickets }} entradas vendidas</strong>
+          de un mínimo de 500 para celebrar el evento
+        </li>
+
+        <li class="project-details-sponsors">
+          <strong>{{ metrics.sponsors }} patrocinadores</strong>
+        </li>
+
+        <li class="project-details-days">
+          <strong>{{ metrics.days }} días</strong>
+          hasta el evento
+        </li>
+      </ul>
+
+      <a href="#" class="button is-primary">Asiste a este evento</a>
+
+      <p>
+        <a href="#" class="button is-secondary">Patrocínalo</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar">
+  <ul class="navbar-menu">
+    {% for item in menu %}
+    <li><a href="#">{{ item.text }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+
+<div class="maincontent">
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+</div>

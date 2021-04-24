@@ -1,0 +1,15 @@
+.mainbar {
+  height: 66px;
+  border-bottom: solid 1px var(--color-grey-200);
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+.mainbar-logo {
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+  margin: auto;
+  font-size: 25px;
+  letter-spacing: -1px;
+  color: var(--color-primary);
+}

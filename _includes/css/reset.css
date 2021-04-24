@@ -1,0 +1,14 @@
+html {
+  font-family: var(--font-family);
+  color: var(--color-black);
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  font: var(--font-14);
+  font-weight: var(--font-weight-normal);
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: var(--font-weight-bold);
+}

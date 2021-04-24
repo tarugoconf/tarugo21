@@ -1,0 +1,30 @@
+.progress {
+    --color: var(--color-primary-500);
+    --background: var(--color-grey-100);
+
+    appearance: none;
+    border: none;
+    height: 6px;
+    width: 100%;
+    min-width: 100px;
+    background: var(--background);
+    border-radius: 0;
+    box-sizing: border-box;
+    margin: 0;
+    display: block;
+
+    &::-webkit-progress-value {
+        background: var(--color);
+    }
+    &::-webkit-progress-bar {
+        background: transparent;
+    }
+    &::-moz-progress-bar {
+        background: var(--color);
+    }
+
+    &:indeterminate {
+        --background: var(--color-empty);
+        --color: var(--color-empty);
+    }
+}

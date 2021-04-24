@@ -1,0 +1,5 @@
+.maincontent {
+  max-width: var(--max-width);
+  margin: 4.8rem auto;
+  padding: 0 60px;
+}

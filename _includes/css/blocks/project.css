@@ -1,0 +1,66 @@
+.project-container {
+  background-color: var(--color-grey-50);
+  padding: 4.2rem 60px;
+}
+
+.project {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--max-width);
+  display: grid;
+  grid-template-columns: 1fr 33%;
+  grid-column-gap: 36px;
+  grid-row-gap: 3.6rem;
+  grid-template-areas: "header header"
+                       "video actions"
+}
+
+.project-header {
+  grid-area: header;
+  text-align: center;
+
+  & h1 {
+    margin: 0 0 .6rem;
+    font: var(--font-28-bold);
+  }
+  & p {
+    margin: 0;
+    font: var(--font-18);
+  }
+}
+
+.project-video {
+  grid-area: video;
+  margin: 0;
+
+  & img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.project-actions {
+  grid-area: actions;
+}
+
+.project-details {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+
+  & strong {
+    display: block;
+    font: var(--font-28-bold);
+    color: var(--color-grey-500);
+  }
+
+  & li {
+    margin-bottom: 2.4rem;
+  }
+}
+.project-details-tickets {
+  & strong {
+    color: var(--color-primary-500);
+    margin-top: 1.8rem;
+  }
+}

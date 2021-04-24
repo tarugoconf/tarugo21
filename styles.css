@@ -1,0 +1,12 @@
+@import "css/variables.css";
+@import "css/reset.css";
+
+/* Components */
+@import "css/components/progress.css";
+@import "css/components/button.css";
+
+/* Bloques */
+@import "css/blocks/mainbar.css";
+@import "css/blocks/project.css";
+@import "css/blocks/navbar.css";
+@import "css/blocks/maincontent.css";
