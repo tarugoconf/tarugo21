@@ -18,7 +18,7 @@ jobs:
 
       - name: Run lume
         run: |
-          deno run --unstable -A https://deno.land/x/lume/cli.js --location=https://lumeland.github.io/base-blog/
+          deno run --unstable -A https://deno.land/x/lume/cli.js --location=https://tarugoconf.github.io/tarugo21/
         env:
           API_KEY: ${{ secrets.API_KEY }}
           EVENT_ID: ${{ secrets.EVENT_ID }}
