@@ -51,18 +51,20 @@ layout: layouts/layout.njk
   </div>
 </div>
 
-<nav class="navbar">
-  <ul class="navbar-menu">
-    {% for item in menu %}
-    <li><a href="#">{{ item.text }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="navbar-container">
+  <nav class="navbar">
+    <ul class="navbar-menu">
+      {% for item in menu %}
+      <li><a href="#">{{ item.text }}</a></li>
+      {% endfor %}
+    </ul>
 
-  <ul class="navbar-ctas">
-    <li><a href="#" class="button is-primary">Asistir</a></li>
-    <li><a href="#" class="button is-secondary">Patrocinar</a></li>
-  </ul>
-</nav>
+    <ul class="navbar-ctas">
+      <li><a href="#" class="button is-primary">Asistir</a></li>
+      <li><a href="#" class="button is-secondary">Patrocinar</a></li>
+    </ul>
+  </nav>
+</div>
 
 <div class="maincontent">
   <p>lorem ipsum</p>

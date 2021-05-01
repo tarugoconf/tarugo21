@@ -1,13 +1,17 @@
-.navbar {
-  height: 66px;
+.navbar-container {
   border-top: solid 1px var(--color-grey-100);
   border-bottom: solid 1px var(--color-grey-100);
   background: white;
-  display: flex;
-  padding: 0 60px;
   position: sticky;
   top: 0;
+}
+.navbar {
+  height: 66px;
+  display: flex;
+  padding: 0 60px;
   overflow-x: auto;
+  max-width: var(--max-width);
+  margin: auto;
 
   &.is-sticky .navbar-ctas {
     opacity: 1;
@@ -18,7 +22,6 @@
   margin: 0 auto;
   padding: 0;
   display: flex;
-  max-width: var(--max-width);
   flex-grow: 1;
   flex-shrink: 0;
 
