@@ -7,6 +7,11 @@
   padding: 0 60px;
   position: sticky;
   top: 0;
+  overflow-x: auto;
+
+  &.is-sticky .navbar-ctas {
+    opacity: 1;
+  }
 }
 .navbar-menu {
   list-style: none;
@@ -15,6 +20,7 @@
   display: flex;
   max-width: var(--max-width);
   flex-grow: 1;
+  flex-shrink: 0;
 
   & li {
     display: flex;
@@ -34,5 +40,26 @@
   & li:first-child a {
     border-bottom-color: var(--color-black);
     color: var(--color-black);
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar-menu {
+    display: none;
+  }
+}
+
+.navbar-ctas {
+  list-style: none;
+  margin: 0 0 0 auto;
+  padding: 0;
+  display: flex;
+  flex-shrink: 0;
+  align-self: center;
+  opacity: 0;
+  transition: opacity .5s;
+
+  & > li + li {
+    margin-left: 1rem;
   }
 }

@@ -1,6 +1,9 @@
 .project-container {
   background-color: var(--color-grey-50);
-  padding: 4.2rem 60px;
+  
+  @media (min-width: 1024px) {
+    padding: 4.2rem 60px;
+  }
 }
 
 .project {
@@ -8,11 +11,22 @@
   margin-right: auto;
   max-width: var(--max-width);
   display: grid;
-  grid-template-columns: 1fr 33%;
   grid-column-gap: 36px;
   grid-row-gap: 3.6rem;
-  grid-template-areas: "header header"
-                       "video actions"
+  grid-template-columns: 0 auto 0;
+  grid-template-areas: "video video video"
+                        ". header ."
+                        ". actions .";
+
+  @media (min-width: 800px) {
+    grid-template-columns: minmax(60px, 1fr) minmax(auto, 700px) minmax(60px, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: 1fr 33%;
+    grid-template-areas: "header header"
+                        "video actions";
+  }
 }
 
 .project-header {
@@ -45,6 +59,7 @@
 
 .project-details {
   margin: 0;
+  margin-top: 1.8rem;
   list-style: none;
   padding: 0;
 
@@ -57,10 +72,32 @@
   & li {
     margin-bottom: 2.4rem;
   }
+  
+  @media (max-width: 1023px) {
+    display: flex;
+    & li + li {
+      margin-left: 3rem;
+    }
+  }
+}
+.project-subactions {
+  display: flex;
+  justify-content: space-between;
+
+  & .button.is-secondary {
+    flex-grow: 3;
+  }
+  & .button.is-social {
+    flex-grow: 1;
+  }
 }
 .project-details-tickets {
   & strong {
     color: var(--color-primary-500);
-    margin-top: 1.8rem;
+  }
+}
+@media (max-width: 799px) {
+  .project-details-sponsors {
+    display: none;
   }
 }
