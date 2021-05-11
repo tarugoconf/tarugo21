@@ -67,22 +67,16 @@ layout: layouts/layout.njk
 </div>
 
 <div class="maincontent">
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
-  <p>lorem ipsum</p>
+  {% set section = home.what.intro %}
+  <section>
+    <header>
+      <h2>{{ section.title | md(true) | safe }}</h2>
+    </header>
+
+    {{ section.content | md | safe }}
+  </section>
+
+
 </div>
 
 
