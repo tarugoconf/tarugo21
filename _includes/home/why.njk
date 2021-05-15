@@ -1,0 +1,36 @@
+<section class="maincontent-why">
+  <header>
+    <h2>{{ content.title | md(true) | safe }}</h2>
+  </header>
+
+  {{ content.intro | md | safe }}
+
+  {# Community #}
+  {% set cont = content.community %}
+  <h3>{{ cont.title | md(true) | safe }}</h3>
+
+  {{ cont.content | md | safe }}
+
+  {# Play #}
+  {% set cont = content.play %}
+  <h3>{{ cont.title | md(true) | safe }}</h3>
+
+  {{ cont.content | md | safe }}
+
+  <aside class="maincontent-goals">
+    <h4>{{ cont.goals.title }}</h4>
+
+    <dl>
+      {% for goal in cont.goals.items %}
+      <dt>{{ goal.title }}</dt>
+      <dd>{{ goal.description | md | safe }}</dd>
+      {% endfor %}
+    </dl>
+  </aside>
+
+  {# Purpose #}
+  {% set cont = content.purpose %}
+  <h3>{{ cont.title | md(true) | safe }}</h3>
+
+  {{ cont.content | md | safe }}
+</section>

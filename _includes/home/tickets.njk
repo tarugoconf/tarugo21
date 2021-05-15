@@ -1,0 +1,36 @@
+<ul class="tickets">
+  {% for ticket in tickets.tickets %}
+  <li>
+    <article>
+      <header>
+        <p>{{ ticket.pricing }}</p>
+        <h2>{{ ticket.name }}</h2>
+      </header>
+
+      {{ ticket.description | md | safe }}
+
+      <ul>
+        {% for inc in ticket.includes %}
+        <li>{{ inc | md | safe }}</li>
+        {% endfor %}
+      </ul>
+
+      <dl>
+        <dt>Entrega aproximada:</dt>
+        <dd>{{ ticket.delivery.date }}</dd>
+
+        <dt>Envío a:</dt>
+        <dd>{{ ticket.delivery.address }}</dd>
+      </dl>
+
+      {% if ticket.stock %}
+        <strong>Stock limitado ({{ ticket.stock }})</strong>
+      {% endif %}
+
+      {% if ticket.complements %}
+        <strong>Complementos</strong>
+      {% endif %}
+    </article>
+  </li>
+  {% endfor %}
+</ul>

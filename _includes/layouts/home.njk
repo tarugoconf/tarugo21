@@ -1,5 +1,7 @@
 ---
 layout: layouts/layout.njk
+scripts:
+  - js/home.js
 ---
 
 <nav class="mainbar">
@@ -67,30 +69,34 @@ layout: layouts/layout.njk
 </div>
 
 <div class="maincontent">
-  {% set section = home.what.intro %}
-  <section>
-    <header>
-      <h2>{{ section.title | md(true) | safe }}</h2>
-    </header>
+  <section class="maincontent-aside">
+    <strong>{{ aside.title }}</strong>
+    {{ aside.intro | md | safe }}
 
-    {{ section.content | md | safe }}
+    <h2>{{ tickets.title }}</h2>
+    {% include "home/tickets.njk" %}
   </section>
 
+  <div class="maincontent-content">
+    {% set content = home.what %}
+    {% include "home/what.njk" %}
 
+    {% set content = home.why %}
+    {% include "home/why.njk" %}
+
+    {% set content = home.calendar %}
+    {% include "home/calendar.njk" %}
+
+    {% set content = home.speakers %}
+    {% include "home/speakers.njk" %}
+
+    {% set content = home.partners %}
+    {% include "home/partners.njk" %}
+
+    {% set content = home.contact %}
+    {% include "home/contact.njk" %}
+
+    {% set content = footer %}
+    {% include "home/footer.njk" %}
+  </div>
 </div>
-
-
-<script type="module">
-const navbar = document.querySelector(".navbar");
-const ctaObserver = new IntersectionObserver((entries) => {
-  for (const entry of entries) {
-    if (entry.intersectionRatio > 0) {
-      navbar.classList.remove("is-sticky");
-    } else {
-      navbar.classList.add("is-sticky");
-    }
-  }
-}, { threshold: [0, 0.5, 1] });
-
-ctaObserver.observe(document.querySelector(".project-actions"));
-</script>

@@ -5,6 +5,7 @@ const site = lume();
 
 site
   .ignore("README.md")
+  .copy("js")
   .use(postcss());
 
 export default site;

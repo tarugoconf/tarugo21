@@ -1,5 +1,26 @@
 .maincontent {
   max-width: var(--max-width);
+  font: var(--font-16);
   margin: 4.8rem auto;
   padding: 0 60px;
+}
+
+@media (min-width: 800px) {
+  .maincontent {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-column-flow: dense;
+  }
+  .maincontent-content {
+    grid-row-start: 1;
+    grid-column-start: 1;
+  }
+  .maincontent-aside {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    height: calc(100vh - 68px - 8rem);
+    overflow-y: scroll;
+    position: sticky;
+    top: calc(68px + 4rem);
+  }
 }

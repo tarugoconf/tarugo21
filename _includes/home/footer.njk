@@ -1,0 +1,16 @@
+<footer class="maincontent-footer">
+  <h3>{{ content.title | md(true) | safe }}</h3>
+  
+  {# Links #}
+  <ul>
+    {% for link in content.links %}
+    <li>
+      <a href="{{ link.url }}">
+        {{ link.url }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  {{ content.copyright | md | safe }}
+</footer>

@@ -1,0 +1,40 @@
+<section class="maincontent-what">
+  <header>
+    <h2>{{ content.title | md(true) | safe }}</h2>
+  </header>
+
+  {# Intro #}
+  {% set cont = content.intro %}
+  <h3>{{ cont.title | md(true) | safe }}</h3>
+
+  {{ cont.content | md | safe }}
+
+  <ul>
+    {% for feat in cont.features %}
+    <li>
+      {{ feat.title | md(true) | safe }}
+    </li>
+    {% endfor %}
+  </ul>
+
+  {# Zoom #}
+  {% set cont = content.zoom %}
+  <h3>{{ cont.title | md(true) | safe }}</h3>
+
+  {{ cont.content | md | safe }}
+
+  {# Muggles #}
+  {% set cont = content.muggles %}
+  <h3>{{ cont.title | md(true) | safe }}</h3>
+
+  {{ cont.content | md | safe }}
+
+  <ul>
+    {% for feat in cont.features %}
+    <li>
+      <strong>{{ feat.title }}</strong>
+      {{ feat.description | md | safe }}
+    </li>
+    {% endfor %}
+  </ul>
+</section>

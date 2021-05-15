@@ -4,7 +4,7 @@ header:
   title: Tecnología y negocios en un mundo diferente
   subtitle: Una experiencia online / 21-23 de octubre de 2021
 video:
-  poster: https://ksr-ugc.imgix.net/assets/033/024/974/efd51b376e3ff0ca6e85e82fca32e78a_original.png?ixlib=rb-2.1.0&crop=faces&w=1024&h=576&fit=crop&v=1617748451&auto=format&frame=1&q=92&s=851be22d34c92d1c88c912a6e1419c64
+  poster: http://placehold.it/1024x576
 metrics:
   tickets: 257
   sponsors: 7
@@ -18,3 +18,19 @@ menu:
   - text: FAQ
   - text: Blog
   - text: Tarugoff
+
+aside:
+  title: Tarugoconf
+  intro: |
+    Organizada por un grupo de profesionales y apasionados de la informática con el único objetivo de crear la conferencia técnica a la que siempre quisieron acudir, ha crecido hasta convertirse en un evento de referencia... [ver más](#contact)
+
+footer:
+  title: Paz, Amor y Tarugo
+
+  links:
+    - url: --
+    - url: --
+    - url: --
+    - url: --
+
+  copyright: "@ 2021 Bonillaware SLU"

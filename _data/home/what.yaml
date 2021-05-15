@@ -11,3 +11,44 @@ intro:
     Es, ante todo, **un punto de encuentro para gente de todo tipo que «hace cosas» alrededor del software, la innovación tecnológica e Internet** que, desde la crisis del COVID-19, se ha reconvertido en un evento 100% online.
 
     ¿Cómorl? ¿OTRO evento online? ¿En serio? ¿No hemos tenido suficiente ya con todos los que nos hemos tenido que tragar durante un añito de confinamiento y distanciamiento social? Pues la verdad es que sí, pero ya que aun no se dan las condiciones necesarias para organizar con garantías una conferencia técnica presencial con cientos de asistentes, podemos **utilizar todo lo aprendido en la edición del año pasado para intentar crear la experiencia online definitiva.**
+  
+  features:
+    - title: "**Banda** en directo"
+    - title: "**Reportages** inéditos"
+    - title: "**Concursos** y juegos"
+    - title: "**Networking** para todos"
+
+zoom:
+  title: |
+    Zoom es para las videoconferencias,
+    **esto es una conferencia**
+  
+  content: |
+    La #tarugo21 se grabará en plató de TV en el que **crearemos contenido que aproveche todas las ventajas del medio online:** interacción con ponentes y resto de asistentes, concursos y sorteos en directo, reportajes pregrabados y, por supuesto, que el que quiera haga auténtico networking, gracias a un montón de dinámicas y juegos.
+
+muggles:
+  title: |
+    Que un evento sea online,
+    **no implica que tengas que asistir solo**
+  
+  content: |
+    La #tarugo21 estará diseñada para que puedas verla en tu tablet o portátil, pero también **para disfrutar desde el sofá de tu casa, rodeado tanto por profesionales como por «muggles» sin conocimientos técnicos,** ya sean colegas, familia o amigos.
+
+    Los contenidos serán entretenidos para el experto, pero accesible para todos; y la experiencia más parecida a «una mezcla de Late Night Show e Informe Semanal» que a un evento al uso. Eso sí, sin perder nada del espíritu original del evento:
+
+  features:
+    - title: Útil
+      description: |
+        Problemas y soluciones reales, que podrás incorporar a tu caja de herramientas y aplicar en tu día a día.
+
+    - title: Práctica
+      description: |
+        Un speaker de la Tarugoconf no habla de lo que ha leído sino de lo que ha vivido.
+
+    - title: Divertida
+      description: |
+        Lo contrario de 'divertido' no es 'serio' sino 'aburrido' y lo único que está prohibido en la Tarugoconf es aburrirse.
+
+    - title: Para todos
+      description: |
+        Las charlas se trabajan para que sean interesantes para los expertos y accesibles para los no iniciados.

@@ -1,0 +1,72 @@
+title: Agenda
+
+intro: |
+  Continuaremos mejorando contenidos y confirmando más invitados hasta el día del evento, pero aquí siempre podrás consultar la última versión de la agenda.
+
+  El jueves tendremos la **Premiere** de «Conspiración en la Red» —una película tan políticamente incorrecta que dibuja a Bill Gates como si fuera Fu-Manchú— y **el viernes 22 de octubre se celebrará el evento principal.**
+
+  Finalmente, el sábado por la mañana se celebrará la **Tarugoff,** nuestro *Open Space* donde los asistentes podréis proponer vuestras propias charlas y asistir a las de otros. Y, por la tarde, retransmitiremos el primer **Replay,** la repetición de las charlas grabadas el viernes con la participación en directo de los ponentes en el chat y en el turno de preguntas.
+
+calendar:
+  - day: Jueves, 21 octubre
+    events:
+      - title: Warm Up!
+        time: "15:00-16:00h"
+
+      - title: Keynote
+        time: "16:00-16:15h"
+
+      - title: 20 años de tecnología
+        time: "16:15-16:50h"
+        details: |
+          En esta charla, Javi y Molpe desgranaran los eventos que ha definido el panorama tecnológico en los últimos 20 años y analizaran como han afectado al mismo.
+          
+          ¡Un mano a mano que marcará una época!
+
+      - title: Concursote de Lanzarote
+        time: "16:50-17:00h"
+
+      - title: Fiscalidad y Legalidad Cripto para Dummmies y otros animales peligrosos.
+        time: "17:00-17:35h"
+
+  - day: Viernes, 22 octubre
+    events:
+      - title: Warm Up!
+        time: "15:00-16:00h"
+
+      - title: Keynote
+        time: "16:00-16:15h"
+
+      - title: 20 años de tecnología
+        time: "16:15-16:50h"
+        details: |
+          En esta charla, Javi y Molpe desgranaran los eventos que ha definido el panorama tecnológico en los últimos 20 años y analizaran como han afectado al mismo.
+          
+          ¡Un mano a mano que marcará una época!
+
+      - title: Concursote de Lanzarote
+        time: "16:50-17:00h"
+
+      - title: Fiscalidad y Legalidad Cripto para Dummmies y otros animales peligrosos.
+        time: "17:00-17:35h"
+
+  - day: Sábado, 23 octubre
+    events:
+      - title: Warm Up!
+        time: "15:00-16:00h"
+
+      - title: Keynote
+        time: "16:00-16:15h"
+
+      - title: 20 años de tecnología
+        time: "16:15-16:50h"
+        details: |
+          En esta charla, Javi y Molpe desgranaran los eventos que ha definido el panorama tecnológico en los últimos 20 años y analizaran como han afectado al mismo.
+          
+          ¡Un mano a mano que marcará una época!
+
+      - title: Concursote de Lanzarote
+        time: "16:50-17:00h"
+
+      - title: Fiscalidad y Legalidad Cripto para Dummmies y otros animales peligrosos.
+        time: "17:00-17:35h"

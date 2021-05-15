@@ -1,0 +1,18 @@
+<section class="maincontent-contact">
+  <header>
+    <h2>{{ content.title | md(true) | safe }}</h2>
+  </header>
+
+  {# Team #}
+  {% set cont = content.team %}
+  <h3>{{ cont.title | md(true) | safe }}</h3>
+
+  <ul>
+    {% for person in cont.people %}
+    <li>
+      <img src="{{ person.img | url }}" alt="{{ person.name }}">
+      {{ person.title }}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
