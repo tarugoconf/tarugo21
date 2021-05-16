@@ -7,6 +7,7 @@ site
   .ignore("README.md")
   .copy("js")
   .copy("img")
+  .copy("admin")
   .use(postcss());
 
 export default site;
