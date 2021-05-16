@@ -4,6 +4,7 @@
 /* Components */
 @import "css/components/progress.css";
 @import "css/components/button.css";
+@import "css/components/ticket.css";
 
 /* Bloques */
 @import "css/blocks/mainbar.css";

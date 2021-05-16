@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,400;1,500&display=swap');
 
 :root {
   --color-black: #282828;
@@ -12,14 +12,18 @@
   --color-primary: #05ce78;
   --color-primary-500: #009e74;
   --color-primary-600: #028858;
+  --color-primary-600a: #028858cc;
   --color-primary-900: #015738;
+  --color-primary-100: #E6FAF1;
 
-  --font-family: 'Source Sans Pro', sans-serif;
+  --font-family: "Rubik", sans-serif;
   --font-weight-normal: 300;
   --font-weight-bold: 400;
 
-  --font-14: var(--font-weight-normal) 1.4rem / 2.4rem var(--font-family);
-  --font-14-bold: var(--font-weight-bold) 1.4rem / 2.4rem var(--font-family);
+  --font-12: var(--font-weight-normal) 1.2rem / 1.4rem var(--font-family);
+  --font-12-bold: var(--font-weight-bold) 1.2rem / 1.4rem var(--font-family);
+  --font-14: var(--font-weight-normal) 1.4rem / 2.2rem var(--font-family);
+  --font-14-bold: var(--font-weight-bold) 1.4rem / 2.2rem var(--font-family);
   --font-16: var(--font-weight-normal) 1.6rem / 3rem var(--font-family);
   --font-16-bold: var(--font-weight-bold) 1.6rem / 3rem var(--font-family);
   --font-18: var(--font-weight-normal) 1.8rem / 2.4rem var(--font-family);

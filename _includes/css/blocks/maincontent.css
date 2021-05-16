@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: 1fr 300px;
     grid-column-flow: dense;
+    column-gap: 60px;
   }
   .maincontent-content {
     grid-row-start: 1;
@@ -22,5 +23,6 @@
     overflow-y: scroll;
     position: sticky;
     top: calc(68px + 4rem);
+    padding-right: 20px;
   }
 }

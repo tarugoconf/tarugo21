@@ -4,7 +4,7 @@ header:
   title: Tecnología y negocios en un mundo diferente
   subtitle: Una experiencia online / 21-23 de octubre de 2021
 video:
-  poster: http://placehold.it/1024x576
+  poster: https://via.placeholder.com/1024x576
 metrics:
   tickets: 257
   sponsors: 7
@@ -33,4 +33,4 @@ footer:
     - url: --
     - url: --
 
-  copyright: "@ 2021 Bonillaware SLU"
+  copyright: "© 2021 Bonillaware SLU"

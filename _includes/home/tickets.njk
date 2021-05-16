@@ -1,35 +1,42 @@
 <ul class="tickets">
   {% for ticket in tickets.tickets %}
   <li>
-    <article>
+    <article class="ticket">
       <header>
-        <p>{{ ticket.pricing }}</p>
-        <h2>{{ ticket.name }}</h2>
+        <p class="ticket-pricing">{{ ticket.pricing | md(true) | safe }}</p>
+        <h2 class="ticket-name">{{ ticket.name }}</h2>
       </header>
 
-      {{ ticket.description | md | safe }}
+      <div class="ticket-description">
+        {{ ticket.description | md | safe }}
+      </div>
 
-      <ul>
+      <h3 class="ticket-keyname">Incluye</h3>
+      <ul class="ticket-includes ticket-value">
         {% for inc in ticket.includes %}
         <li>{{ inc | md | safe }}</li>
         {% endfor %}
       </ul>
 
-      <dl>
-        <dt>Entrega aproximada:</dt>
-        <dd>{{ ticket.delivery.date }}</dd>
+      <dl class="ticket-details">
+        <dt class="ticket-keyname">Entrega aproximada:</dt>
+        <dd class="ticket-value">{{ ticket.delivery.date }}</dd>
 
-        <dt>Envío a:</dt>
-        <dd>{{ ticket.delivery.address }}</dd>
+        <dt class="ticket-keyname">Envío a:</dt>
+        <dd class="ticket-value">{{ ticket.delivery.address }}</dd>
       </dl>
 
       {% if ticket.stock %}
-        <strong>Stock limitado ({{ ticket.stock }})</strong>
+        <strong class="ticket-flag">Stock limitado ({{ ticket.stock }})</strong>
       {% endif %}
 
       {% if ticket.complements %}
-        <strong>Complementos</strong>
+        <strong class="ticket-flag is-complement">Complementos</strong>
       {% endif %}
+
+      <a href="#" class="ticket-cta">
+        Seleccionar la entrada<br> {{ ticket.name }}
+      </a>
     </article>
   </li>
   {% endfor %}
