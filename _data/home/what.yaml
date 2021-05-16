@@ -1,5 +1,7 @@
 title: Qué
 
+logo: https://via.placeholder.com/1000x250
+
 intro:
   title: |
     **Una experiencia online**
@@ -10,13 +12,19 @@ intro:
 
     Es, ante todo, **un punto de encuentro para gente de todo tipo que «hace cosas» alrededor del software, la innovación tecnológica e Internet** que, desde la crisis del COVID-19, se ha reconvertido en un evento 100% online.
 
+    ![Gif animado sobre testimonios](https://via.placeholder.com/1000x250)
+
     ¿Cómorl? ¿OTRO evento online? ¿En serio? ¿No hemos tenido suficiente ya con todos los que nos hemos tenido que tragar durante un añito de confinamiento y distanciamiento social? Pues la verdad es que sí, pero ya que aun no se dan las condiciones necesarias para organizar con garantías una conferencia técnica presencial con cientos de asistentes, podemos **utilizar todo lo aprendido en la edición del año pasado para intentar crear la experiencia online definitiva.**
   
   features:
     - title: "**Banda** en directo"
+      img: https://via.placeholder.com/200
     - title: "**Reportages** inéditos"
+      img: https://via.placeholder.com/200
     - title: "**Concursos** y juegos"
+      img: https://via.placeholder.com/200
     - title: "**Networking** para todos"
+      img: https://via.placeholder.com/200
 
 zoom:
   title: |
@@ -25,6 +33,9 @@ zoom:
   
   content: |
     La #tarugo21 se grabará en plató de TV en el que **crearemos contenido que aproveche todas las ventajas del medio online:** interacción con ponentes y resto de asistentes, concursos y sorteos en directo, reportajes pregrabados y, por supuesto, que el que quiera haga auténtico networking, gracias a un montón de dinámicas y juegos.
+
+    ![Capturas de la edición del año pasado](https://via.placeholder.com/1000x500)
+
 
 muggles:
   title: |
@@ -38,17 +49,21 @@ muggles:
 
   features:
     - title: Útil
+      img: https://via.placeholder.com/200
       description: |
         Problemas y soluciones reales, que podrás incorporar a tu caja de herramientas y aplicar en tu día a día.
 
     - title: Práctica
+      img: https://via.placeholder.com/200
       description: |
         Un speaker de la Tarugoconf no habla de lo que ha leído sino de lo que ha vivido.
 
     - title: Divertida
+      img: https://via.placeholder.com/200
       description: |
         Lo contrario de 'divertido' no es 'serio' sino 'aburrido' y lo único que está prohibido en la Tarugoconf es aburrirse.
 
     - title: Para todos
+      img: https://via.placeholder.com/200
       description: |
         Las charlas se trabajan para que sean interesantes para los expertos y accesibles para los no iniciados.

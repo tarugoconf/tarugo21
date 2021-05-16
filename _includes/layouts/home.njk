@@ -57,7 +57,7 @@ scripts:
   <nav class="navbar">
     <ul class="navbar-menu">
       {% for item in menu %}
-      <li><a href="#">{{ item.text }}</a></li>
+      <li><a href="{{ item.href }}">{{ item.text }}</a></li>
       {% endfor %}
     </ul>
 
@@ -70,10 +70,15 @@ scripts:
 
 <div class="maincontent">
   <section class="maincontent-aside">
-    <strong>{{ aside.title }}</strong>
-    {{ aside.intro | md | safe }}
+    <header class="maincontent-aside-header">
+      <img src="{{ '/img/logo-tarugo.png' | url }}" alt="Logo Tarugo" width="50">
 
-    <h2>{{ tickets.title }}</h2>
+      <h2>{{ aside.title }}</h2>
+      {{ aside.intro | md | safe }}
+    </header>
+
+    <h3>{{ tickets.title }}</h3>
+
     {% include "home/tickets.njk" %}
   </section>
 

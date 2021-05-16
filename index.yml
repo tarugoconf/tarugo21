@@ -4,20 +4,28 @@ header:
   title: Tecnología y negocios en un mundo diferente
   subtitle: Una experiencia online / 21-23 de octubre de 2021
 video:
-  poster: https://via.placeholder.com/1024x576
+  poster: img/video-poster.jpeg
 metrics:
   tickets: 257
   sponsors: 7
   days: 98
 menu:
   - text: Qué
+    href: "#what"
   - text: Por qué
+    href: "#why"
   - text: Agenda
+    href: "#calendar"
   - text: Speakers
+    href: "#speakers"
   - text: Partners
+    href: "#partners"
   - text: FAQ
+    href: "#faq"
   - text: Blog
+    href: "https://www.tarugoconf.com/blog/"
   - text: Tarugoff
+    href: https://www.tarugoconf.com/tarugoff/
 
 aside:
   title: Tarugoconf

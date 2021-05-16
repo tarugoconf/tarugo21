@@ -18,6 +18,10 @@
 
     & .ticket-cta {
       opacity: 1;
+
+      & > span {
+        transform: scale(1);
+      }
     }
   }
 }
@@ -33,13 +37,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-primary-600a);
+  background-color: var(--color-primary-500a);
   color: white;
-  font: var(--font-18-bold);
+  font: var(--font-18);
   text-decoration: none;
   opacity: 0;
   transition: opacity 200ms;
   text-align: center;
+  
+  & > span {
+    transform: scale(1.5);
+    transition: transform 200ms;
+  }
 }
 
 .ticket-pricing {
@@ -88,7 +97,11 @@ dt.ticket-keyname {
 }
 .ticket-details {
   margin-bottom: 20px;
+  display: flex;
+  column-gap: 20px;
+  flex-wrap: wrap;
 }
+
 .ticket-flag {
   display: inline-block;
   font: var(--font-12);

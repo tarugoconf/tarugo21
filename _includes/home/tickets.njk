@@ -1,4 +1,4 @@
-<ul class="tickets">
+<ul class="tickets" id="tickets">
   {% for ticket in tickets.tickets %}
   <li>
     <article class="ticket">
@@ -19,11 +19,15 @@
       </ul>
 
       <dl class="ticket-details">
-        <dt class="ticket-keyname">Entrega aproximada:</dt>
-        <dd class="ticket-value">{{ ticket.delivery.date }}</dd>
+        <div>
+          <dt class="ticket-keyname">Entrega aproximada:</dt>
+          <dd class="ticket-value">{{ ticket.delivery.date }}</dd>
+        </div>
 
-        <dt class="ticket-keyname">Envío a:</dt>
-        <dd class="ticket-value">{{ ticket.delivery.address }}</dd>
+        <div>
+          <dt class="ticket-keyname">Envío a:</dt>
+          <dd class="ticket-value">{{ ticket.delivery.address }}</dd>
+        </div>
       </dl>
 
       {% if ticket.stock %}
@@ -35,7 +39,7 @@
       {% endif %}
 
       <a href="#" class="ticket-cta">
-        Seleccionar la entrada<br> {{ ticket.name }}
+        <span>Seleccionar esta entrada</span>
       </a>
     </article>
   </li>

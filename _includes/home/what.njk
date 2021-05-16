@@ -1,7 +1,9 @@
-<section class="maincontent-what">
+<section class="maincontent-what" id="what">
   <header>
     <h2>{{ content.title | md(true) | safe }}</h2>
   </header>
+
+  <img src="{{ content.logo }}" alt="Logo tarugo21">
 
   {# Intro #}
   {% set cont = content.intro %}
@@ -9,9 +11,10 @@
 
   {{ cont.content | md | safe }}
 
-  <ul>
+  <ul class="maincontent-cardlist">
     {% for feat in cont.features %}
     <li>
+      <img src="{{ feat.img | url }}">
       {{ feat.title | md(true) | safe }}
     </li>
     {% endfor %}
@@ -29,9 +32,10 @@
 
   {{ cont.content | md | safe }}
 
-  <ul>
+  <ul class="maincontent-cardlist">
     {% for feat in cont.features %}
     <li>
+      <img src="{{ feat.img | url }}">
       <strong>{{ feat.title }}</strong>
       {{ feat.description | md | safe }}
     </li>

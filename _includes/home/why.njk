@@ -1,4 +1,4 @@
-<section class="maincontent-why">
+<section class="maincontent-why" id="why">
   <header>
     <h2>{{ content.title | md(true) | safe }}</h2>
   </header>
@@ -22,8 +22,15 @@
 
     <dl>
       {% for goal in cont.goals.items %}
-      <dt>{{ goal.title }}</dt>
-      <dd>{{ goal.description | md | safe }}</dd>
+      <div class="maincontent-goal">
+        <dt>
+          {% if goal.img %}
+            <img src="{{ goal.img | url }}" alt="Imagen del objetivo">
+          {% endif %}
+          {{ goal.title }}
+        </dt>
+        <dd>{{ goal.description | md | safe }}</dd>
+      </div>
       {% endfor %}
     </dl>
   </aside>
