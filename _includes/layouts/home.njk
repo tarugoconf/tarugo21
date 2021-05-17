@@ -2,6 +2,7 @@
 layout: layouts/layout.njk
 scripts:
   - js/home.js
+  - js/components.js
 ---
 
 <nav class="mainbar">
@@ -16,7 +17,9 @@ scripts:
     </header>
 
     <figure class="project-video">
-      <img src="{{ video.poster }}">
+      <tarugo-img>
+        <img src="{{ video.poster }}">
+      </tarugo-img>
     </figure>
 
     <div class="project-actions">

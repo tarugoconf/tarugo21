@@ -18,9 +18,9 @@ intro:
   
   features:
     - title: "**Banda** en directo"
-      img: https://via.placeholder.com/200
+      img: img/banda.jpg
     - title: "**Reportages** inéditos"
-      img: https://via.placeholder.com/200
+      img: img/reportages.png
     - title: "**Concursos** y juegos"
       img: https://via.placeholder.com/200
     - title: "**Networking** para todos"

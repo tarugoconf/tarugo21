@@ -14,7 +14,7 @@
   <ul class="maincontent-cardlist">
     {% for feat in cont.features %}
     <li>
-      <img src="{{ feat.img | url }}">
+      <tarugo-img><img src="{{ feat.img | url }}"></tarugo-img>
       {{ feat.title | md(true) | safe }}
     </li>
     {% endfor %}

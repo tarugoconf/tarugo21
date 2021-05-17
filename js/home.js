@@ -23,7 +23,9 @@ const menuObserver = new IntersectionObserver((entries) => {
     currentLink = navbar.querySelector(`a[href='#${entry.target.id}']`);
 
     if (currentLink && entry.intersectionRatio > 0) {
-      navbar.querySelectorAll(".is-visible").forEach((element) => element.classList.remove("is-visible"));
+      navbar.querySelectorAll(".is-visible").forEach((element) =>
+        element.classList.remove("is-visible")
+      );
       currentLink.classList.add("is-visible");
       history.replaceState(null, "", currentLink.getAttribute("href"));
     }
