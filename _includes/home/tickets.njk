@@ -1,4 +1,4 @@
-<ul class="tickets" id="tickets">
+<ul class="{{ ["tickets", ticketsClass] | class }}" id="tickets">
   {% for ticket in tickets.tickets %}
   <li>
     <article class="ticket">
@@ -30,17 +30,25 @@
         </div>
       </dl>
 
-      {% if ticket.stock %}
-        <strong class="ticket-flag">Stock limitado ({{ ticket.stock }})</strong>
-      {% endif %}
+      <p>
+        {% if ticket.stock %}
+          <strong class="ticket-flag">Stock limitado ({{ ticket.stock }})</strong>
+        {% endif %}
 
-      {% if ticket.complements %}
-        <strong class="ticket-flag is-complement">Complementos</strong>
-      {% endif %}
+        {% if ticket.complements %}
+          <strong class="ticket-flag is-complement">Complementos</strong>
+        {% endif %}
+      </p>
 
+      {% if ticketsClass == "is-wide" %}
+      <a href="#" class="button is-primary">
+        <span>Seleccionar esta entrada</span>
+      </a>  
+      {% else %}
       <a href="#" class="ticket-cta">
         <span>Seleccionar esta entrada</span>
       </a>
+      {% endif %}
     </article>
   </li>
   {% endfor %}

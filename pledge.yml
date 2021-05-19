@@ -1,0 +1,7 @@
+layout: layouts/pledge.njk
+title: 'Apoya el #tarugo21'
+
+aside:
+  title: Tarugoconf
+  intro: |
+    Organizada por un grupo de profesionales y apasionados de la informática con el único objetivo de crear la conferencia técnica a la que siempre quisieron acudir, ha crecido hasta convertirse en un evento de referencia... [ver más](/#contact)

@@ -6,7 +6,7 @@ scripts:
 ---
 
 <nav class="mainbar">
-  <strong class="mainbar-logo">{{ title }}</strong>
+  <img class="mainbar-logo" src="{{ 'img/tarugo21-kickstarter.svg' | url }}">
 </nav>
 
 <div class="project-container">
@@ -17,9 +17,7 @@ scripts:
     </header>
 
     <figure class="project-video">
-      <tarugo-img>
-        <img src="{{ video.poster }}">
-      </tarugo-img>
+      <img src="{{ video.poster }}">
     </figure>
 
     <div class="project-actions">
@@ -58,20 +56,32 @@ scripts:
 
 <div class="navbar-container">
   <nav class="navbar">
+    <button class="navbar-menu-button">
+      <svg viewbox="0 0 24 24" width="16">
+        <path d="M7 3h21V0H7M7 12h12V9H7M7 21h21v-3H7"></path>
+        <circle cx="1.5" cy="19.5" r="1.5"></circle>
+        <circle cx="1.5" cy="10.5" r="1.5"></circle>
+        <circle cx="1.5" cy="1.5" r="1.5"></circle>
+      </svg>
+      Menú
+    </button>
     <ul class="navbar-menu">
       {% for item in menu %}
       <li><a href="{{ item.href }}">{{ item.text }}</a></li>
       {% endfor %}
+
+      <li class="navbar-menu-cta"><a href="{{ '~/pledge.yml' | url }}" class="button is-primary">Asistir</a></li>
+      <li class="navbar-menu-cta"><a href="#" class="button is-secondary">Patrocinar</a></li>
     </ul>
 
     <ul class="navbar-ctas">
-      <li><a href="#" class="button is-primary">Asistir</a></li>
+      <li><a href="{{ '~/pledge.yml' | url }}" class="button is-primary">Asistir</a></li>
       <li><a href="#" class="button is-secondary">Patrocinar</a></li>
     </ul>
   </nav>
 </div>
 
-<div class="maincontent">
+<div class="maincontent has-2cols">
   <section class="maincontent-aside">
     <header class="maincontent-aside-header">
       <img src="{{ '/img/logo-tarugo.png' | url }}" alt="Logo Tarugo" width="50">

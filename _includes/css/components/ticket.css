@@ -26,6 +26,29 @@
   }
 }
 
+@media (min-width: 700px) {
+  .tickets.is-wide .ticket {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: repeat(4, auto);
+    align-items: start;
+    column-gap: 40px;
+
+    &:hover {
+      border-color: var(--color-grey-100);
+    }
+
+    & > * {
+      grid-column-start: 1;
+    }
+    & > .ticket-details {
+      grid-column-start: 2;
+      grid-row-start: 1;
+      grid-row-end: -1;
+    }
+  }
+}
+
 .ticket-cta {
   position: absolute;
   top: 0;

@@ -27,6 +27,10 @@
     margin-top: 20vh;
   }
 }
+.maincontent-narrow {
+  max-width: 800px;
+  margin: auto;
+}
 .maincontent-aside-header {
   font: var(--font-14);
   background-color: var(--color-grey-50);
@@ -48,42 +52,57 @@
   list-style: none;
   margin: 80px 0;
   padding: 0;
-  display: grid;
+  display: flex;
   gap: 20px;
   text-align: center;
   font: var(--font-14);
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   justify-content: center;
+  flex-wrap: wrap;
+
+  & > li {
+    width: 170px;
+  }
 
   & strong {
     display: block;
+    font: var(--font-16-bold);
   }
 
-  & img {
+  & img,
+  & tarugo-img {
+    display: block;
     margin: 0 auto 10px;
+  }
+}
+@media (max-width: 799px) {
+  .maincontent.has-2cols {
+    & > :nth-child(1) {
+      display: none;
+    }
   }
 }
 
 @media (min-width: 800px) {
-  .maincontent {
+  .maincontent.has-2cols {
     display: grid;
     grid-template-columns: minmax(300px, 1fr) minmax(250px, 350px);
     grid-column-flow: dense;
     column-gap: 40px;
-  }
-  .maincontent-content {
-    grid-row-start: 1;
-    grid-column-start: 1;
-    max-width: 750px;
-  }
-  .maincontent-aside {
-    grid-row-start: 1;
-    grid-column-start: 2;
-    height: calc(100vh - 68px - 8rem);
-    overflow-y: scroll;
-    position: sticky;
-    top: calc(68px + 4rem);
-    padding-right: 20px;
+
+    & > :nth-child(2) {
+      grid-row-start: 1;
+      grid-column-start: 1;
+      max-width: 750px;
+    }
+    & > :nth-child(1) {
+      grid-row-start: 1;
+      grid-column-start: 2;
+      height: calc(100vh - 68px - 8rem);
+      overflow-y: scroll;
+      position: sticky;
+      top: calc(68px + 4rem);
+      padding-right: 20px;
+    }
   }
 }
 

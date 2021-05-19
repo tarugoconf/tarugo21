@@ -6,10 +6,9 @@
   padding: 0 60px;
 }
 .mainbar-logo {
-  font-family: 'Nunito', sans-serif;
-  text-transform: uppercase;
   margin: auto;
   font-size: 25px;
   letter-spacing: -1px;
   color: var(--color-primary);
+  height: 22px;
 }

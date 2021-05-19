@@ -1,0 +1,24 @@
+---
+layout: layouts/layout.njk
+scripts:
+---
+
+<nav class="mainbar">
+  <img class="mainbar-logo" src="{{ 'img/tarugo21-kickstarter.svg' | url }}">
+</nav>
+
+<div class="maincontent">
+  <section class="maincontent-narrow">
+    <header class="maincontent-aside-header">
+      <img src="{{ '/img/logo-tarugo.png' | url }}" alt="Logo Tarugo" width="50">
+
+      <h2>{{ aside.title }}</h2>
+      {{ aside.intro | md | safe }}
+    </header>
+
+    <h3>{{ tickets.title }}</h3>
+
+    {% set ticketsClass = "is-wide" %}
+    {% include "home/tickets.njk" %}
+  </section>
+</div>

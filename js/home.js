@@ -1,4 +1,5 @@
 const navbar = document.querySelector(".navbar");
+const menu = document.querySelector(".navbar-menu");
 let currentLink;
 
 const ctaObserver = new IntersectionObserver((entries) => {
@@ -20,10 +21,10 @@ ctaObserver.observe(document.querySelector(".project-actions"));
 // Marcar a opción actual no menú
 const menuObserver = new IntersectionObserver((entries) => {
   for (const entry of entries) {
-    currentLink = navbar.querySelector(`a[href='#${entry.target.id}']`);
+    currentLink = menu.querySelector(`a[href='#${entry.target.id}']`);
 
     if (currentLink && entry.intersectionRatio > 0) {
-      navbar.querySelectorAll(".is-visible").forEach((element) =>
+      menu.querySelectorAll(".is-visible").forEach((element) =>
         element.classList.remove("is-visible")
       );
       currentLink.classList.add("is-visible");
@@ -34,3 +35,18 @@ const menuObserver = new IntersectionObserver((entries) => {
 
 document.querySelectorAll(".maincontent-content > [id]")
   .forEach((section) => menuObserver.observe(section));
+
+// Abrir e cerrar o menú en móbil
+const menuBtn = document.querySelector(".navbar-menu-button");
+
+menuBtn.addEventListener("click", (event) => {
+  menu.classList.add("is-open");
+  event.stopPropagation();
+});
+menu.addEventListener("click", (event) => {
+  if (event.target.matches("a")) {
+    setTimeout(() => menu.classList.remove("is-open"), 100);
+  }
+  event.stopPropagation()
+});
+document.body.addEventListener("click", () => menu.classList.remove("is-open"));
