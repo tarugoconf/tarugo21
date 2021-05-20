@@ -25,6 +25,7 @@ play:
     title: Objetivos
     items:
       - title: 500 entradas vendidas
+        current: true
         description: "¡La #tarugo21 sale adelante!"
         img: https://via.placeholder.com/50x50
       

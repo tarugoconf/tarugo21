@@ -107,10 +107,14 @@
 }
 
 .maincontent-goals {
-  background: var(--color-grey-50);
-  border: solid 1px var(--color-grey-100);
+  --brown: #c36c3b;
+  --brown-dark: #622b0d;
+
   padding: 20px;
   margin: 10vh 0;
+  background: url("./img/objetivos/textura.gif") repeat-y , linear-gradient(to right, var(--brown), var(--brown-dark) 25%, var(--brown-dark) 75%, var(--brown)) repeat-y, var(--brown);
+  background-size: 100px auto;
+  padding: 10px 10px 10px 120px;
 
   & h4 {
     margin-top: 0;
@@ -123,6 +127,33 @@
   border: solid 4px;
   border-radius: 8px;
   padding: 10px;
+  position: relative;
+
+  &.is-current::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: calc(100% + 10px);
+    min-height: 100px;
+    position: absolute;
+    background: url("./img/objetivos/cavando.gif") no-repeat;
+    background-size: 100px auto;
+    margin-left: -134px;
+    margin-top: -10px;
+  }
+
+  &.is-current ~ *::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: calc(100% + 20px);
+    min-height: 100px;
+    position: absolute;
+    background: #c36c3b;
+    background-size: 100px auto;
+    margin-left: -134px;
+    margin-top: -10px;
+  }
 
   & dt {
     margin: 0;
@@ -144,5 +175,58 @@
 
   & + .maincontent-goal {
     margin-top: 10px;
+  }
+}
+.maincontent-faq {
+  & details {
+    display: block;
+    border: solid 1px var(--color-grey-100);
+    position: relative;
+
+
+    & + details {
+      margin-top: 1rem;
+    }
+
+    &[open] {
+      background-color: var(--color-grey-50);
+      & summary::after {
+        transform: rotate(90deg);
+      }
+    }
+
+    & > div {
+      padding: 0 1.8rem  1.8rem;
+      font: var(--font-16);
+    }
+
+    & p {
+      margin-top: 0;
+    }
+  }
+
+  & summary {
+    cursor: pointer;
+    font: var(--font-14);
+    padding: 1.8rem;
+    padding-right: 3rem;
+    display: block;
+
+    &::after {
+      content: "";
+      background-image: url('data:image/svg+xml;utf8,<svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><path fill="black" d="M11.2 7l-7-7-1.4 1.4L8.39 7 2.8 12.6 4.2 14"/></svg>');
+      background-repeat: no-repeat;
+      width: 14px;
+      height: 14px;
+      display: block;
+      position: absolute;
+      top: 1.8rem;
+      right: 1.8rem;
+      opacity: 0.6;
+    }
+
+    &:hover {
+      background-color: var(--color-grey-50);
+    }
   }
 }

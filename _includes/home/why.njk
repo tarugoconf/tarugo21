@@ -22,7 +22,7 @@
 
     <dl>
       {% for goal in cont.goals.items %}
-      <div class="maincontent-goal">
+      <div class="{{ ['maincontent-goal', {'is-current': goal.current}] | class }}">
         <dt>
           {% if goal.img %}
             <img src="{{ goal.img | url }}" alt="Imagen del objetivo">

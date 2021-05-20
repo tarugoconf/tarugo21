@@ -114,7 +114,10 @@ scripts:
     {% set content = home.contact %}
     {% include "home/contact.njk" %}
 
-    {% set content = footer %}
-    {% include "home/footer.njk" %}
+    {% set content = home.faq %}
+    {% include "home/faq.njk" %}
   </div>
 </div>
+
+{% set content = footer %}
+{% include "home/footer.njk" %}
