@@ -1,0 +1,161 @@
+---
+layout: layouts/layout.njk
+scripts:
+  - js/video.js
+  - js/components.js
+---
+
+<nav class="mainbar">
+  <a href="{{ '/' | url }}">
+    <img class="mainbar-logo" src="{{ 'img/tarugo21-kickstarter.svg' | url }}">
+  </a>
+</nav>
+
+<div class="maincontent">
+  <section class="maincontent-narrow">
+    <header class="maincontent-aside-header">
+      <img src="{{ '/img/logo-tarugo.png' | url }}" alt="Logo Tarugo" width="50">
+
+      <h2>{{ aside.title }}</h2>
+      {{ aside.intro | md | safe }}
+    </header>
+
+    <header class="intro ly-section">
+      <h1 class="intro-title">{{ header.title }}</h1>
+      <div class="intro-text">
+          {{ header.intro | md | safe }}
+      </div>
+    </header>
+
+    <div class="highlights ly-section">
+        <ul>
+            {% for item in highlights %}
+            <li>
+              <h3>{{ item.title }}</h3>
+              {{ item.description | md | safe }}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <figure class="photo ly-section">
+        <picture>
+          <source srcset="{{ image.src | url }}-3200px.webp" media="(min-width:2400px)" type="image/webp">
+          <source srcset="{{ image.src | url }}-3200px.jpg" media="(min-width:2400px)">
+          <source srcset="{{ image.src | url }}-2400px.webp" media="(min-width:1600px)" type="image/webp">
+          <source srcset="{{ image.src | url }}-2400px.jpg" media="(min-width:1600px)">
+          <source srcset="{{ image.src | url }}-1600px.webp" media="(min-width:800px)" type="image/webp">
+          <source srcset="{{ image.src | url }}-1600px.jpg" media="(min-width:800px)">
+          <source srcset="{{ image.src | url }}-800px.webp" type="image/webp">
+      
+          <img
+            class="photo-image"
+            src="{{ image.src | url }}-800px.jpg"
+            alt="{{ image.alt }}"
+            width="{{ image.width }}"
+            height="{{ image.height }}"
+            loading="lazy"
+            >
+        </picture>
+    </figure>
+
+    <div class="ly-section">
+      <section class="talks" id="las-charlas">
+        <h2 class="talks-title">{{ talks.title }}</h2>
+        <div class="talks-aside">{{ talks.aside | safe }}</div>
+
+        <div class="talks-text">
+          {{ talks.text | md | safe }}
+        </div>
+      </section>
+    </div>
+
+    <figure class="video ly-section">
+        <div id="video" class="video-ratio" data-id="305100749">
+          <a href="https://vimeo.com/305100749">#tarugo3 / Andrés Torrubia / Haciendo posible lo imposible</a>
+        </div>
+    </figure>
+
+    <section class="benefits ly-section" id="beneficios">
+        <h2 class="benefits-title">{{ benefits.title }}</h2>
+        <div class="benefits-intro">
+            {{ benefits.intro | md | safe }}
+        </div>
+
+        <ul class="benefits-benefits">
+            {% for item in benefits.benefits %}
+            <li>
+                {# {{ comp.icon(item.icon) }} #}
+                <h3>{{ item.title }}</h3>
+                {{ item.description | md | safe }}
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section class="pastSpeakers ly-section">
+        <h2 class="pastSpeakers-title">{{ speakers.title }}</h2>
+
+        <tarugo-carousel class="pastSpeakers-quotes">
+            {% for item in speakers.quotes %}
+            <figure class="pastSpeakers-quote">
+                <blockquote>
+                  {{ item.quote | md | safe }}
+                </blockquote>
+                <figcaption>
+                  <img src="{{ item.image | url }}">
+                  <p>
+                    <cite>{{ item.name }}</cite><br>
+                    {{ item.position }}
+                  </p>
+                </figcaption>
+              </figure>
+            {% endfor %}
+        </tarugo-carousel>
+
+        <div class="pastSpeakers-quotes-nav">
+          <button type="button" class="js-carousel-prev">Anterior</button>
+          <button type="button" class="js-carousel-next">Siguiente</button>
+        </div>
+          
+        <ul class="pastSpeakers-speakers">
+            {% for item in speakers.speakers %}
+            <li>
+              <figure class="pastSpeaker">
+                <tarugo-img>
+                <img class="pastSpeaker-image" src="{{ item.image | url }}">
+                </tarugo-img>
+
+                <figcaption>
+                  <strong class="pastSpeaker-name">{{ item.name }}</strong>
+                  <em class="pastSpeaker-position">{{ item.position }}</em>
+                  
+                  <address class="pastSpeaker-social">
+                    {% for link in item.social %}
+                      {# {{ comp.icon(link.icon, link) }} #}
+                    {% endfor %}
+                  </address>
+                </figcaption>
+              </figure>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <div class="ly-section">
+      <section class="resources" id="recursos">
+        <h2 class="resources-title">{{ resources.title }}</h2>
+
+        <ul class="resources-links">
+          {% for item in resources.links %}
+          <li>
+            <a href="{{ item.href }}">
+              {{ item.text }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+  </section>
+</div>

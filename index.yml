@@ -19,7 +19,7 @@ menu:
   - text: Agenda
     href: "#calendar"
   - text: Speakers
-    href: "#speakers"
+    href: "/speakers"
   - text: Partners
     href: "#partners"
   - text: FAQ

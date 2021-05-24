@@ -3,10 +3,13 @@ layout: layouts/layout.njk
 scripts:
   - js/home.js
   - js/components.js
+  - js/video.js
 ---
 
 <nav class="mainbar">
-  <img class="mainbar-logo" src="{{ 'img/tarugo21-kickstarter.svg' | url }}">
+  <a href="{{ '/' | url }}">
+    <img class="mainbar-logo" src="{{ 'img/tarugo21-kickstarter.svg' | url }}">
+  </a>
 </nav>
 
 <div class="project-container">
@@ -42,7 +45,7 @@ scripts:
         </li>
       </ul>
 
-      <a href="#" class="button is-primary">Asiste a este evento</a>
+      <a href="{{ '~/pledge.yml' | url }}" class="button is-primary">Asiste a este evento</a>
 
       <p class="project-subactions">
         <a href="#" class="button is-secondary">Patrocínalo</a>
