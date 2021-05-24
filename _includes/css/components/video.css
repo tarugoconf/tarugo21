@@ -1,0 +1,40 @@
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.is-loaded {
+    background: var(--color-black);
+    
+    &:before,
+    & img {
+      display: none;
+    }
+  }
+
+  & img {
+    cursor: pointer;
+  }
+
+  & a {
+    position: absolute;
+    opacity: 0;
+  }
+
+  &::before {
+    content: "▶ PLAY";
+    font: var(--font-16-bold);
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    background: var(--color-black);
+    position: absolute;
+    z-index: 2;
+    border: solid 2px white;
+    cursor: pointer;
+  }
+
+  &:hover::before {
+    background: var(--color-primary);
+  }
+}

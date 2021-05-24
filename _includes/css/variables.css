@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root {
   --color-black: #282828;
@@ -16,6 +16,7 @@
   --color-primary-900: #015738;
   --color-primary-100: #E6FAF1;
 
+  --font-pixel: 'Press Start 2P', sans-serif;
   --font-family: "Rubik", sans-serif;
   --font-weight-normal: 300;
   --font-weight-bold: 400;

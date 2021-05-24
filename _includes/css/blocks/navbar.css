@@ -9,7 +9,7 @@
 .navbar {
   height: 66px;
   display: flex;
-  padding: 0 60px;
+  padding: 0 min(60px, 5vw);
   overflow-x: auto;
   max-width: var(--max-width);
   margin: auto;

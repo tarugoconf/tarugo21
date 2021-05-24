@@ -17,7 +17,10 @@ scripts:
     </header>
 
     <figure class="project-video">
-      <img src="{{ video.poster }}">
+      <div id="video" class="video" data-id="{{ video.id }}" title="{{ video.title }}">
+        <img src="{{ video.poster }}">
+        <a href="https://vimeo.com/{{ video.id }}">{{ video.title }}</a>
+      </div>
     </figure>
 
     <div class="project-actions">
