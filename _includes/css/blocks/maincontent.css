@@ -9,6 +9,9 @@
     max-width: 100%;
     height: auto;
   }
+  & h1 {
+    font: var(--font-36);
+  }
 }
 .maincontent-content {
   & h2,
@@ -67,6 +70,11 @@
   & strong {
     display: block;
     font: var(--font-16-bold);
+  }
+
+  & .button {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   & img,
@@ -202,6 +210,10 @@
     margin-top: 10px;
   }
 }
+.maincontent-photo {
+  padding: 0;
+  margin: 4em 0;
+}
 .maincontent-faq {
   & details {
     display: block;
@@ -253,5 +265,26 @@
     &:hover {
       background-color: var(--color-grey-50);
     }
+  }
+}
+
+.maincontent-highlights ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  font: var(--font-18-bold);
+  gap: 20px;
+
+  & li {
+    padding: .5em;
+    background-color: var(--color-primary);
+  }
+
+  & strong {
+    background-color: white;
+    display: inline-block;
+    padding: 2px 8px;
   }
 }

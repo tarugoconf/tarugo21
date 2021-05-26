@@ -29,6 +29,14 @@ menu:
   - text: Tarugoff
     href: https://www.tarugoconf.com/tarugoff/
 
+menu_cta:
+  - text: Asistir
+    href: ~/pledge.yml
+    class: is-primary
+  - text: Patrocinar
+    href: "#"
+    class: is-secondary
+
 aside:
   title: Tarugoconf
   intro: |

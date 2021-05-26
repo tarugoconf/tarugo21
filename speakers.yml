@@ -5,17 +5,13 @@ description: |
 
 menu:
   - text: ← Volver
-    url: '/'
+    href: '/'
   - text: Las charlas
-    url: '#las-charlas'
+    href: '#las-charlas'
   - text: Beneficios
-    url: '#beneficios'
+    href: '#beneficios'
   - text: Recursos
-    url: '#recursos'
-
-back:
-  text: ← Home
-  href: './'
+    href: '#recursos'
 
 header:
   title: 'Ser speaker en la Tarugoconf'
@@ -45,13 +41,13 @@ image:
 talks:
   title: Las charlas
   aside: |
-    <strong>1</strong> solo track<br>
-    <strong>20</strong> minutos de charla<br>
-    +<strong>15</strong> de Q&A<br>
-    <strong>5</strong> cámaras
-    <strong>Sketchnoting</strong> en directo<br>
-    <strong>Control</strong> de difusión audiovisual
-    Alrededor de <strong>1.000</strong> asistentes
+    - **1** solo track
+    - **20** minutos de charla
+    - +**15** de Q&A
+    - **5** cámaras
+    - **Sketchnoting** en directo
+    - **Control** de difusión audiovisual
+    - Alrededor de **1.000** asistentes
 
   text: |
     «Ningún discurso es demasiado corto». En la Tarugo creemos en las enseñanzas de los legendarios Kenneth Roman y Joel Raphaelson, por eso nuestras charlas «solo» duran 20 minutos. Eso sí, tenemos un turno de preguntas de 15 minutos —desarrollao en formato entrevista, sentado en un sofá, como en un *late night show*— que SIEMPRE se nos queda corto. ¡La interactuación con el público suele ser tan interesante como la charla en sí!
@@ -68,40 +64,40 @@ benefits:
     El esfuerzo invertido en preparar una charla es igual que el esfuerzo invertido en preparar un evento —nunca es rentable desde el punto de vista económico— así que lo menos que podemos hacer es compensar a nuestros ponentes en su justa medida. Ellos son las verdaderas estrellas de la Tarugoconf.
   benefits:
     - title: Viaje
-      icon: benefits/plane
+      img: img/benefits/plane.svg
       description: El evento se grabará en directo en un plató de TV en Madrid. Y, por supuesto, nos hacemos cargo de todos los gastos del viaje.
     - title: Alojamiento
-      icon: benefits/bed
+      img: img/benefits/bed.svg
       description: También cubrimos tu alojamiento. Y si quieres venir con la familia, reservaremos una habitación en la que quepáis todos.
     - title: Diseño
-      icon: benefits/artboard
+      img: img/benefits/artboard.svg
       description: Si lo deseas, nuestro diseñador revisará tu presentación y la «vestirá» con un aspecto profesional para que brille.
     - title: Storytelling
-      icon: benefits/unicorn
+      img: img/benefits/unicorn.svg
       description: Si quieres, te ayudaremos a descubrir la historia detrás de los datos y los hechos, para cautivar a la audiencia.
     - title: Acceso VIP
-      icon: benefits/vip
+      img: img/benefits/vip.svg
       description: Tu entrada te dará acceso a todas las actividades de la Tarugoconf, desde los talleres hasta el Open Space del sábado.
     - title: Regalo
-      icon: benefits/gift
+      img: img/benefits/gift.svg
       description: Somos gallegos, así que, cuenta con un regalo de cortesía y, probablemente, relacionado con la gastronomía...
     - title: Entradas
-      icon: benefits/tickets
+      img: img/benefits/tickets.svg
       description: Todos los ponentes de la Tarugoconf tienen garantizada una entrada para la siguiente edición. Sin coste.
     - title: Sketchnoting
-      icon: benefits/blueprint
+      img: img/benefits/blueprint.svg
       description: Tu charla será «dibujada» por nuestro sketchnoter y podrás disponer del dibujo y difundirlo como consideres.
     - title: Vídeo
-      icon: benefits/video
+      img: img/benefits/video.svg
       description: Tu charla será grabada por 5 cámaras que recogerán todos los detalles y publicada en Vimeo. Si nos das tu consentimiento, claro :)
     - title: Transporte
-      icon: benefits/taxi
+      img: img/benefits/taxi.svg
       description: Nos haremos cargo no sólo de tu viaje hasta Madrid sino de tus desplazamientos dentro de la ciudad. Faltaría más.
     - title: Networking
-      icon: benefits/networking
+      img: img/benefits/networking.svg
       description: Por tu seguridad sanitaria, el acceso al plató será muy restringido, así que, conocerás al resto de ponentes en un ambiente familiar.
     - title: Cariño
-      icon: benefits/music
+      img: img/benefits/music.svg
       description: Para nosotros no serás un ponente sino nuestro invitado. Nos dejaremos la piel para que te sientas como en casa.
 
 speakers:
@@ -127,59 +123,51 @@ speakers:
     - name: Justyna Adamczyk
       position: Head of People en Sketch
       image: /img/past-speakers/justyna-adamczyk.jpeg
-      social:
-        - icon: twitter
-          title: '@justyna_adam'
-          url: https://twitter.com/Justyna_Adam
+      twitter:
+        title: '@justyna_adam'
+        url: https://twitter.com/Justyna_Adam
     - name: Diego Mariño
       position: Desarrollador de Videojuegos
       image: /img/past-speakers/diego-marino.jpeg
-      social:
-        - icon: twitter
-          title: '@diegomarino'
-          url: https://twitter.com/diegomarino
+      twitter:
+        title: '@diegomarino'
+        url: https://twitter.com/diegomarino
     - name: Andrea Barber
       position: Cofundadora de Rated Power
       image: /img/past-speakers/andrea-barber.jpg
-      social:
-        - icon: twitter
-          title: '@andreabarberl'
-          url: https://twitter.com/andreabarberl
+      twitter:
+        title: '@andreabarberl'
+        url: https://twitter.com/andreabarberl
     - name: Álvaro Videla
       position: Azure Advocate / RabbitMQ Dev
       image: /img/past-speakers/alvaro-videla.jpg
-      social:
-        - icon: twitter
-          title: '@old_sound'
-          url: https://twitter.com/old_sound
+      twitter:
+        title: '@old_sound'
+        url: https://twitter.com/old_sound
     - name: Daniel Lopez
       position: Fundador de Bitnami
       image: /img/past-speakers/daniel-lopez.jpg
-      social:
-        - icon: twitter
-          title: '@vomkriege'
-          url: https://twitter.com/vomkriege
+      twitter:
+        title: '@vomkriege'
+        url: https://twitter.com/vomkriege
     - name: Esther Alonso
       position: Directora de Marketing en eldiario.es
       image: /img/past-speakers/esther-alonso.jpeg
-      social:
-        - icon: twitter
-          title: '@estheralone'
-          url: https://twitter.com/estheralone
+      twitter:
+        title: '@estheralone'
+        url: https://twitter.com/estheralone
     - name: Andrés Torrubia
       position: CEO de Fixr
       image: /img/past-speakers/andres-torrubia.jpg
-      social:
-        - icon: twitter
-          title: '@antor'
-          url: https://twitter.com/antor
+      twitter:
+        title: '@antor'
+        url: https://twitter.com/antor
     - name: Marta Beltrán
       position: Profesora en la URJC
       image: /img/past-speakers/marta-beltran.jpeg
-      social:
-        - icon: twitter
-          title: '@experiencia_T'
-          url: https://twitter.com/experiencia_T
+      twitter:
+        title: '@experiencia_T'
+        url: https://twitter.com/experiencia_T
 
 resources:
   title: Recursos para speakers

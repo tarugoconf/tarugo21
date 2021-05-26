@@ -33,6 +33,8 @@
   --font-24-bold: var(--font-weight-bold) 2.4rem / 3rem var(--font-family);
   --font-28: var(--font-weight-normal) 2.8rem / 3.6rem var(--font-family);
   --font-28-bold: var(--font-weight-bold) 2.8rem / 3.6rem var(--font-family);
+  --font-36: var(--font-weight-normal) 3.6rem / 3.6rem var(--font-family);
+  --font-36-bold: var(--font-weight-bold) 3.6rem / 3.6rem var(--font-family);
 
   --max-width: 1246px;
 }

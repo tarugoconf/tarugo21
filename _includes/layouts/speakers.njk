@@ -1,7 +1,6 @@
 ---
 layout: layouts/layout.njk
 scripts:
-  - js/video.js
   - js/components.js
 ---
 
@@ -11,45 +10,32 @@ scripts:
   </a>
 </nav>
 
+{% include "templates/navbar.njk" %}
+
 <div class="maincontent">
   <section class="maincontent-narrow">
-    <header class="maincontent-aside-header">
-      <img src="{{ '/img/logo-tarugo.png' | url }}" alt="Logo Tarugo" width="50">
-
-      <h2>{{ aside.title }}</h2>
-      {{ aside.intro | md | safe }}
+    <header>
+      <h1>{{ header.title }}</h1>
     </header>
 
-    <header class="intro ly-section">
-      <h1 class="intro-title">{{ header.title }}</h1>
-      <div class="intro-text">
-          {{ header.intro | md | safe }}
-      </div>
-    </header>
+    {{ header.intro | md | safe }}
 
-    <div class="highlights ly-section">
-        <ul>
-            {% for item in highlights %}
-            <li>
-              <h3>{{ item.title }}</h3>
-              {{ item.description | md | safe }}
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
+    <ul class="maincontent-cardlist">
+      {% for item in highlights %}
+      <li>
+        <strong>{{ item.title }}</strong>
+        {{ item.description | md | safe }}
+      </li>
+      {% endfor %}
+    </ul>
 
-    <figure class="photo ly-section">
+    <figure class="maincontent-photo">
         <picture>
-          <source srcset="{{ image.src | url }}-3200px.webp" media="(min-width:2400px)" type="image/webp">
-          <source srcset="{{ image.src | url }}-3200px.jpg" media="(min-width:2400px)">
-          <source srcset="{{ image.src | url }}-2400px.webp" media="(min-width:1600px)" type="image/webp">
-          <source srcset="{{ image.src | url }}-2400px.jpg" media="(min-width:1600px)">
           <source srcset="{{ image.src | url }}-1600px.webp" media="(min-width:800px)" type="image/webp">
           <source srcset="{{ image.src | url }}-1600px.jpg" media="(min-width:800px)">
           <source srcset="{{ image.src | url }}-800px.webp" type="image/webp">
       
           <img
-            class="photo-image"
             src="{{ image.src | url }}-800px.jpg"
             alt="{{ image.alt }}"
             width="{{ image.width }}"
@@ -59,21 +45,17 @@ scripts:
         </picture>
     </figure>
 
-    <div class="ly-section">
-      <section class="talks" id="las-charlas">
-        <h2 class="talks-title">{{ talks.title }}</h2>
-        <div class="talks-aside">{{ talks.aside | safe }}</div>
+    <h2>{{ talks.title }}</h2>
 
-        <div class="talks-text">
-          {{ talks.text | md | safe }}
-        </div>
-      </section>
-    </div>
+    <div class="maincontent-highlights">{{ talks.aside | md | safe }}</div>
+    
+    {{ talks.text | md | safe }}
 
-    <figure class="video ly-section">
-        <div id="video" class="video-ratio" data-id="305100749">
-          <a href="https://vimeo.com/305100749">#tarugo3 / Andrés Torrubia / Haciendo posible lo imposible</a>
-        </div>
+    <figure class="maincontent-photo">
+      <tarugo-video id="video" data-id="305100749" title="#tarugo3 / Andrés Torrubia / Haciendo posible lo imposible">
+        <img src="{{ 'img/speaker-andres.webp' | url }}">
+        <a href="https://vimeo.com/305100749">#tarugo3 / Andrés Torrubia / Haciendo posible lo imposible</a>
+      </tarugo-video>
     </figure>
 
     <section class="benefits ly-section" id="beneficios">
@@ -82,11 +64,11 @@ scripts:
             {{ benefits.intro | md | safe }}
         </div>
 
-        <ul class="benefits-benefits">
+        <ul class="maincontent-cardlist">
             {% for item in benefits.benefits %}
             <li>
-                {# {{ comp.icon(item.icon) }} #}
-                <h3>{{ item.title }}</h3>
+                <img src="{{ item.img | url }}" inline>
+                <strong>{{ item.title }}</strong>
                 {{ item.description | md | safe }}
             </li>
             {% endfor %}
@@ -96,7 +78,7 @@ scripts:
     <section class="pastSpeakers ly-section">
         <h2 class="pastSpeakers-title">{{ speakers.title }}</h2>
 
-        <tarugo-carousel class="pastSpeakers-quotes">
+        <tarugo-carousel class="pastSpeakers-quotes" role="region" aria-label="Carrusel" tabindex="0">
             {% for item in speakers.quotes %}
             <figure class="pastSpeakers-quote">
                 <blockquote>
@@ -118,27 +100,21 @@ scripts:
           <button type="button" class="js-carousel-next">Siguiente</button>
         </div>
           
-        <ul class="pastSpeakers-speakers">
-            {% for item in speakers.speakers %}
-            <li>
-              <figure class="pastSpeaker">
-                <tarugo-img>
-                <img class="pastSpeaker-image" src="{{ item.image | url }}">
-                </tarugo-img>
+        <ul class="maincontent-cardlist">
+          {% for item in speakers.speakers %}
+          <li>
+            <tarugo-img>
+            <img class="pastSpeaker-image" src="{{ item.image | url }}">
+            </tarugo-img>
 
-                <figcaption>
-                  <strong class="pastSpeaker-name">{{ item.name }}</strong>
-                  <em class="pastSpeaker-position">{{ item.position }}</em>
-                  
-                  <address class="pastSpeaker-social">
-                    {% for link in item.social %}
-                      {# {{ comp.icon(link.icon, link) }} #}
-                    {% endfor %}
-                  </address>
-                </figcaption>
-              </figure>
-            </li>
-            {% endfor %}
+            <strong>{{ item.name }}</strong>
+            <em>{{ item.position }}</em>
+
+            <a href="{{ item.twitter.url }}" class="button is-social is-twitter" title="{{ item.twitter.title }}">
+              <svg role="img" width="24" height="24" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg"><title>Twitter icon</title><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path></svg>
+            </a>
+          </li>
+          {% endfor %}
         </ul>
     </section>
 
