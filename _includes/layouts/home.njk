@@ -2,10 +2,13 @@
 layout: layouts/layout.njk
 scripts:
   - js/home.js
+  - js/components.js
 ---
 
 <nav class="mainbar">
-  <strong class="mainbar-logo">{{ title }}</strong>
+  <a href="{{ '/' | url }}">
+    <img class="mainbar-logo" src="{{ 'img/tarugo21-kickstarter.svg' | url }}">
+  </a>
 </nav>
 
 <div class="project-container">
@@ -16,7 +19,10 @@ scripts:
     </header>
 
     <figure class="project-video">
-      <img src="{{ video.poster }}">
+      <tarugo-video id="video" data-id="{{ video.id }}" title="{{ video.title }}">
+        <img src="{{ video.poster }}">
+        <a href="https://vimeo.com/{{ video.id }}">{{ video.title }}</a>
+      </tarugo-video>
     </figure>
 
     <div class="project-actions">
@@ -38,7 +44,7 @@ scripts:
         </li>
       </ul>
 
-      <a href="#" class="button is-primary">Asiste a este evento</a>
+      <a href="{{ '~/pledge.yml' | url }}" class="button is-primary">Asiste a este evento</a>
 
       <p class="project-subactions">
         <a href="#" class="button is-secondary">Patrocínalo</a>
@@ -53,22 +59,9 @@ scripts:
   </div>
 </div>
 
-<div class="navbar-container">
-  <nav class="navbar">
-    <ul class="navbar-menu">
-      {% for item in menu %}
-      <li><a href="{{ item.href }}">{{ item.text }}</a></li>
-      {% endfor %}
-    </ul>
+{% include "templates/navbar.njk" %}
 
-    <ul class="navbar-ctas">
-      <li><a href="#" class="button is-primary">Asistir</a></li>
-      <li><a href="#" class="button is-secondary">Patrocinar</a></li>
-    </ul>
-  </nav>
-</div>
-
-<div class="maincontent">
+<div class="maincontent has-2cols">
   <section class="maincontent-aside">
     <header class="maincontent-aside-header">
       <img src="{{ '/img/logo-tarugo.png' | url }}" alt="Logo Tarugo" width="50">
@@ -101,7 +94,10 @@ scripts:
     {% set content = home.contact %}
     {% include "home/contact.njk" %}
 
-    {% set content = footer %}
-    {% include "home/footer.njk" %}
+    {% set content = home.faq %}
+    {% include "home/faq.njk" %}
   </div>
 </div>
+
+{% set content = footer %}
+{% include "home/footer.njk" %}

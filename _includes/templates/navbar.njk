@@ -1,0 +1,30 @@
+<div class="navbar-container">
+  <nav class="navbar">
+    <button class="navbar-menu-button">
+      <svg viewbox="0 0 24 24" width="16">
+        <path d="M7 3h21V0H7M7 12h12V9H7M7 21h21v-3H7"></path>
+        <circle cx="1.5" cy="19.5" r="1.5"></circle>
+        <circle cx="1.5" cy="10.5" r="1.5"></circle>
+        <circle cx="1.5" cy="1.5" r="1.5"></circle>
+      </svg>
+      Menú
+    </button>
+    <ul class="navbar-menu">
+      {% for item in menu %}
+      <li><a href="{{ item.href | url }}">{{ item.text }}</a></li>
+      {% endfor %}
+
+      {% for item in menu_cta %}
+      <li class="navbar-menu-cta"><a href="{{ item.href | url }}" class="button {{ item.class }}">{{ item.text }}</a></li>
+      {% endfor %}
+    </ul>
+
+    {% if menu_cta %}
+    <ul class="navbar-ctas">
+      {% for item in menu_cta %}
+      <li><a href="{{ item.href | url }}" class="button {{ item.class }}">{{ item.text }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </nav>
+</div>

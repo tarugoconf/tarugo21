@@ -1,0 +1,56 @@
+tarugo-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &.is-loaded {
+    background: var(--color-black);
+    
+    &:before {
+      display: none;
+    }
+    & img {
+      opacity: 0;
+    }
+  }
+
+  & img {
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+  }
+
+  & iframe {
+    width: 100%;
+    display: block;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  & a {
+    position: absolute;
+    opacity: 0;
+  }
+
+  &::before {
+    content: "▶ PLAY";
+    font: var(--font-16-bold);
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    background: var(--color-black);
+    position: absolute;
+    z-index: 2;
+    border: solid 2px white;
+    cursor: pointer;
+  }
+
+  &:hover::before {
+    background: var(--color-primary);
+  }
+}

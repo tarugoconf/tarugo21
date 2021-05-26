@@ -22,14 +22,23 @@
 
     <dl>
       {% for goal in cont.goals.items %}
-      <div class="maincontent-goal">
+      <div class="maincontent-goal is-{{ goal.status }}" style="--percentage:{{ goal.percentage }}">
         <dt>
-          {% if goal.img %}
-            <img src="{{ goal.img | url }}" alt="Imagen del objetivo">
-          {% endif %}
-          {{ goal.title }}
+          {{ goal.title | md(true) | safe }}
         </dt>
-        <dd>{{ goal.description | md | safe }}</dd>
+        <dd>
+          <div>
+            {{ goal.description | md | safe }}
+          </div>
+
+          <div>
+            {% if goal.status == "current" %}
+            <img src="{{ '/img/objetivos/cavando.gif' | url }}" alt="Imagen del objetivo">
+            {% else %}
+            <img src="{{ goal.img | url }}" alt="Imagen del objetivo">
+            {% endif %}
+          </div>
+        </dd>
       </div>
       {% endfor %}
     </dl>

@@ -1,0 +1,73 @@
+tarugo-carousel {
+    margin: 0 auto;
+    padding: 0 0 .5em;
+    display: flex;
+    overflow-x: scroll;
+    max-width: 40em;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    border-top: solid 1px var(--color-grey-200);
+    border-bottom: solid 1px var(--color-grey-200);
+}
+.pastSpeakers-title {
+  text-align: center;
+}
+.pastSpeakers-quotes-nav {
+    text-align: center;
+    margin-top: .5em;
+
+    & button {
+        font: var(--font-16-bold);
+        color: var(--color-primary-500);
+        background: none;
+        border: none;
+        text-decoration: underline;
+        padding: 1em;
+        cursor: pointer;
+
+        &:disabled {
+            opacity: .2;
+            text-decoration: none;
+            background: none;
+        }
+        &:hover:not(:disabled) {
+            color: var(--color-white);
+        }
+    }
+}
+
+.pastSpeakers-quote {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 2em;
+    margin: 0;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+
+    & blockquote {
+        font: var(--font-24);
+        padding-top: 2rem;
+        margin: 0;
+
+        & p {
+            margin: .5em 0;
+        }
+    }
+
+    & figcaption {
+        display: flex;
+        align-items: center;
+    }
+    & cite {
+        font-style: normal;
+        font-weight: bold;
+    }
+    & img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        flex: 0 0 auto;
+        margin-right: 1em;
+    }
+}

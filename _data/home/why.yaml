@@ -24,45 +24,60 @@ play:
   goals:
     title: Objetivos
     items:
-      - title: 500 entradas vendidas
+      - title: "**500** entradas vendidas"
+        status: done
         description: "¡La #tarugo21 sale adelante!"
-        img: https://via.placeholder.com/50x50
+        img: /img/objetivos/500-tarugo21.jpg
       
-      - title: 550 entradas vendidas
-        description: Stream especial para personas con problemas de audición con intérprete de lengua de signos
-        img: https://via.placeholder.com/50x50
+      - title: "**550** entradas vendidas"
+        status: current
+        percentage: 56
+        description: |
+          **todo lo anterior +**
+          Stream especial para personas con problemas de audición con intérprete de lengua de signos
+        img: /img/objetivos/550-accesible.jpg
       
-      - title: 600 entradas vendidas
-        description: Lámina premium firmada por Hugo Tobío para todos los asistentes
-        img: https://via.placeholder.com/50x50
+      - title: "**600** entradas vendidas"
+        status: undone
+        description: |
+          **todo lo anterior +**
+          Lámina premium firmada por Hugo Tobío para todos los asistentes
+        img: /img/objetivos/600-lamina.jpg
       
-      - title: 650 entradas vendidas
-        description: "Reportaje extra: La edad de oro del sofware español 30 años después."
-        img: https://via.placeholder.com/50x50
+      - title: "**650** entradas vendidas"
+        status: undone
+        description: |
+          **todo lo anterior +**
+          Reportaje extra: La edad de oro del sofware español 30 años después.
+        img: /img/objetivos/650-reportaje.jpg
       
-      - title: 700 entradas vendidas
-        description: "Baraja de Poker «Genios de la informática» para todos los asistentes"
-        img: https://via.placeholder.com/50x50
+      - title: "**700** entradas vendidas"
+        status: undone
+        description: |
+          **todo lo anterior +**
+          Baraja de Poker «Genios de la informática» para todos los asistentes
+        img: /img/objetivos/700-cartas.jpg
       
-      - title: 750 entradas vendidas
-        description: Donación de 1.000$ al proyecto *Open Source* que decidan los asistentes
-        img: https://via.placeholder.com/50x50
+      - title: "**750** entradas vendidas"
+        status: undone
+        description: |
+          **todo lo anterior +**
+          Donación de 1.000$ al proyecto *Open Source* que decidan los asistentes
+        img: /img/objetivos/750-chapas.jpg
       
-      - title: 800 entradas vendidas
-        description: Juego de chapas «Qué vacuna llevas puesta» para todos los asistentes
-        img: https://via.placeholder.com/50x50
+      - title: "**800** entradas vendidas"
+        status: undone
+        description: |
+          **todo lo anterior +**
+          Juego de chapas «Qué vacuna llevas puesta» para todos los asistentes
+        img: /img/objetivos/800-boniawards.jpg
       
-      - title: 850 entradas vendidas
-        description: "Boniawards: entrega de premios anuales a los mejores profesionales del sector, elegidos por todos los asistentes."
-        img: https://via.placeholder.com/50x50
-      
-      - title: 900 entradas vendidas
-        description: "???"
-        img: https://via.placeholder.com/50x50
-      
-      - title: +1.000 entradas vendidas
-        description: "???"
-        img: https://via.placeholder.com/50x50
+      - title: "**900** entradas vendidas"
+        status: undone
+        description: |
+          **todo lo anterior +**
+          ??
+        img: /img/objetivos/900-pendiente-definir.jpg
 
 purpose:
   title: Por un buen propósito

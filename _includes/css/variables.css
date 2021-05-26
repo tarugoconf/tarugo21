@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root {
   --color-black: #282828;
@@ -16,14 +16,15 @@
   --color-primary-900: #015738;
   --color-primary-100: #E6FAF1;
 
+  --font-pixel: 'Press Start 2P', sans-serif;
   --font-family: "Rubik", sans-serif;
   --font-weight-normal: 300;
   --font-weight-bold: 400;
 
   --font-12: var(--font-weight-normal) 1.2rem / 1.4rem var(--font-family);
   --font-12-bold: var(--font-weight-bold) 1.2rem / 1.4rem var(--font-family);
-  --font-14: var(--font-weight-normal) 1.4rem / 2.2rem var(--font-family);
-  --font-14-bold: var(--font-weight-bold) 1.4rem / 2.2rem var(--font-family);
+  --font-14: var(--font-weight-normal) 1.4rem / 2rem var(--font-family);
+  --font-14-bold: var(--font-weight-bold) 1.4rem / 2rem var(--font-family);
   --font-16: var(--font-weight-normal) 1.6rem / 3rem var(--font-family);
   --font-16-bold: var(--font-weight-bold) 1.6rem / 3rem var(--font-family);
   --font-18: var(--font-weight-normal) 1.8rem / 2.4rem var(--font-family);
@@ -32,6 +33,8 @@
   --font-24-bold: var(--font-weight-bold) 2.4rem / 3rem var(--font-family);
   --font-28: var(--font-weight-normal) 2.8rem / 3.6rem var(--font-family);
   --font-28-bold: var(--font-weight-bold) 2.8rem / 3.6rem var(--font-family);
+  --font-36: var(--font-weight-normal) 3.6rem / 3.6rem var(--font-family);
+  --font-36-bold: var(--font-weight-bold) 3.6rem / 3.6rem var(--font-family);
 
   --max-width: 1246px;
 }

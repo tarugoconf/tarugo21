@@ -2,9 +2,12 @@
 @import "css/reset.css";
 
 /* Components */
+@import "css/components/carousel.css";
+@import "css/components/icon.css";
 @import "css/components/progress.css";
 @import "css/components/button.css";
 @import "css/components/ticket.css";
+@import "css/components/video.css";
 
 /* Bloques */
 @import "css/blocks/mainbar.css";

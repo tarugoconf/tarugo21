@@ -5,6 +5,8 @@ header:
   subtitle: Una experiencia online / 21-23 de octubre de 2021
 video:
   poster: img/video-poster.jpg
+  id: 552906684
+  title: "#tarugo20 - Intro"
 metrics:
   tickets: 257
   sponsors: 7
@@ -17,7 +19,7 @@ menu:
   - text: Agenda
     href: "#calendar"
   - text: Speakers
-    href: "#speakers"
+    href: "/speakers"
   - text: Partners
     href: "#partners"
   - text: FAQ
@@ -26,6 +28,14 @@ menu:
     href: "https://www.tarugoconf.com/blog/"
   - text: Tarugoff
     href: https://www.tarugoconf.com/tarugoff/
+
+menu_cta:
+  - text: Asistir
+    href: ~/pledge.yml
+    class: is-primary
+  - text: Patrocinar
+    href: "#"
+    class: is-secondary
 
 aside:
   title: Tarugoconf
