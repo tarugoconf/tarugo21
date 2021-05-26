@@ -6,7 +6,6 @@ const site = lume();
 
 site
   .ignore("README.md")
-  .ignore("emails")
   .copy("js")
   .copy("img")
   .copy("admin")
