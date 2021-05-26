@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: master
-  repo: tarugoconf/tarugo21
 
 media_folder: "img"
 collections:
