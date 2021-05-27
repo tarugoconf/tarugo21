@@ -55,18 +55,32 @@ collections:
 
       - label: Agenda
         name: calendar
-        file: _data/calendar.yml
+        file: _data/home/calendar.yml
         fields:
-          - label: Eventos
-            name: events
+          - label: Título
+            name: title
+            widget: string
+          - label: Intro
+            name: intro
+            widget: markdown
+          - label: Días
+            name: calendar
             widget: list
             fields:
-              - label: Título
-                name: title
-                widget: string
               - label: Día
-                name: time
-                widget: datetime
-              - label: Texto
-                name: text
-                widget: markdown
+                name: day
+                widget: string
+              - label: Eventos
+                name: events
+                widget: list
+                fields:
+                  - label: Título
+                    name: text
+                    widget: string
+                  - label: Hora
+                    name: time
+                    widget: string
+                  - label: Descripción
+                    name: details
+                    widget: markdown
+                    required: false

@@ -4,4 +4,41 @@
   </header>
 
   {{ content.intro | md | safe }}
+
+  <ul class="calendar-days js-calendar">
+    {% for day in calendar.days %}
+    <li>
+      <div class="calendar-day">
+        <h4>{{ day.title }}</h4>
+
+        <ul>
+          {% for event in day.events %}
+          <li>
+            <details class="calendar-event">
+              <summary class="calendar-event-header">
+                {{ event.hour }}
+
+                {% for id in event.speakers %}
+                {% for speaker in collections.speakers %}
+                    {% if speaker.fileSlug == id %}
+                    <img src="{{ speaker.data.image.thumbnail | url }}" alt="{{ speaker.data.image.alt }}" data-target="dialog-{{ id }}" class="js-openDialog" title="{{ speaker.data.title }}">
+                    {% endif %}
+                {% endfor %}
+                {% endfor %}
+
+                <strong>{{ event.title }}</strong>
+              </summary>
+
+              <div class="calendar-event-text">
+                {{ event.text | md | safe }}
+              </div>
+            </details>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+
 </section>
