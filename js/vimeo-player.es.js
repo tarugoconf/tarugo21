@@ -31,7 +31,8 @@ function _createClass(Constructor, protoProps, staticProps) {
  */
 
 /* global global */
-var isNode = typeof global !== 'undefined' && {}.toString.call(global) === '[object global]';
+var isNode = typeof global !== "undefined" &&
+  {}.toString.call(global) === "[object global]";
 /**
  * Get the name of the method for a given getter or setter.
  *
@@ -45,7 +46,8 @@ function getMethodName(prop, type) {
     return prop;
   }
 
-  return "".concat(type.toLowerCase()).concat(prop.substr(0, 1).toUpperCase()).concat(prop.substr(1));
+  return "".concat(type.toLowerCase()).concat(prop.substr(0, 1).toUpperCase())
+    .concat(prop.substr(1));
 }
 /**
  * Check to see if the object is a DOM Element.
@@ -55,7 +57,10 @@ function getMethodName(prop, type) {
  */
 
 function isDomElement(element) {
-  return Boolean(element && element.nodeType === 1 && 'nodeName' in element && element.ownerDocument && element.ownerDocument.defaultView);
+  return Boolean(
+    element && element.nodeType === 1 && "nodeName" in element &&
+      element.ownerDocument && element.ownerDocument.defaultView,
+  );
 }
 /**
  * Check to see whether the value is a number.
@@ -68,7 +73,8 @@ function isDomElement(element) {
 
 function isInteger(value) {
   // eslint-disable-next-line eqeqeq
-  return !isNaN(parseFloat(value)) && isFinite(value) && Math.floor(value) == value;
+  return !isNaN(parseFloat(value)) && isFinite(value) &&
+    Math.floor(value) == value;
 }
 /**
  * Check to see if the URL is a Vimeo url.
@@ -89,13 +95,17 @@ function isVimeoUrl(url) {
  */
 
 function getVimeoUrl() {
-  var oEmbedParameters = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var oEmbedParameters = arguments.length > 0 && arguments[0] !== undefined
+    ? arguments[0]
+    : {};
   var id = oEmbedParameters.id;
   var url = oEmbedParameters.url;
   var idOrUrl = id || url;
 
   if (!idOrUrl) {
-    throw new Error('An id or url must be passed, either in an options object or as a data-vimeo-id or data-vimeo-url attribute.');
+    throw new Error(
+      "An id or url must be passed, either in an options object or as a data-vimeo-id or data-vimeo-url attribute.",
+    );
   }
 
   if (isInteger(idOrUrl)) {
@@ -103,27 +113,40 @@ function getVimeoUrl() {
   }
 
   if (isVimeoUrl(idOrUrl)) {
-    return idOrUrl.replace('http:', 'https:');
+    return idOrUrl.replace("http:", "https:");
   }
 
   if (id) {
     throw new TypeError("\u201C".concat(id, "\u201D is not a valid video id."));
   }
 
-  throw new TypeError("\u201C".concat(idOrUrl, "\u201D is not a vimeo.com url."));
+  throw new TypeError(
+    "\u201C".concat(idOrUrl, "\u201D is not a vimeo.com url."),
+  );
 }
 
-var arrayIndexOfSupport = typeof Array.prototype.indexOf !== 'undefined';
-var postMessageSupport = typeof window !== 'undefined' && typeof window.postMessage !== 'undefined';
+var arrayIndexOfSupport = typeof Array.prototype.indexOf !== "undefined";
+var postMessageSupport = typeof window !== "undefined" &&
+  typeof window.postMessage !== "undefined";
 
 if (!isNode && (!arrayIndexOfSupport || !postMessageSupport)) {
-  throw new Error('Sorry, the Vimeo Player API is not available in this browser.');
+  throw new Error(
+    "Sorry, the Vimeo Player API is not available in this browser.",
+  );
 }
 
-var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
+var commonjsGlobal = typeof globalThis !== "undefined"
+  ? globalThis
+  : typeof window !== "undefined"
+  ? window
+  : typeof global !== "undefined"
+  ? global
+  : typeof self !== "undefined"
+  ? self
+  : {};
 
 function createCommonjsModule(fn, module) {
-	return module = { exports: {} }, fn(module, module.exports), module.exports;
+  return module = { exports: {} }, fn(module, module.exports), module.exports;
 }
 
 /*!
@@ -133,7 +156,6 @@ function createCommonjsModule(fn, module) {
  * @license MIT
  */
 (function (self) {
-
   if (self.WeakMap) {
     return;
   }
@@ -145,7 +167,7 @@ function createCommonjsModule(fn, module) {
       Object.defineProperty(object, name, {
         configurable: true,
         writable: true,
-        value: value
+        value: value,
       });
     } else {
       object[name] = value;
@@ -159,17 +181,16 @@ function createCommonjsModule(fn, module) {
         throw new TypeError("Constructor WeakMap requires 'new'");
       }
 
-      defineProperty(this, '_id', genId('_WeakMap')); // ECMA-262 23.3.1.1 WeakMap([iterable])
+      defineProperty(this, "_id", genId("_WeakMap")); // ECMA-262 23.3.1.1 WeakMap([iterable])
 
       if (arguments.length > 0) {
         // Currently, WeakMap `iterable` argument is not supported
-        throw new TypeError('WeakMap iterable is not supported');
+        throw new TypeError("WeakMap iterable is not supported");
       }
     } // ECMA-262 23.3.3.2 WeakMap.prototype.delete(key)
 
-
-    defineProperty(WeakMap.prototype, 'delete', function (key) {
-      checkInstance(this, 'delete');
+    defineProperty(WeakMap.prototype, "delete", function (key) {
+      checkInstance(this, "delete");
 
       if (!isObject(key)) {
         return false;
@@ -185,8 +206,8 @@ function createCommonjsModule(fn, module) {
       return false;
     }); // ECMA-262 23.3.3.3 WeakMap.prototype.get(key)
 
-    defineProperty(WeakMap.prototype, 'get', function (key) {
-      checkInstance(this, 'get');
+    defineProperty(WeakMap.prototype, "get", function (key) {
+      checkInstance(this, "get");
 
       if (!isObject(key)) {
         return void 0;
@@ -201,8 +222,8 @@ function createCommonjsModule(fn, module) {
       return void 0;
     }); // ECMA-262 23.3.3.4 WeakMap.prototype.has(key)
 
-    defineProperty(WeakMap.prototype, 'has', function (key) {
-      checkInstance(this, 'has');
+    defineProperty(WeakMap.prototype, "has", function (key) {
+      checkInstance(this, "has");
 
       if (!isObject(key)) {
         return false;
@@ -217,11 +238,11 @@ function createCommonjsModule(fn, module) {
       return false;
     }); // ECMA-262 23.3.3.5 WeakMap.prototype.set(key, value)
 
-    defineProperty(WeakMap.prototype, 'set', function (key, value) {
-      checkInstance(this, 'set');
+    defineProperty(WeakMap.prototype, "set", function (key, value) {
+      checkInstance(this, "set");
 
       if (!isObject(key)) {
-        throw new TypeError('Invalid value used as weak map key');
+        throw new TypeError("Invalid value used as weak map key");
       }
 
       var entry = key[this._id];
@@ -236,381 +257,405 @@ function createCommonjsModule(fn, module) {
     });
 
     function checkInstance(x, methodName) {
-      if (!isObject(x) || !hasOwnProperty.call(x, '_id')) {
-        throw new TypeError(methodName + ' method called on incompatible receiver ' + typeof x);
+      if (!isObject(x) || !hasOwnProperty.call(x, "_id")) {
+        throw new TypeError(
+          methodName + " method called on incompatible receiver " + typeof x,
+        );
       }
     }
 
     function genId(prefix) {
-      return prefix + '_' + rand() + '.' + rand();
+      return prefix + "_" + rand() + "." + rand();
     }
 
     function rand() {
       return Math.random().toString().substring(2);
     }
 
-    defineProperty(WeakMap, '_polyfill', true);
+    defineProperty(WeakMap, "_polyfill", true);
     return WeakMap;
   }();
 
   function isObject(x) {
     return Object(x) === x;
   }
-})(typeof self !== 'undefined' ? self : typeof window !== 'undefined' ? window : typeof commonjsGlobal !== 'undefined' ? commonjsGlobal : commonjsGlobal);
+})(
+  typeof self !== "undefined"
+    ? self
+    : typeof window !== "undefined"
+    ? window
+    : typeof commonjsGlobal !== "undefined"
+    ? commonjsGlobal
+    : commonjsGlobal,
+);
 
 var npo_src = createCommonjsModule(function (module) {
-/*! Native Promise Only
+  /*! Native Promise Only
     v0.8.1 (c) Kyle Simpson
     MIT License: http://getify.mit-license.org
-*/
-(function UMD(name, context, definition) {
-  // special form of UMD for polyfilling across evironments
-  context[name] = context[name] || definition();
+  */
+  (function UMD(name, context, definition) {
+    // special form of UMD for polyfilling across evironments
+    context[name] = context[name] || definition();
 
-  if ( module.exports) {
-    module.exports = context[name];
-  }
-})("Promise", typeof commonjsGlobal != "undefined" ? commonjsGlobal : commonjsGlobal, function DEF() {
-
-  var builtInProp,
-      cycle,
-      scheduling_queue,
-      ToString = Object.prototype.toString,
-      timer = typeof setImmediate != "undefined" ? function timer(fn) {
-    return setImmediate(fn);
-  } : setTimeout; // dammit, IE8.
-
-  try {
-    Object.defineProperty({}, "x", {});
-
-    builtInProp = function builtInProp(obj, name, val, config) {
-      return Object.defineProperty(obj, name, {
-        value: val,
-        writable: true,
-        configurable: config !== false
-      });
-    };
-  } catch (err) {
-    builtInProp = function builtInProp(obj, name, val) {
-      obj[name] = val;
-      return obj;
-    };
-  } // Note: using a queue instead of array for efficiency
-
-
-  scheduling_queue = function Queue() {
-    var first, last, item;
-
-    function Item(fn, self) {
-      this.fn = fn;
-      this.self = self;
-      this.next = void 0;
+    if (module.exports) {
+      module.exports = context[name];
     }
-
-    return {
-      add: function add(fn, self) {
-        item = new Item(fn, self);
-
-        if (last) {
-          last.next = item;
-        } else {
-          first = item;
-        }
-
-        last = item;
-        item = void 0;
-      },
-      drain: function drain() {
-        var f = first;
-        first = last = cycle = void 0;
-
-        while (f) {
-          f.fn.call(f.self);
-          f = f.next;
-        }
-      }
-    };
-  }();
-
-  function schedule(fn, self) {
-    scheduling_queue.add(fn, self);
-
-    if (!cycle) {
-      cycle = timer(scheduling_queue.drain);
-    }
-  } // promise duck typing
-
-
-  function isThenable(o) {
-    var _then,
-        o_type = typeof o;
-
-    if (o != null && (o_type == "object" || o_type == "function")) {
-      _then = o.then;
-    }
-
-    return typeof _then == "function" ? _then : false;
-  }
-
-  function notify() {
-    for (var i = 0; i < this.chain.length; i++) {
-      notifyIsolated(this, this.state === 1 ? this.chain[i].success : this.chain[i].failure, this.chain[i]);
-    }
-
-    this.chain.length = 0;
-  } // NOTE: This is a separate function to isolate
-  // the `try..catch` so that other code can be
-  // optimized better
-
-
-  function notifyIsolated(self, cb, chain) {
-    var ret, _then;
-
-    try {
-      if (cb === false) {
-        chain.reject(self.msg);
-      } else {
-        if (cb === true) {
-          ret = self.msg;
-        } else {
-          ret = cb.call(void 0, self.msg);
-        }
-
-        if (ret === chain.promise) {
-          chain.reject(TypeError("Promise-chain cycle"));
-        } else if (_then = isThenable(ret)) {
-          _then.call(ret, chain.resolve, chain.reject);
-        } else {
-          chain.resolve(ret);
-        }
-      }
-    } catch (err) {
-      chain.reject(err);
-    }
-  }
-
-  function resolve(msg) {
-    var _then,
-        self = this; // already triggered?
-
-
-    if (self.triggered) {
-      return;
-    }
-
-    self.triggered = true; // unwrap
-
-    if (self.def) {
-      self = self.def;
-    }
-
-    try {
-      if (_then = isThenable(msg)) {
-        schedule(function () {
-          var def_wrapper = new MakeDefWrapper(self);
-
-          try {
-            _then.call(msg, function $resolve$() {
-              resolve.apply(def_wrapper, arguments);
-            }, function $reject$() {
-              reject.apply(def_wrapper, arguments);
-            });
-          } catch (err) {
-            reject.call(def_wrapper, err);
+  })(
+    "Promise",
+    typeof commonjsGlobal != "undefined" ? commonjsGlobal : commonjsGlobal,
+    function DEF() {
+      var builtInProp,
+        cycle,
+        scheduling_queue,
+        ToString = Object.prototype.toString,
+        timer = typeof setImmediate != "undefined"
+          ? function timer(fn) {
+            return setImmediate(fn);
           }
-        });
-      } else {
+          : setTimeout; // dammit, IE8.
+
+      try {
+        Object.defineProperty({}, "x", {});
+
+        builtInProp = function builtInProp(obj, name, val, config) {
+          return Object.defineProperty(obj, name, {
+            value: val,
+            writable: true,
+            configurable: config !== false,
+          });
+        };
+      } catch (err) {
+        builtInProp = function builtInProp(obj, name, val) {
+          obj[name] = val;
+          return obj;
+        };
+      } // Note: using a queue instead of array for efficiency
+
+      scheduling_queue = function Queue() {
+        var first, last, item;
+
+        function Item(fn, self) {
+          this.fn = fn;
+          this.self = self;
+          this.next = void 0;
+        }
+
+        return {
+          add: function add(fn, self) {
+            item = new Item(fn, self);
+
+            if (last) {
+              last.next = item;
+            } else {
+              first = item;
+            }
+
+            last = item;
+            item = void 0;
+          },
+          drain: function drain() {
+            var f = first;
+            first = last = cycle = void 0;
+
+            while (f) {
+              f.fn.call(f.self);
+              f = f.next;
+            }
+          },
+        };
+      }();
+
+      function schedule(fn, self) {
+        scheduling_queue.add(fn, self);
+
+        if (!cycle) {
+          cycle = timer(scheduling_queue.drain);
+        }
+      } // promise duck typing
+
+      function isThenable(o) {
+        var _then,
+          o_type = typeof o;
+
+        if (o != null && (o_type == "object" || o_type == "function")) {
+          _then = o.then;
+        }
+
+        return typeof _then == "function" ? _then : false;
+      }
+
+      function notify() {
+        for (var i = 0; i < this.chain.length; i++) {
+          notifyIsolated(
+            this,
+            this.state === 1 ? this.chain[i].success : this.chain[i].failure,
+            this.chain[i],
+          );
+        }
+
+        this.chain.length = 0;
+      } // NOTE: This is a separate function to isolate
+      // the `try..catch` so that other code can be
+      // optimized better
+
+      function notifyIsolated(self, cb, chain) {
+        var ret, _then;
+
+        try {
+          if (cb === false) {
+            chain.reject(self.msg);
+          } else {
+            if (cb === true) {
+              ret = self.msg;
+            } else {
+              ret = cb.call(void 0, self.msg);
+            }
+
+            if (ret === chain.promise) {
+              chain.reject(TypeError("Promise-chain cycle"));
+            } else if (_then = isThenable(ret)) {
+              _then.call(ret, chain.resolve, chain.reject);
+            } else {
+              chain.resolve(ret);
+            }
+          }
+        } catch (err) {
+          chain.reject(err);
+        }
+      }
+
+      function resolve(msg) {
+        var _then,
+          self = this; // already triggered?
+
+        if (self.triggered) {
+          return;
+        }
+
+        self.triggered = true; // unwrap
+
+        if (self.def) {
+          self = self.def;
+        }
+
+        try {
+          if (_then = isThenable(msg)) {
+            schedule(function () {
+              var def_wrapper = new MakeDefWrapper(self);
+
+              try {
+                _then.call(msg, function $resolve$() {
+                  resolve.apply(def_wrapper, arguments);
+                }, function $reject$() {
+                  reject.apply(def_wrapper, arguments);
+                });
+              } catch (err) {
+                reject.call(def_wrapper, err);
+              }
+            });
+          } else {
+            self.msg = msg;
+            self.state = 1;
+
+            if (self.chain.length > 0) {
+              schedule(notify, self);
+            }
+          }
+        } catch (err) {
+          reject.call(new MakeDefWrapper(self), err);
+        }
+      }
+
+      function reject(msg) {
+        var self = this; // already triggered?
+
+        if (self.triggered) {
+          return;
+        }
+
+        self.triggered = true; // unwrap
+
+        if (self.def) {
+          self = self.def;
+        }
+
         self.msg = msg;
-        self.state = 1;
+        self.state = 2;
 
         if (self.chain.length > 0) {
           schedule(notify, self);
         }
       }
-    } catch (err) {
-      reject.call(new MakeDefWrapper(self), err);
-    }
-  }
 
-  function reject(msg) {
-    var self = this; // already triggered?
+      function iteratePromises(Constructor, arr, resolver, rejecter) {
+        for (var idx = 0; idx < arr.length; idx++) {
+          (function IIFE(idx) {
+            Constructor.resolve(arr[idx]).then(function $resolver$(msg) {
+              resolver(idx, msg);
+            }, rejecter);
+          })(idx);
+        }
+      }
 
-    if (self.triggered) {
-      return;
-    }
+      function MakeDefWrapper(self) {
+        this.def = self;
+        this.triggered = false;
+      }
 
-    self.triggered = true; // unwrap
+      function MakeDef(self) {
+        this.promise = self;
+        this.state = 0;
+        this.triggered = false;
+        this.chain = [];
+        this.msg = void 0;
+      }
 
-    if (self.def) {
-      self = self.def;
-    }
-
-    self.msg = msg;
-    self.state = 2;
-
-    if (self.chain.length > 0) {
-      schedule(notify, self);
-    }
-  }
-
-  function iteratePromises(Constructor, arr, resolver, rejecter) {
-    for (var idx = 0; idx < arr.length; idx++) {
-      (function IIFE(idx) {
-        Constructor.resolve(arr[idx]).then(function $resolver$(msg) {
-          resolver(idx, msg);
-        }, rejecter);
-      })(idx);
-    }
-  }
-
-  function MakeDefWrapper(self) {
-    this.def = self;
-    this.triggered = false;
-  }
-
-  function MakeDef(self) {
-    this.promise = self;
-    this.state = 0;
-    this.triggered = false;
-    this.chain = [];
-    this.msg = void 0;
-  }
-
-  function Promise(executor) {
-    if (typeof executor != "function") {
-      throw TypeError("Not a function");
-    }
-
-    if (this.__NPO__ !== 0) {
-      throw TypeError("Not a promise");
-    } // instance shadowing the inherited "brand"
-    // to signal an already "initialized" promise
-
-
-    this.__NPO__ = 1;
-    var def = new MakeDef(this);
-
-    this["then"] = function then(success, failure) {
-      var o = {
-        success: typeof success == "function" ? success : true,
-        failure: typeof failure == "function" ? failure : false
-      }; // Note: `then(..)` itself can be borrowed to be used against
-      // a different promise constructor for making the chained promise,
-      // by substituting a different `this` binding.
-
-      o.promise = new this.constructor(function extractChain(resolve, reject) {
-        if (typeof resolve != "function" || typeof reject != "function") {
+      function Promise(executor) {
+        if (typeof executor != "function") {
           throw TypeError("Not a function");
         }
 
-        o.resolve = resolve;
-        o.reject = reject;
-      });
-      def.chain.push(o);
+        if (this.__NPO__ !== 0) {
+          throw TypeError("Not a promise");
+        } // instance shadowing the inherited "brand"
+        // to signal an already "initialized" promise
 
-      if (def.state !== 0) {
-        schedule(notify, def);
-      }
+        this.__NPO__ = 1;
+        var def = new MakeDef(this);
 
-      return o.promise;
-    };
+        this["then"] = function then(success, failure) {
+          var o = {
+            success: typeof success == "function" ? success : true,
+            failure: typeof failure == "function" ? failure : false,
+          }; // Note: `then(..)` itself can be borrowed to be used against
+          // a different promise constructor for making the chained promise,
+          // by substituting a different `this` binding.
 
-    this["catch"] = function $catch$(failure) {
-      return this.then(void 0, failure);
-    };
+          o.promise = new this.constructor(
+            function extractChain(resolve, reject) {
+              if (typeof resolve != "function" || typeof reject != "function") {
+                throw TypeError("Not a function");
+              }
 
-    try {
-      executor.call(void 0, function publicResolve(msg) {
-        resolve.call(def, msg);
-      }, function publicReject(msg) {
-        reject.call(def, msg);
-      });
-    } catch (err) {
-      reject.call(def, err);
-    }
-  }
+              o.resolve = resolve;
+              o.reject = reject;
+            },
+          );
+          def.chain.push(o);
 
-  var PromisePrototype = builtInProp({}, "constructor", Promise,
-  /*configurable=*/
-  false); // Note: Android 4 cannot use `Object.defineProperty(..)` here
+          if (def.state !== 0) {
+            schedule(notify, def);
+          }
 
-  Promise.prototype = PromisePrototype; // built-in "brand" to signal an "uninitialized" promise
+          return o.promise;
+        };
 
-  builtInProp(PromisePrototype, "__NPO__", 0,
-  /*configurable=*/
-  false);
-  builtInProp(Promise, "resolve", function Promise$resolve(msg) {
-    var Constructor = this; // spec mandated checks
-    // note: best "isPromise" check that's practical for now
+        this["catch"] = function $catch$(failure) {
+          return this.then(void 0, failure);
+        };
 
-    if (msg && typeof msg == "object" && msg.__NPO__ === 1) {
-      return msg;
-    }
-
-    return new Constructor(function executor(resolve, reject) {
-      if (typeof resolve != "function" || typeof reject != "function") {
-        throw TypeError("Not a function");
-      }
-
-      resolve(msg);
-    });
-  });
-  builtInProp(Promise, "reject", function Promise$reject(msg) {
-    return new this(function executor(resolve, reject) {
-      if (typeof resolve != "function" || typeof reject != "function") {
-        throw TypeError("Not a function");
-      }
-
-      reject(msg);
-    });
-  });
-  builtInProp(Promise, "all", function Promise$all(arr) {
-    var Constructor = this; // spec mandated checks
-
-    if (ToString.call(arr) != "[object Array]") {
-      return Constructor.reject(TypeError("Not an array"));
-    }
-
-    if (arr.length === 0) {
-      return Constructor.resolve([]);
-    }
-
-    return new Constructor(function executor(resolve, reject) {
-      if (typeof resolve != "function" || typeof reject != "function") {
-        throw TypeError("Not a function");
-      }
-
-      var len = arr.length,
-          msgs = Array(len),
-          count = 0;
-      iteratePromises(Constructor, arr, function resolver(idx, msg) {
-        msgs[idx] = msg;
-
-        if (++count === len) {
-          resolve(msgs);
+        try {
+          executor.call(void 0, function publicResolve(msg) {
+            resolve.call(def, msg);
+          }, function publicReject(msg) {
+            reject.call(def, msg);
+          });
+        } catch (err) {
+          reject.call(def, err);
         }
-      }, reject);
-    });
-  });
-  builtInProp(Promise, "race", function Promise$race(arr) {
-    var Constructor = this; // spec mandated checks
-
-    if (ToString.call(arr) != "[object Array]") {
-      return Constructor.reject(TypeError("Not an array"));
-    }
-
-    return new Constructor(function executor(resolve, reject) {
-      if (typeof resolve != "function" || typeof reject != "function") {
-        throw TypeError("Not a function");
       }
 
-      iteratePromises(Constructor, arr, function resolver(idx, msg) {
-        resolve(msg);
-      }, reject);
-    });
-  });
-  return Promise;
-});
+      var PromisePrototype = builtInProp(
+        {},
+        "constructor",
+        Promise,
+        /*configurable=*/
+        false,
+      ); // Note: Android 4 cannot use `Object.defineProperty(..)` here
+
+      Promise.prototype = PromisePrototype; // built-in "brand" to signal an "uninitialized" promise
+
+      builtInProp(
+        PromisePrototype,
+        "__NPO__",
+        0,
+        /*configurable=*/
+        false,
+      );
+      builtInProp(Promise, "resolve", function Promise$resolve(msg) {
+        var Constructor = this; // spec mandated checks
+        // note: best "isPromise" check that's practical for now
+
+        if (msg && typeof msg == "object" && msg.__NPO__ === 1) {
+          return msg;
+        }
+
+        return new Constructor(function executor(resolve, reject) {
+          if (typeof resolve != "function" || typeof reject != "function") {
+            throw TypeError("Not a function");
+          }
+
+          resolve(msg);
+        });
+      });
+      builtInProp(Promise, "reject", function Promise$reject(msg) {
+        return new this(function executor(resolve, reject) {
+          if (typeof resolve != "function" || typeof reject != "function") {
+            throw TypeError("Not a function");
+          }
+
+          reject(msg);
+        });
+      });
+      builtInProp(Promise, "all", function Promise$all(arr) {
+        var Constructor = this; // spec mandated checks
+
+        if (ToString.call(arr) != "[object Array]") {
+          return Constructor.reject(TypeError("Not an array"));
+        }
+
+        if (arr.length === 0) {
+          return Constructor.resolve([]);
+        }
+
+        return new Constructor(function executor(resolve, reject) {
+          if (typeof resolve != "function" || typeof reject != "function") {
+            throw TypeError("Not a function");
+          }
+
+          var len = arr.length,
+            msgs = Array(len),
+            count = 0;
+          iteratePromises(Constructor, arr, function resolver(idx, msg) {
+            msgs[idx] = msg;
+
+            if (++count === len) {
+              resolve(msgs);
+            }
+          }, reject);
+        });
+      });
+      builtInProp(Promise, "race", function Promise$race(arr) {
+        var Constructor = this; // spec mandated checks
+
+        if (ToString.call(arr) != "[object Array]") {
+          return Constructor.reject(TypeError("Not an array"));
+        }
+
+        return new Constructor(function executor(resolve, reject) {
+          if (typeof resolve != "function" || typeof reject != "function") {
+            throw TypeError("Not a function");
+          }
+
+          iteratePromises(Constructor, arr, function resolver(idx, msg) {
+            resolve(msg);
+          }, reject);
+        });
+      });
+      return Promise;
+    },
+  );
 });
 
 /**
@@ -665,7 +710,6 @@ function removeCallback(player, name, callback) {
     return true;
   } // If no callback is passed, remove all callbacks for the event
 
-
   if (!callback) {
     playerCallbacks[name] = [];
     callbackMap.set(player.element, playerCallbacks);
@@ -717,7 +761,30 @@ function swapCallbacks(oldElement, newElement) {
 /**
  * @module lib/embed
  */
-var oEmbedParameters = ['autopause', 'autoplay', 'background', 'byline', 'color', 'controls', 'dnt', 'height', 'id', 'loop', 'maxheight', 'maxwidth', 'muted', 'playsinline', 'portrait', 'responsive', 'speed', 'texttrack', 'title', 'transparent', 'url', 'width'];
+var oEmbedParameters = [
+  "autopause",
+  "autoplay",
+  "background",
+  "byline",
+  "color",
+  "controls",
+  "dnt",
+  "height",
+  "id",
+  "loop",
+  "maxheight",
+  "maxwidth",
+  "muted",
+  "playsinline",
+  "portrait",
+  "responsive",
+  "speed",
+  "texttrack",
+  "title",
+  "transparent",
+  "url",
+  "width",
+];
 /**
  * Get the 'data-vimeo'-prefixed attributes from an element as an object.
  *
@@ -727,12 +794,14 @@ var oEmbedParameters = ['autopause', 'autoplay', 'background', 'byline', 'color'
  */
 
 function getOEmbedParameters(element) {
-  var defaults = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  var defaults = arguments.length > 1 && arguments[1] !== undefined
+    ? arguments[1]
+    : {};
   return oEmbedParameters.reduce(function (params, param) {
     var value = element.getAttribute("data-vimeo-".concat(param));
 
-    if (value || value === '') {
-      params[param] = value === '' ? 1 : value;
+    if (value || value === "") {
+      params[param] = value === "" ? 1 : value;
     }
 
     return params;
@@ -750,18 +819,18 @@ function createEmbed(_ref, element) {
   var html = _ref.html;
 
   if (!element) {
-    throw new TypeError('An element must be provided');
+    throw new TypeError("An element must be provided");
   }
 
-  if (element.getAttribute('data-vimeo-initialized') !== null) {
-    return element.querySelector('iframe');
+  if (element.getAttribute("data-vimeo-initialized") !== null) {
+    return element.querySelector("iframe");
   }
 
-  var div = document.createElement('div');
+  var div = document.createElement("div");
   div.innerHTML = html;
   element.appendChild(div.firstChild);
-  element.setAttribute('data-vimeo-initialized', 'true');
-  return element.querySelector('iframe');
+  element.setAttribute("data-vimeo-initialized", "true");
+  return element.querySelector("iframe");
 }
 /**
  * Make an oEmbed call for the specified URL.
@@ -773,14 +842,20 @@ function createEmbed(_ref, element) {
  */
 
 function getOEmbedData(videoUrl) {
-  var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  var params = arguments.length > 1 && arguments[1] !== undefined
+    ? arguments[1]
+    : {};
   var element = arguments.length > 2 ? arguments[2] : undefined;
   return new Promise(function (resolve, reject) {
     if (!isVimeoUrl(videoUrl)) {
-      throw new TypeError("\u201C".concat(videoUrl, "\u201D is not a vimeo.com url."));
+      throw new TypeError(
+        "\u201C".concat(videoUrl, "\u201D is not a vimeo.com url."),
+      );
     }
 
-    var url = "https://vimeo.com/api/oembed.json?url=".concat(encodeURIComponent(videoUrl));
+    var url = "https://vimeo.com/api/oembed.json?url=".concat(
+      encodeURIComponent(videoUrl),
+    );
 
     for (var param in params) {
       if (params.hasOwnProperty(param)) {
@@ -788,8 +863,10 @@ function getOEmbedData(videoUrl) {
       }
     }
 
-    var xhr = 'XDomainRequest' in window ? new XDomainRequest() : new XMLHttpRequest();
-    xhr.open('GET', url, true);
+    var xhr = "XDomainRequest" in window
+      ? new XDomainRequest()
+      : new XMLHttpRequest();
+    xhr.open("GET", url, true);
 
     xhr.onload = function () {
       if (xhr.status === 404) {
@@ -798,7 +875,9 @@ function getOEmbedData(videoUrl) {
       }
 
       if (xhr.status === 403) {
-        reject(new Error("\u201C".concat(videoUrl, "\u201D is not embeddable.")));
+        reject(
+          new Error("\u201C".concat(videoUrl, "\u201D is not embeddable.")),
+        );
         return;
       }
 
@@ -808,7 +887,9 @@ function getOEmbedData(videoUrl) {
         if (json.domain_status_code === 403) {
           // We still want to create the embed to give users visual feedback
           createEmbed(json, element);
-          reject(new Error("\u201C".concat(videoUrl, "\u201D is not embeddable.")));
+          reject(
+            new Error("\u201C".concat(videoUrl, "\u201D is not embeddable.")),
+          );
           return;
         }
 
@@ -819,8 +900,15 @@ function getOEmbedData(videoUrl) {
     };
 
     xhr.onerror = function () {
-      var status = xhr.status ? " (".concat(xhr.status, ")") : '';
-      reject(new Error("There was an error fetching the embed code from Vimeo".concat(status, ".")));
+      var status = xhr.status ? " (".concat(xhr.status, ")") : "";
+      reject(
+        new Error(
+          "There was an error fetching the embed code from Vimeo".concat(
+            status,
+            ".",
+          ),
+        ),
+      );
     };
 
     xhr.send();
@@ -834,11 +922,15 @@ function getOEmbedData(videoUrl) {
  */
 
 function initializeEmbeds() {
-  var parent = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : document;
-  var elements = [].slice.call(parent.querySelectorAll('[data-vimeo-id], [data-vimeo-url]'));
+  var parent = arguments.length > 0 && arguments[0] !== undefined
+    ? arguments[0]
+    : document;
+  var elements = [].slice.call(
+    parent.querySelectorAll("[data-vimeo-id], [data-vimeo-url]"),
+  );
 
   var handleError = function handleError(error) {
-    if ('console' in window && console.error) {
+    if ("console" in window && console.error) {
       console.error("There was an error creating an embed: ".concat(error));
     }
   };
@@ -846,7 +938,7 @@ function initializeEmbeds() {
   elements.forEach(function (element) {
     try {
       // Skip any that have data-vimeo-defer
-      if (element.getAttribute('data-vimeo-defer') !== null) {
+      if (element.getAttribute("data-vimeo-defer") !== null) {
         return;
       }
 
@@ -868,7 +960,9 @@ function initializeEmbeds() {
  */
 
 function resizeEmbeds() {
-  var parent = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : document;
+  var parent = arguments.length > 0 && arguments[0] !== undefined
+    ? arguments[0]
+    : document;
 
   // Prevent execution if users include the player.js script multiple times.
   if (window.VimeoPlayerResizeEmbeds_) {
@@ -882,12 +976,11 @@ function resizeEmbeds() {
       return;
     } // 'spacechange' is fired only on embeds with cards
 
-
-    if (!event.data || event.data.event !== 'spacechange') {
+    if (!event.data || event.data.event !== "spacechange") {
       return;
     }
 
-    var iframes = parent.querySelectorAll('iframe');
+    var iframes = parent.querySelectorAll("iframe");
 
     for (var i = 0; i < iframes.length; i++) {
       if (iframes[i].contentWindow !== event.source) {
@@ -895,14 +988,13 @@ function resizeEmbeds() {
       } // Change padding-bottom of the enclosing div to accommodate
       // card carousel without distorting aspect ratio
 
-
       var space = iframes[i].parentElement;
       space.style.paddingBottom = "".concat(event.data.data[0].bottom, "px");
       break;
     }
   };
 
-  window.addEventListener('message', onMessage);
+  window.addEventListener("message", onMessage);
 }
 
 /**
@@ -916,7 +1008,7 @@ function resizeEmbeds() {
  */
 
 function parseMessageData(data) {
-  if (typeof data === 'string') {
+  if (typeof data === "string") {
     try {
       data = JSON.parse(data);
     } catch (error) {
@@ -938,20 +1030,23 @@ function parseMessageData(data) {
  */
 
 function postMessage(player, method, params) {
-  if (!player.element.contentWindow || !player.element.contentWindow.postMessage) {
+  if (
+    !player.element.contentWindow || !player.element.contentWindow.postMessage
+  ) {
     return;
   }
 
   var message = {
-    method: method
+    method: method,
   };
 
   if (params !== undefined) {
     message.value = params;
   } // IE 8 and 9 do not support passing messages, so stringify them
 
-
-  var ieVersion = parseFloat(navigator.userAgent.toLowerCase().replace(/^.*msie (\d+).*$/, '$1'));
+  var ieVersion = parseFloat(
+    navigator.userAgent.toLowerCase().replace(/^.*msie (\d+).*$/, "$1"),
+  );
 
   if (ieVersion >= 8 && ieVersion < 10) {
     message = JSON.stringify(message);
@@ -973,7 +1068,7 @@ function processData(player, data) {
   var param;
 
   if (data.event) {
-    if (data.event === 'error') {
+    if (data.event === "error") {
       var promises = getCallbacks(player, data.data.method);
       promises.forEach(function (promise) {
         var error = new Error(data.data.message);
@@ -996,13 +1091,13 @@ function processData(player, data) {
 
   callbacks.forEach(function (callback) {
     try {
-      if (typeof callback === 'function') {
+      if (typeof callback === "function") {
         callback.call(player, param);
         return;
       }
 
       callback.resolve(param);
-    } catch (e) {// empty
+    } catch (e) { // empty
     }
   });
 }
@@ -1020,9 +1115,44 @@ Terms */
 function initializeScreenfull() {
   var fn = function () {
     var val;
-    var fnMap = [['requestFullscreen', 'exitFullscreen', 'fullscreenElement', 'fullscreenEnabled', 'fullscreenchange', 'fullscreenerror'], // New WebKit
-    ['webkitRequestFullscreen', 'webkitExitFullscreen', 'webkitFullscreenElement', 'webkitFullscreenEnabled', 'webkitfullscreenchange', 'webkitfullscreenerror'], // Old WebKit
-    ['webkitRequestFullScreen', 'webkitCancelFullScreen', 'webkitCurrentFullScreenElement', 'webkitCancelFullScreen', 'webkitfullscreenchange', 'webkitfullscreenerror'], ['mozRequestFullScreen', 'mozCancelFullScreen', 'mozFullScreenElement', 'mozFullScreenEnabled', 'mozfullscreenchange', 'mozfullscreenerror'], ['msRequestFullscreen', 'msExitFullscreen', 'msFullscreenElement', 'msFullscreenEnabled', 'MSFullscreenChange', 'MSFullscreenError']];
+    var fnMap = [[
+      "requestFullscreen",
+      "exitFullscreen",
+      "fullscreenElement",
+      "fullscreenEnabled",
+      "fullscreenchange",
+      "fullscreenerror",
+    ], // New WebKit
+    [
+      "webkitRequestFullscreen",
+      "webkitExitFullscreen",
+      "webkitFullscreenElement",
+      "webkitFullscreenEnabled",
+      "webkitfullscreenchange",
+      "webkitfullscreenerror",
+    ], // Old WebKit
+    [
+      "webkitRequestFullScreen",
+      "webkitCancelFullScreen",
+      "webkitCurrentFullScreenElement",
+      "webkitCancelFullScreen",
+      "webkitfullscreenchange",
+      "webkitfullscreenerror",
+    ], [
+      "mozRequestFullScreen",
+      "mozCancelFullScreen",
+      "mozFullScreenElement",
+      "mozFullScreenEnabled",
+      "mozfullscreenchange",
+      "mozfullscreenerror",
+    ], [
+      "msRequestFullscreen",
+      "msExitFullscreen",
+      "msFullscreenElement",
+      "msFullscreenEnabled",
+      "MSFullscreenChange",
+      "MSFullscreenError",
+    ]];
     var i = 0;
     var l = fnMap.length;
     var ret = {};
@@ -1044,17 +1174,17 @@ function initializeScreenfull() {
 
   var eventNameMap = {
     fullscreenchange: fn.fullscreenchange,
-    fullscreenerror: fn.fullscreenerror
+    fullscreenerror: fn.fullscreenerror,
   };
   var screenfull = {
     request: function request(element) {
       return new Promise(function (resolve, reject) {
         var onFullScreenEntered = function onFullScreenEntered() {
-          screenfull.off('fullscreenchange', onFullScreenEntered);
+          screenfull.off("fullscreenchange", onFullScreenEntered);
           resolve();
         };
 
-        screenfull.on('fullscreenchange', onFullScreenEntered);
+        screenfull.on("fullscreenchange", onFullScreenEntered);
         element = element || document.documentElement;
         var returnPromise = element[fn.requestFullscreen]();
 
@@ -1071,11 +1201,11 @@ function initializeScreenfull() {
         }
 
         var onFullScreenExit = function onFullScreenExit() {
-          screenfull.off('fullscreenchange', onFullScreenExit);
+          screenfull.off("fullscreenchange", onFullScreenExit);
           resolve();
         };
 
-        screenfull.on('fullscreenchange', onFullScreenExit);
+        screenfull.on("fullscreenchange", onFullScreenExit);
         var returnPromise = document[fn.exitFullscreen]();
 
         if (returnPromise instanceof Promise) {
@@ -1096,27 +1226,27 @@ function initializeScreenfull() {
       if (eventName) {
         document.removeEventListener(eventName, callback);
       }
-    }
+    },
   };
   Object.defineProperties(screenfull, {
     isFullscreen: {
       get: function get() {
         return Boolean(document[fn.fullscreenElement]);
-      }
+      },
     },
     element: {
       enumerable: true,
       get: function get() {
         return document[fn.fullscreenElement];
-      }
+      },
     },
     isEnabled: {
       enumerable: true,
       get: function get() {
         // Coerce to boolean in case of old WebKit
         return Boolean(document[fn.fullscreenEnabled]);
-      }
-    }
+      },
+    },
   });
   return screenfull;
 }
@@ -1125,7 +1255,7 @@ var playerMap = new WeakMap();
 var readyMap = new WeakMap();
 var screenfull = {};
 
-var Player = /*#__PURE__*/function () {
+var Player = /*#__PURE__*/ function () {
   /**
    * Create a Player.
    *
@@ -1137,43 +1267,47 @@ var Player = /*#__PURE__*/function () {
   function Player(element) {
     var _this = this;
 
-    var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+    var options = arguments.length > 1 && arguments[1] !== undefined
+      ? arguments[1]
+      : {};
 
     _classCallCheck(this, Player);
 
     /* global jQuery */
     if (window.jQuery && element instanceof jQuery) {
       if (element.length > 1 && window.console && console.warn) {
-        console.warn('A jQuery object with multiple elements was passed, using the first element.');
+        console.warn(
+          "A jQuery object with multiple elements was passed, using the first element.",
+        );
       }
 
       element = element[0];
     } // Find an element by ID
 
-
-    if (typeof document !== 'undefined' && typeof element === 'string') {
+    if (typeof document !== "undefined" && typeof element === "string") {
       element = document.getElementById(element);
     } // Not an element!
 
-
     if (!isDomElement(element)) {
-      throw new TypeError('You must pass either a valid element or a valid id.');
+      throw new TypeError(
+        "You must pass either a valid element or a valid id.",
+      );
     } // Already initialized an embed in this div, so grab the iframe
 
-
-    if (element.nodeName !== 'IFRAME') {
-      var iframe = element.querySelector('iframe');
+    if (element.nodeName !== "IFRAME") {
+      var iframe = element.querySelector("iframe");
 
       if (iframe) {
         element = iframe;
       }
     } // iframe url is not a Vimeo url
 
-
-    if (element.nodeName === 'IFRAME' && !isVimeoUrl(element.getAttribute('src') || '')) {
-      throw new Error('The player element passed isn’t a Vimeo embed.');
+    if (
+      element.nodeName === "IFRAME" &&
+      !isVimeoUrl(element.getAttribute("src") || "")
+    ) {
+      throw new Error("The player element passed isn’t a Vimeo embed.");
     } // If there is already a player object in the map, return that
-
 
     if (playerMap.has(element)) {
       return playerMap.get(element);
@@ -1181,20 +1315,23 @@ var Player = /*#__PURE__*/function () {
 
     this._window = element.ownerDocument.defaultView;
     this.element = element;
-    this.origin = '*';
+    this.origin = "*";
     var readyPromise = new npo_src(function (resolve, reject) {
       _this._onMessage = function (event) {
-        if (!isVimeoUrl(event.origin) || _this.element.contentWindow !== event.source) {
+        if (
+          !isVimeoUrl(event.origin) ||
+          _this.element.contentWindow !== event.source
+        ) {
           return;
         }
 
-        if (_this.origin === '*') {
+        if (_this.origin === "*") {
           _this.origin = event.origin;
         }
 
         var data = parseMessageData(event.data);
-        var isError = data && data.event === 'error';
-        var isReadyError = isError && data.data && data.data.method === 'ready';
+        var isError = data && data.event === "error";
+        var isReadyError = isError && data.data && data.data.method === "ready";
 
         if (isReadyError) {
           var error = new Error(data.data.message);
@@ -1203,11 +1340,11 @@ var Player = /*#__PURE__*/function () {
           return;
         }
 
-        var isReadyEvent = data && data.event === 'ready';
-        var isPingResponse = data && data.method === 'ping';
+        var isReadyEvent = data && data.event === "ready";
+        var isPingResponse = data && data.method === "ping";
 
         if (isReadyEvent || isPingResponse) {
-          _this.element.setAttribute('data-ready', 'true');
+          _this.element.setAttribute("data-ready", "true");
 
           resolve();
           return;
@@ -1216,9 +1353,9 @@ var Player = /*#__PURE__*/function () {
         processData(_this, data);
       };
 
-      _this._window.addEventListener('message', _this._onMessage);
+      _this._window.addEventListener("message", _this._onMessage);
 
-      if (_this.element.nodeName !== 'IFRAME') {
+      if (_this.element.nodeName !== "IFRAME") {
         var params = getOEmbedParameters(element, options);
         var url = getVimeoUrl(params);
         getOEmbedData(url, params, element).then(function (data) {
@@ -1238,8 +1375,8 @@ var Player = /*#__PURE__*/function () {
     playerMap.set(this.element, this); // Send a ping to the iframe so the ready promise will be resolved if
     // the player is already ready.
 
-    if (this.element.nodeName === 'IFRAME') {
-      postMessage(this, 'ping');
+    if (this.element.nodeName === "IFRAME") {
+      postMessage(this, "ping");
     }
 
     if (screenfull.isEnabled) {
@@ -1247,16 +1384,15 @@ var Player = /*#__PURE__*/function () {
         return screenfull.exit();
       };
 
-      screenfull.on('fullscreenchange', function () {
+      screenfull.on("fullscreenchange", function () {
         if (screenfull.isFullscreen) {
-          storeCallback(_this, 'event:exitFullscreen', exitFullscreen);
+          storeCallback(_this, "event:exitFullscreen", exitFullscreen);
         } else {
-          removeCallback(_this, 'event:exitFullscreen', exitFullscreen);
+          removeCallback(_this, "event:exitFullscreen", exitFullscreen);
         } // eslint-disable-next-line
 
-
         _this.ready().then(function () {
-          postMessage(_this, 'fullscreenchange', screenfull.isFullscreen);
+          postMessage(_this, "fullscreenchange", screenfull.isFullscreen);
         });
       });
     }
@@ -1271,13 +1407,14 @@ var Player = /*#__PURE__*/function () {
    * @return {Promise}
    */
 
-
   _createClass(Player, [{
     key: "callMethod",
     value: function callMethod(name) {
       var _this2 = this;
 
-      var args = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+      var args = arguments.length > 1 && arguments[1] !== undefined
+        ? arguments[1]
+        : {};
       return new npo_src(function (resolve, reject) {
         // We are storing the resolve/reject handlers to call later, so we
         // can’t return here.
@@ -1285,38 +1422,37 @@ var Player = /*#__PURE__*/function () {
         return _this2.ready().then(function () {
           storeCallback(_this2, name, {
             resolve: resolve,
-            reject: reject
+            reject: reject,
           });
           postMessage(_this2, name, args);
         }).catch(reject);
       });
-    }
+    },
     /**
      * Get a promise for the value of a player property.
      *
      * @param {string} name The property name
      * @return {Promise}
      */
-
   }, {
     key: "get",
     value: function get(name) {
       var _this3 = this;
 
       return new npo_src(function (resolve, reject) {
-        name = getMethodName(name, 'get'); // We are storing the resolve/reject handlers to call later, so we
+        name = getMethodName(name, "get"); // We are storing the resolve/reject handlers to call later, so we
         // can’t return here.
         // eslint-disable-next-line promise/always-return
 
         return _this3.ready().then(function () {
           storeCallback(_this3, name, {
             resolve: resolve,
-            reject: reject
+            reject: reject,
           });
           postMessage(_this3, name);
         }).catch(reject);
       });
-    }
+    },
     /**
      * Get a promise for setting the value of a player property.
      *
@@ -1324,31 +1460,29 @@ var Player = /*#__PURE__*/function () {
      * @param {mixed} value The value to set.
      * @return {Promise}
      */
-
   }, {
     key: "set",
     value: function set(name, value) {
       var _this4 = this;
 
       return new npo_src(function (resolve, reject) {
-        name = getMethodName(name, 'set');
+        name = getMethodName(name, "set");
 
         if (value === undefined || value === null) {
-          throw new TypeError('There must be a value to set.');
+          throw new TypeError("There must be a value to set.");
         } // We are storing the resolve/reject handlers to call later, so we
         // can’t return here.
         // eslint-disable-next-line promise/always-return
 
-
         return _this4.ready().then(function () {
           storeCallback(_this4, name, {
             resolve: resolve,
-            reject: reject
+            reject: reject,
           });
           postMessage(_this4, name, value);
         }).catch(reject);
       });
-    }
+    },
     /**
      * Add an event listener for the specified event. Will call the
      * callback with a single parameter, `data`, that contains the data for
@@ -1358,32 +1492,31 @@ var Player = /*#__PURE__*/function () {
      * @param {function(*)} callback The function to call when the event fires.
      * @return {void}
      */
-
   }, {
     key: "on",
     value: function on(eventName, callback) {
       if (!eventName) {
-        throw new TypeError('You must pass an event name.');
+        throw new TypeError("You must pass an event name.");
       }
 
       if (!callback) {
-        throw new TypeError('You must pass a callback function.');
+        throw new TypeError("You must pass a callback function.");
       }
 
-      if (typeof callback !== 'function') {
-        throw new TypeError('The callback must be a function.');
+      if (typeof callback !== "function") {
+        throw new TypeError("The callback must be a function.");
       }
 
       var callbacks = getCallbacks(this, "event:".concat(eventName));
 
       if (callbacks.length === 0) {
-        this.callMethod('addEventListener', eventName).catch(function () {// Ignore the error. There will be an error event fired that
+        this.callMethod("addEventListener", eventName).catch(function () { // Ignore the error. There will be an error event fired that
           // will trigger the error callback if they are listening.
         });
       }
 
       storeCallback(this, "event:".concat(eventName), callback);
-    }
+    },
     /**
      * Remove an event listener for the specified event. Will remove all
      * listeners for that event if a `callback` isn’t passed, or only that
@@ -1393,26 +1526,29 @@ var Player = /*#__PURE__*/function () {
      * @param {function} [callback] The specific callback to remove.
      * @return {void}
      */
-
   }, {
     key: "off",
     value: function off(eventName, callback) {
       if (!eventName) {
-        throw new TypeError('You must pass an event name.');
+        throw new TypeError("You must pass an event name.");
       }
 
-      if (callback && typeof callback !== 'function') {
-        throw new TypeError('The callback must be a function.');
+      if (callback && typeof callback !== "function") {
+        throw new TypeError("The callback must be a function.");
       }
 
-      var lastCallback = removeCallback(this, "event:".concat(eventName), callback); // If there are no callbacks left, remove the listener
+      var lastCallback = removeCallback(
+        this,
+        "event:".concat(eventName),
+        callback,
+      ); // If there are no callbacks left, remove the listener
 
       if (lastCallback) {
-        this.callMethod('removeEventListener', eventName).catch(function (e) {// Ignore the error. There will be an error event fired that
+        this.callMethod("removeEventListener", eventName).catch(function (e) { // Ignore the error. There will be an error event fired that
           // will trigger the error callback if they are listening.
         });
       }
-    }
+    },
     /**
      * A promise to load a new video.
      *
@@ -1429,12 +1565,11 @@ var Player = /*#__PURE__*/function () {
      * @param {number|object} options The id of the video or an object with embed options.
      * @return {LoadVideoPromise}
      */
-
   }, {
     key: "loadVideo",
     value: function loadVideo(options) {
-      return this.callMethod('loadVideo', options);
-    }
+      return this.callMethod("loadVideo", options);
+    },
     /**
      * A promise to perform an action when the Player is ready.
      *
@@ -1450,15 +1585,15 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {ReadyPromise}
      */
-
   }, {
     key: "ready",
     value: function ready() {
-      var readyPromise = readyMap.get(this) || new npo_src(function (resolve, reject) {
-        reject(new Error('Unknown player. Probably unloaded.'));
-      });
+      var readyPromise = readyMap.get(this) ||
+        new npo_src(function (resolve, reject) {
+          reject(new Error("Unknown player. Probably unloaded."));
+        });
       return npo_src.resolve(readyPromise);
-    }
+    },
     /**
      * A promise to add a cue point to the player.
      *
@@ -1477,16 +1612,17 @@ var Player = /*#__PURE__*/function () {
      * @param {object} [data] Arbitrary data to be returned with the cue point.
      * @return {AddCuePointPromise}
      */
-
   }, {
     key: "addCuePoint",
     value: function addCuePoint(time) {
-      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-      return this.callMethod('addCuePoint', {
+      var data = arguments.length > 1 && arguments[1] !== undefined
+        ? arguments[1]
+        : {};
+      return this.callMethod("addCuePoint", {
         time: time,
-        data: data
+        data: data,
       });
-    }
+    },
     /**
      * A promise to remove a cue point from the player.
      *
@@ -1504,12 +1640,11 @@ var Player = /*#__PURE__*/function () {
      * @param {string} id The id of the cue point to remove.
      * @return {RemoveCuePointPromise}
      */
-
   }, {
     key: "removeCuePoint",
     value: function removeCuePoint(id) {
-      return this.callMethod('removeCuePoint', id);
-    }
+      return this.callMethod("removeCuePoint", id);
+    },
     /**
      * A representation of a text track on a video.
      *
@@ -1541,19 +1676,18 @@ var Player = /*#__PURE__*/function () {
      * @param {string} [kind] The kind of track to enable (captions or subtitles).
      * @return {EnableTextTrackPromise}
      */
-
   }, {
     key: "enableTextTrack",
     value: function enableTextTrack(language, kind) {
       if (!language) {
-        throw new TypeError('You must pass a language.');
+        throw new TypeError("You must pass a language.");
       }
 
-      return this.callMethod('enableTextTrack', {
+      return this.callMethod("enableTextTrack", {
         language: language,
-        kind: kind
+        kind: kind,
       });
-    }
+    },
     /**
      * A promise to disable the active text track.
      *
@@ -1566,12 +1700,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {DisableTextTrackPromise}
      */
-
   }, {
     key: "disableTextTrack",
     value: function disableTextTrack() {
-      return this.callMethod('disableTextTrack');
-    }
+      return this.callMethod("disableTextTrack");
+    },
     /**
      * A promise to pause the video.
      *
@@ -1584,12 +1717,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {PausePromise}
      */
-
   }, {
     key: "pause",
     value: function pause() {
-      return this.callMethod('pause');
-    }
+      return this.callMethod("pause");
+    },
     /**
      * A promise to play the video.
      *
@@ -1605,17 +1737,15 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {PlayPromise}
      */
-
   }, {
     key: "play",
     value: function play() {
-      return this.callMethod('play');
-    }
+      return this.callMethod("play");
+    },
     /**
      * Request that the player enters fullscreen.
      * @return {Promise}
      */
-
   }, {
     key: "requestFullscreen",
     value: function requestFullscreen() {
@@ -1623,13 +1753,12 @@ var Player = /*#__PURE__*/function () {
         return screenfull.request(this.element);
       }
 
-      return this.callMethod('requestFullscreen');
-    }
+      return this.callMethod("requestFullscreen");
+    },
     /**
      * Request that the player exits fullscreen.
      * @return {Promise}
      */
-
   }, {
     key: "exitFullscreen",
     value: function exitFullscreen() {
@@ -1637,13 +1766,12 @@ var Player = /*#__PURE__*/function () {
         return screenfull.exit();
       }
 
-      return this.callMethod('exitFullscreen');
-    }
+      return this.callMethod("exitFullscreen");
+    },
     /**
      * Returns true if the player is currently fullscreen.
      * @return {Promise}
      */
-
   }, {
     key: "getFullscreen",
     value: function getFullscreen() {
@@ -1651,8 +1779,8 @@ var Player = /*#__PURE__*/function () {
         return npo_src.resolve(screenfull.isFullscreen);
       }
 
-      return this.get('fullscreen');
-    }
+      return this.get("fullscreen");
+    },
     /**
      * A promise to unload the video.
      *
@@ -1665,12 +1793,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {UnloadPromise}
      */
-
   }, {
     key: "unload",
     value: function unload() {
-      return this.callMethod('unload');
-    }
+      return this.callMethod("unload");
+    },
     /**
      * Cleanup the player and remove it from the DOM
      *
@@ -1679,7 +1806,6 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {Promise}
      */
-
   }, {
     key: "destroy",
     value: function destroy() {
@@ -1692,18 +1818,21 @@ var Player = /*#__PURE__*/function () {
         if (_this5._originalElement) {
           playerMap.delete(_this5._originalElement);
 
-          _this5._originalElement.removeAttribute('data-vimeo-initialized');
+          _this5._originalElement.removeAttribute("data-vimeo-initialized");
         }
 
-        if (_this5.element && _this5.element.nodeName === 'IFRAME' && _this5.element.parentNode) {
+        if (
+          _this5.element && _this5.element.nodeName === "IFRAME" &&
+          _this5.element.parentNode
+        ) {
           _this5.element.parentNode.removeChild(_this5.element);
         }
 
-        _this5._window.removeEventListener('message', _this5._onMessage);
+        _this5._window.removeEventListener("message", _this5._onMessage);
 
         resolve();
       });
-    }
+    },
     /**
      * A promise to get the autopause behavior of the video.
      *
@@ -1718,12 +1847,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetAutopausePromise}
      */
-
   }, {
     key: "getAutopause",
     value: function getAutopause() {
-      return this.get('autopause');
-    }
+      return this.get("autopause");
+    },
     /**
      * A promise to set the autopause behavior of the video.
      *
@@ -1744,12 +1872,11 @@ var Player = /*#__PURE__*/function () {
      * @param {boolean} autopause
      * @return {SetAutopausePromise}
      */
-
   }, {
     key: "setAutopause",
     value: function setAutopause(autopause) {
-      return this.set('autopause', autopause);
-    }
+      return this.set("autopause", autopause);
+    },
     /**
      * A promise to get the buffered property of the video.
      *
@@ -1762,12 +1889,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetBufferedPromise}
      */
-
   }, {
     key: "getBuffered",
     value: function getBuffered() {
-      return this.get('buffered');
-    }
+      return this.get("buffered");
+    },
     /**
      * A representation of a chapter.
      *
@@ -1789,12 +1915,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetChaptersPromise}
      */
-
   }, {
     key: "getChapters",
     value: function getChapters() {
-      return this.get('chapters');
-    }
+      return this.get("chapters");
+    },
     /**
      * A promise to get the currently active chapter.
      *
@@ -1807,12 +1932,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetCurrentChaptersPromise}
      */
-
   }, {
     key: "getCurrentChapter",
     value: function getCurrentChapter() {
-      return this.get('currentChapter');
-    }
+      return this.get("currentChapter");
+    },
     /**
      * A promise to get the color of the player.
      *
@@ -1825,12 +1949,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetColorPromise}
      */
-
   }, {
     key: "getColor",
     value: function getColor() {
-      return this.get('color');
-    }
+      return this.get("color");
+    },
     /**
      * A promise to set the color of the player.
      *
@@ -1851,12 +1974,11 @@ var Player = /*#__PURE__*/function () {
      * @param {string} color The hex or rgb color string to set.
      * @return {SetColorPromise}
      */
-
   }, {
     key: "setColor",
     value: function setColor(color) {
-      return this.set('color', color);
-    }
+      return this.set("color", color);
+    },
     /**
      * A representation of a cue point.
      *
@@ -1880,12 +2002,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetCuePointsPromise}
      */
-
   }, {
     key: "getCuePoints",
     value: function getCuePoints() {
-      return this.get('cuePoints');
-    }
+      return this.get("cuePoints");
+    },
     /**
      * A promise to get the current time of the video.
      *
@@ -1898,12 +2019,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetCurrentTimePromise}
      */
-
   }, {
     key: "getCurrentTime",
     value: function getCurrentTime() {
-      return this.get('currentTime');
-    }
+      return this.get("currentTime");
+    },
     /**
      * A promise to set the current time of the video.
      *
@@ -1925,12 +2045,11 @@ var Player = /*#__PURE__*/function () {
      * @param {number} currentTime
      * @return {SetCurrentTimePromise}
      */
-
   }, {
     key: "setCurrentTime",
     value: function setCurrentTime(currentTime) {
-      return this.set('currentTime', currentTime);
-    }
+      return this.set("currentTime", currentTime);
+    },
     /**
      * A promise to get the duration of the video.
      *
@@ -1945,12 +2064,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetDurationPromise}
      */
-
   }, {
     key: "getDuration",
     value: function getDuration() {
-      return this.get('duration');
-    }
+      return this.get("duration");
+    },
     /**
      * A promise to get the ended state of the video.
      *
@@ -1964,12 +2082,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetEndedPromise}
      */
-
   }, {
     key: "getEnded",
     value: function getEnded() {
-      return this.get('ended');
-    }
+      return this.get("ended");
+    },
     /**
      * A promise to get the loop state of the player.
      *
@@ -1982,12 +2099,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetLoopPromise}
      */
-
   }, {
     key: "getLoop",
     value: function getLoop() {
-      return this.get('loop');
-    }
+      return this.get("loop");
+    },
     /**
      * A promise to set the loop state of the player.
      *
@@ -2002,12 +2118,11 @@ var Player = /*#__PURE__*/function () {
      * @param {boolean} loop
      * @return {SetLoopPromise}
      */
-
   }, {
     key: "setLoop",
     value: function setLoop(loop) {
-      return this.set('loop', loop);
-    }
+      return this.set("loop", loop);
+    },
     /**
      * A promise to set the muted state of the player.
      *
@@ -2022,12 +2137,11 @@ var Player = /*#__PURE__*/function () {
      * @param {boolean} muted
      * @return {SetMutedPromise}
      */
-
   }, {
     key: "setMuted",
     value: function setMuted(muted) {
-      return this.set('muted', muted);
-    }
+      return this.set("muted", muted);
+    },
     /**
      * A promise to get the muted state of the player.
      *
@@ -2040,12 +2154,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetMutedPromise}
      */
-
   }, {
     key: "getMuted",
     value: function getMuted() {
-      return this.get('muted');
-    }
+      return this.get("muted");
+    },
     /**
      * A promise to get the paused state of the player.
      *
@@ -2058,12 +2171,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetLoopPromise}
      */
-
   }, {
     key: "getPaused",
     value: function getPaused() {
-      return this.get('paused');
-    }
+      return this.get("paused");
+    },
     /**
      * A promise to get the playback rate of the player.
      *
@@ -2076,12 +2188,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetPlaybackRatePromise}
      */
-
   }, {
     key: "getPlaybackRate",
     value: function getPlaybackRate() {
-      return this.get('playbackRate');
-    }
+      return this.get("playbackRate");
+    },
     /**
      * A promise to set the playbackrate of the player.
      *
@@ -2098,12 +2209,11 @@ var Player = /*#__PURE__*/function () {
      * @param {number} playbackRate
      * @return {SetPlaybackRatePromise}
      */
-
   }, {
     key: "setPlaybackRate",
     value: function setPlaybackRate(playbackRate) {
-      return this.set('playbackRate', playbackRate);
-    }
+      return this.set("playbackRate", playbackRate);
+    },
     /**
      * A promise to get the played property of the video.
      *
@@ -2116,12 +2226,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetPlayedPromise}
      */
-
   }, {
     key: "getPlayed",
     value: function getPlayed() {
-      return this.get('played');
-    }
+      return this.get("played");
+    },
     /**
      * A promise to get the qualities available of the current video.
      *
@@ -2134,12 +2243,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetQualitiesPromise}
      */
-
   }, {
     key: "getQualities",
     value: function getQualities() {
-      return this.get('qualities');
-    }
+      return this.get("qualities");
+    },
     /**
      * A promise to get the current set quality of the video.
      *
@@ -2152,12 +2260,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetQualityPromise}
      */
-
   }, {
     key: "getQuality",
     value: function getQuality() {
-      return this.get('quality');
-    }
+      return this.get("quality");
+    },
     /**
      * A promise to set the video quality.
      *
@@ -2172,12 +2279,11 @@ var Player = /*#__PURE__*/function () {
      * @param {string} quality
      * @return {SetQualityPromise}
      */
-
   }, {
     key: "setQuality",
     value: function setQuality(quality) {
-      return this.set('quality', quality);
-    }
+      return this.set("quality", quality);
+    },
     /**
      * A promise to get the seekable property of the video.
      *
@@ -2190,12 +2296,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetSeekablePromise}
      */
-
   }, {
     key: "getSeekable",
     value: function getSeekable() {
-      return this.get('seekable');
-    }
+      return this.get("seekable");
+    },
     /**
      * A promise to get the seeking property of the player.
      *
@@ -2208,12 +2313,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetSeekingPromise}
      */
-
   }, {
     key: "getSeeking",
     value: function getSeeking() {
-      return this.get('seeking');
-    }
+      return this.get("seeking");
+    },
     /**
      * A promise to get the text tracks of a video.
      *
@@ -2226,12 +2330,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetTextTracksPromise}
      */
-
   }, {
     key: "getTextTracks",
     value: function getTextTracks() {
-      return this.get('textTracks');
-    }
+      return this.get("textTracks");
+    },
     /**
      * A promise to get the embed code for the video.
      *
@@ -2244,12 +2347,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetVideoEmbedCodePromise}
      */
-
   }, {
     key: "getVideoEmbedCode",
     value: function getVideoEmbedCode() {
-      return this.get('videoEmbedCode');
-    }
+      return this.get("videoEmbedCode");
+    },
     /**
      * A promise to get the id of the video.
      *
@@ -2262,12 +2364,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetVideoIdPromise}
      */
-
   }, {
     key: "getVideoId",
     value: function getVideoId() {
-      return this.get('videoId');
-    }
+      return this.get("videoId");
+    },
     /**
      * A promise to get the title of the video.
      *
@@ -2280,12 +2381,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetVideoTitlePromise}
      */
-
   }, {
     key: "getVideoTitle",
     value: function getVideoTitle() {
-      return this.get('videoTitle');
-    }
+      return this.get("videoTitle");
+    },
     /**
      * A promise to get the native width of the video.
      *
@@ -2299,12 +2399,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetVideoWidthPromise}
      */
-
   }, {
     key: "getVideoWidth",
     value: function getVideoWidth() {
-      return this.get('videoWidth');
-    }
+      return this.get("videoWidth");
+    },
     /**
      * A promise to get the native height of the video.
      *
@@ -2318,12 +2417,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetVideoHeightPromise}
      */
-
   }, {
     key: "getVideoHeight",
     value: function getVideoHeight() {
-      return this.get('videoHeight');
-    }
+      return this.get("videoHeight");
+    },
     /**
      * A promise to get the vimeo.com url for the video.
      *
@@ -2337,12 +2435,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetVideoUrlPromise}
      */
-
   }, {
     key: "getVideoUrl",
     value: function getVideoUrl() {
-      return this.get('videoUrl');
-    }
+      return this.get("videoUrl");
+    },
     /**
      * A promise to get the volume level of the player.
      *
@@ -2358,12 +2455,11 @@ var Player = /*#__PURE__*/function () {
      *
      * @return {GetVolumePromise}
      */
-
   }, {
     key: "getVolume",
     value: function getVolume() {
-      return this.get('volume');
-    }
+      return this.get("volume");
+    },
     /**
      * A promise to set the volume level of the player.
      *
@@ -2383,17 +2479,15 @@ var Player = /*#__PURE__*/function () {
      * @param {number} volume
      * @return {SetVolumePromise}
      */
-
   }, {
     key: "setVolume",
     value: function setVolume(volume) {
-      return this.set('volume', volume);
-    }
+      return this.set("volume", volume);
+    },
   }]);
 
   return Player;
 }(); // Setup embed only if this is not a node environment
-
 
 if (!isNode) {
   screenfull = initializeScreenfull();

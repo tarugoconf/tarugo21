@@ -47,7 +47,6 @@ menu.addEventListener("click", (event) => {
   if (event.target.matches("a")) {
     setTimeout(() => menu.classList.remove("is-open"), 100);
   }
-  event.stopPropagation()
+  event.stopPropagation();
 });
 document.body.addEventListener("click", () => menu.classList.remove("is-open"));
-

@@ -3,7 +3,26 @@ backend:
   branch: master
 
 media_folder: "img"
+
 collections:
+  - label: Agenda
+    name: calendar
+    file: _data/calendar.yml
+    fields:
+      - label: Eventos
+        name: events
+        widget: list
+        fields:
+          - label: Título
+            name: title
+            widget: string
+          - label: Día
+            name: time
+            widget: datetime
+          - label: Texto
+            name: text
+            widget: markdown
+
   - label: Datos
     name: data
     files:
