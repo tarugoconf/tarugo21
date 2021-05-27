@@ -1,0 +1,55 @@
+.calendar {
+  background-color: var(--color-grey-50);
+  background: linear-gradient(to bottom, #DBE7FF, #FFF2EC);
+  padding: 20px;
+  border: solid 1px var(--color-grey-200);
+  list-style: none;
+  margin: 50px 0;
+
+  & h4 {
+    margin: 10px 0;
+    padding-bottom: 5px;
+    font: var(--font-18-bold);
+    border-bottom: solid 1px var(--color-grey-500);
+  }
+
+  & > li + li {
+    margin-top: 50px;
+  }
+}
+
+.calendar-events {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  & summary {
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+
+    &:hover {
+      background-color: #0001;
+    }
+  }
+}
+.calendar-event {
+  &[open] {
+    background-color: white;
+    box-shadow: 0 2px 4px #0003;
+
+    & summary {
+      background-color: #0001;
+    }
+  }
+}
+.calendar-event-text {
+  padding: 20px;
+
+  & p {
+    margin-top: 0;
+  }
+  & p:last-child {
+    margin-bottom: 0;
+  }
+}

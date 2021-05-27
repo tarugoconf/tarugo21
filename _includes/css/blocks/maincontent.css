@@ -14,13 +14,13 @@
   }
 }
 .maincontent-content {
-  & h2,
+  & h2 {
+    font: var(--font-36-bold);
+    text-transform: uppercase;
+    text-align: center;
+  }
   & h3 {
     font: var(--font-28);
-  }
-
-  & h2 {
-    text-transform: uppercase;
   }
 
   & h4 {

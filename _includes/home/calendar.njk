@@ -5,29 +5,27 @@
 
   {{ content.intro | md | safe }}
 
-  <ul class="calendar-days js-calendar">
+  <ul class="calendar">
     {% for day in content.days %}
     <li>
-      <div class="calendar-day">
-        <h4>{{ day.title }}</h4>
+      <h4>{{ day.day }}</h4>
 
-        <ul>
-          {% for event in day.events %}
-          <li>
-            <details class="calendar-event">
-              <summary class="calendar-event-header">
-                {{ event.time }}
-                <strong>{{ event.title }}</strong>
-              </summary>
+      <ul class="calendar-events">
+        {% for event in day.events %}
+        <li>
+          <details class="calendar-event">
+            <summary class="calendar-event-header">
+              {{ event.time }}
+              <strong>{{ event.title }}</strong>
+            </summary>
 
-              <div class="calendar-event-text">
-                {{ event.details | md | safe }}
-              </div>
-            </details>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
+            <div class="calendar-event-text">
+              {{ event.details | md | safe }}
+            </div>
+          </details>
+        </li>
+        {% endfor %}
+      </ul>
     </li>
     {% endfor %}
   </ul>
