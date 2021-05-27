@@ -51,6 +51,7 @@ collections:
               - label: Stock
                 name: stock
                 widget: number
+                required: false
 
       - label: Agenda
         name: calendar
