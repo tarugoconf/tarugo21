@@ -5,24 +5,6 @@ backend:
 media_folder: "img"
 
 collections:
-  - label: Agenda
-    name: calendar
-    file: _data/calendar.yml
-    fields:
-      - label: Eventos
-        name: events
-        widget: list
-        fields:
-          - label: Título
-            name: title
-            widget: string
-          - label: Día
-            name: time
-            widget: datetime
-          - label: Texto
-            name: text
-            widget: markdown
-
   - label: Datos
     name: data
     files:
@@ -33,3 +15,57 @@ collections:
           - label: title
             name: title
             widget: string
+          - label: Entradas
+            name: tickets
+            widget: list
+            fields:
+              - label: Nombre
+                name: name
+                widget: string
+              - label: Precio
+                name: pricing
+                widget: string
+              - label: Descripción
+                name: description
+                widget: markdown
+              - label: Incluye
+                name: includes
+                widget: list
+                field:
+                  label: Texto
+                  name: text
+                  widget: markdown
+              - label: Envío
+                name: delivery
+                widget: object
+                fields:
+                  - label: Fecha
+                    name: date
+                    widget: string
+                  - label: Dirección
+                    name: address
+                    widget: string
+              - label: Complementos
+                name: complements
+                widget: boolean
+              - label: Stock
+                name: stock
+                widget: number
+
+      - label: Agenda
+        name: calendar
+        file: _data/calendar.yml
+        fields:
+          - label: Eventos
+            name: events
+            widget: list
+            fields:
+              - label: Título
+                name: title
+                widget: string
+              - label: Día
+                name: time
+                widget: datetime
+              - label: Texto
+                name: text
+                widget: markdown
