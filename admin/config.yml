@@ -75,12 +75,59 @@ collections:
                 widget: list
                 fields:
                   - label: Título
-                    name: text
+                    name: title
                     widget: string
                   - label: Hora
                     name: time
                     widget: string
                   - label: Descripción
                     name: details
+                    widget: markdown
+                    required: false
+
+      - label: Speakers
+        name: calendar
+        file: _data/home/speakers.yml
+        fields:
+          - label: Título
+            name: title
+            widget: string
+          - label: Intro
+            name: intro
+            widget: markdown
+          - label: Speakers
+            name: speakers
+            widget: list
+            fields:
+              - label: Nombre
+                name: name
+                widget: string
+              - label: Empresa
+                name: company
+                widget: string
+              - label: Cargo
+                name: position
+                widget: string
+              - label: Imagen
+                name: image
+                widget: image
+                allow_multiple: false
+                media_folder: /img/speakers
+              - label: Enlaces
+                name: links
+                widget: list
+                fields:
+                  - label: Texto
+                    name: text
+                    widget: string
+                  - label: Tipo
+                    name: type
+                    widget: select
+                    options: ["twitter", "linkedin"]
+                  - label: Url
+                    name: url
+                    widget: string
+                  - label: Biografía
+                    name: bio
                     widget: markdown
                     required: false
