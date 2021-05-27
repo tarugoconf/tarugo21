@@ -3,10 +3,12 @@ backend:
   branch: master
 
 media_folder: "img"
+display_url: https://tarugo21.netlify.app/
 
 collections:
   - label: Datos
     name: data
+    preview: false
     files:
       - label: Entradas
         name: "tickets"
