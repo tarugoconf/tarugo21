@@ -7,7 +7,7 @@ intro: |
 
   Finalmente, el sábado por la mañana se celebrará la **Tarugoff,** nuestro *Open Space* donde los asistentes podréis proponer vuestras propias charlas y asistir a las de otros. Y, por la tarde, retransmitiremos el primer **Replay,** la repetición de las charlas grabadas el viernes con la participación en directo de los ponentes en el chat y en el turno de preguntas.
 
-calendar:
+days:
   - day: Jueves, 21 octubre
     events:
       - title: Warm Up!

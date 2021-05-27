@@ -64,7 +64,7 @@ collections:
             name: intro
             widget: markdown
           - label: Días
-            name: calendar
+            name: days
             widget: list
             fields:
               - label: Día
