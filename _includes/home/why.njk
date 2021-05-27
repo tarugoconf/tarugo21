@@ -17,7 +17,9 @@
 
   {{ cont.content | md | safe }}
 
-  <aside class="maincontent-goals">
+  <video src="/img/objetivos/{{ content.goal }}.mp4" muted autoplay loop></video>
+
+  {# <aside class="maincontent-goals">
     <h4>{{ cont.goals.title }}</h4>
 
     <dl>
@@ -42,7 +44,7 @@
       </div>
       {% endfor %}
     </dl>
-  </aside>
+  </aside> #}
 
   {# Purpose #}
   {% set cont = content.purpose %}
