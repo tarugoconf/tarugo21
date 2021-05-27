@@ -1,3 +1,5 @@
+import dialogPolyfill from './dialog-polyfill.esm.js';
+
 const navbar = document.querySelector(".navbar");
 const menu = document.querySelector(".navbar-menu");
 let currentLink;
@@ -50,3 +52,27 @@ menu.addEventListener("click", (event) => {
   event.stopPropagation();
 });
 document.body.addEventListener("click", () => menu.classList.remove("is-open"));
+
+// Diálogos
+document.querySelectorAll('dialog').forEach((dialog) => {
+  dialogPolyfill.registerDialog(dialog);
+});
+
+document.querySelectorAll(".js-openDialog").forEach((btn) => {
+  btn.addEventListener("click", (ev) => {
+    const dialog = document.getElementById(btn.dataset.target);
+
+    if (dialog) {
+      dialog.showModal();
+    }
+  })
+})
+document.querySelectorAll(".js-closeDialog").forEach((btn) => {
+  btn.addEventListener("click", (ev) => {
+    const dialog = btn.closest("dialog");
+
+    if (dialog) {
+      dialog.close();
+    }
+  })
+})

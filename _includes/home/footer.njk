@@ -2,7 +2,7 @@
   <h3>{{ content.title | md(true) | safe }}</h3>
   
   {# Links #}
-  <ul>
+  <ul class="maincontent-footer-menu">
     {% for link in content.links %}
     <li>
       <a href="{{ link.url }}">

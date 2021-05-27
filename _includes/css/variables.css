@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,800;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root {
@@ -20,6 +20,7 @@
   --font-family: "Rubik", sans-serif;
   --font-weight-normal: 300;
   --font-weight-bold: 400;
+  --font-weight-black: 800;
 
   --font-12: var(--font-weight-normal) 1.2rem / 1.4rem var(--font-family);
   --font-12-bold: var(--font-weight-bold) 1.2rem / 1.4rem var(--font-family);
@@ -35,6 +36,7 @@
   --font-28-bold: var(--font-weight-bold) 2.8rem / 3.6rem var(--font-family);
   --font-36: var(--font-weight-normal) 3.6rem / 3.6rem var(--font-family);
   --font-36-bold: var(--font-weight-bold) 3.6rem / 3.6rem var(--font-family);
+  --font-36-black: var(--font-weight-black) 3.6rem / 3.6rem var(--font-family);
 
   --max-width: 1246px;
 }

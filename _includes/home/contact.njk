@@ -7,7 +7,7 @@
   {% set cont = content.team %}
   <h3>{{ cont.title | md(true) | safe }}</h3>
 
-  <ul>
+  <ul class="maincontent-cardlist">
     {% for person in cont.people %}
     <li>
       <img src="{{ person.img | url }}" alt="{{ person.name }}">

@@ -125,7 +125,7 @@ collections:
                   - label: Tipo
                     name: type
                     widget: select
-                    options: ["twitter", "linkedin"]
+                    options: ["twitter", "linkedin", "web"]
                   - label: Url
                     name: url
                     widget: string

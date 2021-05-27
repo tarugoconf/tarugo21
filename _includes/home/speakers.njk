@@ -5,27 +5,26 @@
 
   {{ content.intro | md | safe }}
 
-  <ul class="speakers-list">
+  <ul class="maincontent-cardlist has-3cols">
 
     {% for speaker in content.speakers %}
     <li>
-        <article class="speaker js-openDialog" style="--image: url('{{ speaker.data.image.src | url }}')">
-            <h4 class="speaker-title">{{ speaker.name }}</h4>
-            <p class="speaker-company">{{ speaker.company }}</p>
-            <em class="speaker-position">{{ speaker.position }}</em>
+        <article class="speaker">
+          <img src="{{ speaker.image }}">
+          <h4 class="speaker-name">{{ speaker.name }}</h4>
 
-            <address class="speaker-contact">
-                {% for link in speaker.links %}
-                  <a href="{{ link.url }}">
-                    {{ link.type }}
-                    {{ link.text }}
-                  </a>
-                {% endfor %}
-            </address>
+          <p class="speaker-company">
+            {{ speaker.company }}<br>
+            <em class="speaker-position">{{ speaker.position }}</em>
+          </p>
+
+          <button class="speaker-button js-openDialog" data-target="speaker-{{ loop.index }}">
+            <span>Más info</span>
+          </button>
         </article>
 
-        <div class="speaker-modal" id="dialog-{{ speaker.fileSlug }}">
-            <button class="js-closeDialog speaker-modal-close">Cerrar</button>
+        <dialog class="speaker-modal" id="speaker-{{ loop.index }}">
+            <button class="js-closeDialog speaker-modal-close button is-primary">Cerrar</button>
             
             <div class="speaker-modal-content">
                 <div class="speaker-photo">
@@ -33,17 +32,16 @@
                 </div>
 
                 <div class="speaker-modal-header">
-                    <h4 class="speaker-title">{{ speaker.name }}</h4>
+                    <h4 class="speaker-name">{{ speaker.name }}</h4>
                     <p class="speaker-company">{{ speaker.company }}</p>
                     <em class="speaker-position">{{ speaker.position }}</em>
                 </div>
 
-                <address class="speaker-contact">
+                <address class="speaker-links">
                     {% for link in speaker.links %}
-                      <a href="{{ link.url }}">
-                        {{ link.type }}
-                        {{ link.text }}
-                      </a>
+                    <a href="{{ link.url }}" class="button is-social is-{{ link.type }}">
+                      <img src="/img/{{ link.type }}.svg" inline>
+                    </a>
                     {% endfor %}
                 </address>
 
@@ -51,7 +49,7 @@
                     {{ speaker.bio | md | safe }}
                 </div>
             </div>
-        </div>
+        </dialog>
       </li>
       {% endfor %}
     </ul>
