@@ -86,7 +86,7 @@ collections:
                     required: false
 
       - label: Speakers
-        name: calendar
+        name: speakers
         file: _data/home/speakers.yml
         fields:
           - label: Título
@@ -127,7 +127,7 @@ collections:
                   - label: Url
                     name: url
                     widget: string
-                  - label: Biografía
-                    name: bio
-                    widget: markdown
-                    required: false
+              - label: Biografía
+                name: bio
+                widget: markdown
+                required: false
