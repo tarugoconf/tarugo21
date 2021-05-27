@@ -14,7 +14,7 @@
       <h3 class="ticket-keyname">Incluye</h3>
       <ul class="ticket-includes ticket-value">
         {% for inc in ticket.includes %}
-        <li>{{ inc | md | safe }}</li>
+        <li>{{ inc.text | md | safe }}</li>
         {% endfor %}
       </ul>
 

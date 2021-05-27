@@ -5,12 +5,12 @@ tickets:
     description: |
       Los primeros 500 tarugos que compren su entrada, se ahorrarán 25€ de la entrada estándar. ¡Suficiente para invitar a chocolate con churros a toda la familia!
     includes:
-      - Más de 10h de contenido en directo
-      - Reestreno de «Conspiración en la Red» en su 20º aniversario
-      - Acceso a grabaciones de charlas y reportajes
-      - Networking y Concursos
-      - Propuesta/votación de charlas en la Tarugoff, nuestro Open Space
-      - Camiseta del evento (enviada a tu casa)
+      - text: Más de 10h de contenido en directo
+      - text: Reestreno de «Conspiración en la Red» en su 20º aniversario
+      - text: Acceso a grabaciones de charlas y reportajes
+      - text: Networking y Concursos
+      - text: Propuesta/votación de charlas en la Tarugoff, nuestro Open Space
+      - text: Camiseta del evento (enviada a tu casa)
     delivery:
       date: Octubre 2021
       address: Toda España
@@ -22,11 +22,11 @@ tickets:
     description: |
       Una entrada creada para los que deseen que su asistencia a la Tarugo no deje ninguna huella de carbono y prefieran no recibir ningún tipo de merchandising.
     includes:
-      - Más de 10h de contenido en directo
-      - Reestreno de «Conspiración en la Red» en su 20o aniversario
-      - Acceso a grabaciones de charlas y reportajes
-      - Networking y Concursos
-      - Propuesta/votación de charlas en la Tarugoff, nuestro Open Space
+      - text: Más de 10h de contenido en directo
+      - text: Reestreno de «Conspiración en la Red» en su 20o aniversario
+      - text: Acceso a grabaciones de charlas y reportajes
+      - text: Networking y Concursos
+      - text: Propuesta/votación de charlas en la Tarugoff, nuestro Open Space
     delivery:
       date: Octubre 2021
       address: Todo el mundo
@@ -37,12 +37,12 @@ tickets:
     description: |
       Acceso completo a todos los contenidos de la Tarugoconf y, además, recepción en casa de todos los goodies y regalos promocionales del evento (camisetas, pegatinas, cuadernos, etc...)
     includes:
-      - Más de 10h de contenido en directo
-      - Reestreno de «Conspiración en la Red» en su 20o aniversario
-      - Acceso a grabaciones de charlas y reportajes
-      - Networking y Concursos
-      - Propuesta/votación de charlas en la Tarugoff, nuestro Open Space
-      - Camiseta del evento (enviada a tu casa)
+      - text: Más de 10h de contenido en directo
+      - text: Reestreno de «Conspiración en la Red» en su 20o aniversario
+      - text: Acceso a grabaciones de charlas y reportajes
+      - text: Networking y Concursos
+      - text: Propuesta/votación de charlas en la Tarugoff, nuestro Open Space
+      - text: Camiseta del evento (enviada a tu casa)
     delivery:
       date: Octubre 2021
       address: Toda España
@@ -53,8 +53,8 @@ tickets:
     description: |
       ¡El pack perfecto para disfrutar del evento en familia o con amigos!
     includes:
-      - Todas los beneficios incluidos en la entrada de tipo Tarug@ y, además...
-      - "**3 camisetas extra** (haciendo un totoal de 4) de la talla que deseéis (incluyendo tallas para niños)."
+      - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ y, además...
+      - text: "**3 camisetas extra** (haciendo un totoal de 4) de la talla que deseéis (incluyendo tallas para niños)."
     delivery:
       date: Octubre 2021
       address: Toda España
@@ -65,10 +65,10 @@ tickets:
     description: |
       Una entrada pensada para particulares que crean en la visión de la Tarugoconf y quieran contribuir a la misma con una aportación especial.
     includes:
-      - Todas los beneficios incluidos en la entrada de tipo Tarug@ y, además...
-      - 1 Goodie exclusivo para Mecenas, enviado a tu casa o a tu empresa
-      - Tu foto en la web del evento
-      - 1 entrada VIP que otorga **la posibilidad de asistir EN PERSONA a la grabación del evento**
+      - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ y, además...
+      - text: 1 Goodie exclusivo para Mecenas, enviado a tu casa o a tu empresa
+      - text: Tu foto en la web del evento
+      - text: 1 entrada VIP que otorga **la posibilidad de asistir EN PERSONA a la grabación del evento**
     delivery:
       date: Octubre 2021
       address: Toda España
@@ -80,9 +80,9 @@ tickets:
     description: |
       Una entrada pensada para empresas que quieran ofrecer a sus empleados, clientes e invitados la posibilidad de experimentar una Tarugoconf y, al mismo tiempo, estrechar lazos entre los mismos.
     includes:
-      - Logo de tu empresa en la web del evento
-      - "**20 entradas** de tipo Tarug@ para tus empleados e invitados (incluyendo 20 camisetas que enviaremos a tu oficina)"
-      - "**Sala de chat privada durante el evento**"
+      - text: Logo de tu empresa en la web del evento
+      - text: "**20 entradas** de tipo Tarug@ para tus empleados e invitados (incluyendo 20 camisetas que enviaremos a tu oficina)"
+      - text: "**Sala de chat privada durante el evento**"
     delivery:
       date: Octubre 2021
       address: Toda España
