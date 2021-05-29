@@ -251,7 +251,7 @@
     cursor: pointer;
     font: var(--font-14);
     padding: 1.8rem;
-    padding-right: 3rem;
+    padding-right: 5rem;
     display: block;
 
     &::after {
