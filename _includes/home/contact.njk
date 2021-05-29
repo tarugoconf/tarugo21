@@ -33,9 +33,11 @@
   <ul class="maincontent-cardlist team-members">
     {% for person in cont.people %}
     <li class="team-member">
-      <img src="{{ person.img | url }}" alt="Foto pixelada de {{ person.name }}">
-      <strong>{{ person.name }}</strong>
-      {{ person.title }}
+      <a href="{{ person.url }}" target="_blank">
+        <img src="{{ person.img | url }}" alt="Foto pixelada de {{ person.name }}">
+        <strong>{{ person.name }}</strong>
+        {{ person.title }}
+      </a>
     </li>
     {% endfor %}
   </ul>

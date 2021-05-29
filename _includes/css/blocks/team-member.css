@@ -1,17 +1,35 @@
 .team-members {
-  background-color: #00fa8c;
   color: #156d6d;
   font-family: var(--font-pixel);
   font-size: 12px;
-  padding-bottom: 20px;
-  border: solid 5px;
   margin-top: 0;
+  gap: 0;
 }
 .team-member {
-  width: 160px !important;
+  width: 180px !important;
+
+  & > a {
+    display: block;
+    text-decoration: none;
+    transition: background-color 1s;
+    transition-delay: 0.5s;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+    &:hover {
+      background-color: #00fa8c;
+      transition: background-color 100ms;
+
+      & img {
+        transition-duration: 100ms;
+      }
+    }
+  }
 
   & img {
     filter: sepia(80%) hue-rotate(160deg) saturate(150%);
+    transition: filter 1s;
   }
 
   & strong {
