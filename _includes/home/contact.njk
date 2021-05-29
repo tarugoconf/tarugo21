@@ -3,6 +3,29 @@
     <h2>{{ content.title | md(true) | safe }}</h2>
   </header>
 
+  <div class="ly-contact">
+    <div class="ly-contact-manager">
+      <tarugo-img>
+        <img src="{{ content.manager.img }}">
+      </tarugo-img>
+      <strong class="contact-manager-name">{{ content.manager.name }}</strong><br>
+      <em class="contact-manager-position">{{ content.manager.title }}</em>
+    </div>
+
+    <div class="ly-contact-address">
+      {{ content.address | md | safe }}
+    </div>
+
+    <address class="ly-contact-links">
+      {% for link in content.links %}
+      <a href="{{ link.url }}" class="has-icon">
+        <img src="/img/{{ link.type }}.svg" inline>
+        {{ link.text}}
+      </a>
+      {% endfor %}
+    </address>
+  </div>
+
   {# Team #}
   {% set cont = content.team %}
   <h3>{{ cont.title | md(true) | safe }}</h3>

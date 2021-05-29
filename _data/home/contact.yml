@@ -3,23 +3,30 @@ title: Contacto
 manager:
   name: Candela Milán
   title: Event manager
-  address: |
-    **Bonillaware SLU**
+  img: /img/candela.jpg
 
-    Castellana 194, Cink Coworking 28046 Madrid (España)
+address: |
+  **Bonillaware SLU**
 
-  links:
-    - text: tarugoconf@bonillaware.com
-      url: "mailto:tarugoconf@bonillaware.com"
+  Castellana 194, Cink Coworking  
+  28046 Madrid (España)
 
-    - text: "@candelamd"
-      url: "https://twitter.com/candelamd"
+links:
+  - text: tarugoconf@bonillaware.com
+    type: email
+    url: "mailto:tarugoconf@bonillaware.com"
 
-    - text: "tarugoconf.slack.com"
-      url: "https://tarugoconf.slack.com"
+  - text: "@candelamd"
+    type: twitter
+    url: "https://twitter.com/candelamd"
 
-    - text: "@tarugoconf"
-      url: "https://twitter.com/tarugoconf"
+  - text: "tarugoconf.slack.com"
+    type: slack
+    url: "https://tarugoconf.slack.com"
+
+  - text: "@tarugoconf"
+    type: twitter
+    url: "https://twitter.com/tarugoconf"
 
 team:
   title: "El equipo de la #tarugo21"

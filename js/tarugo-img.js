@@ -34,6 +34,7 @@ class Img extends HTMLElement {
 
     const size = 30;
     let paused = true;
+    const animated = this.hasAttribute("animated");
 
     function animate() {
       if (paused) {
@@ -50,15 +51,20 @@ class Img extends HTMLElement {
         0,
         0,
       );
-
-      requestAnimationFrame(animate);
+      
+      if (animated) {
+        requestAnimationFrame(animate);
+      }
     }
 
     this.addEventListener("mouseenter", () => {
       paused = false;
       animate();
     });
-    this.addEventListener("mouseleave", () => paused = true);
+    this.addEventListener("mouseleave", () => {
+      paused = true;
+      animate();
+    });
   }
 }
 

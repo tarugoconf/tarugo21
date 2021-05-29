@@ -23,14 +23,17 @@ ctaObserver.observe(document.querySelector(".project-actions"));
 // Marcar a opción actual no menú
 const menuObserver = new IntersectionObserver((entries) => {
   for (const entry of entries) {
-    currentLink = menu.querySelector(`a[href='#${entry.target.id}']`);
+    if (entry.intersectionRatio > 0) {
+      history.replaceState(null, "", `#${entry.target.id}`);
 
-    if (currentLink && entry.intersectionRatio > 0) {
-      menu.querySelectorAll(".is-visible").forEach((element) =>
-        element.classList.remove("is-visible")
-      );
-      currentLink.classList.add("is-visible");
-      history.replaceState(null, "", currentLink.getAttribute("href"));
+      currentLink = menu.querySelector(`a[href='#${entry.target.id}']`);
+  
+      if (currentLink) {
+        menu.querySelectorAll(".is-visible").forEach((element) =>
+          element.classList.remove("is-visible")
+        );
+        currentLink.classList.add("is-visible");
+      }
     }
   }
 }, { rootMargin: "100px 0px -66% 0px" });
