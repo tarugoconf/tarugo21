@@ -133,3 +133,65 @@ collections:
                 name: bio
                 widget: markdown
                 required: false
+
+      - label: Partners
+        name: partners
+        file: _data/home/partners.yml
+        fields:
+          - label: Título
+            name: title
+            widget: string
+          - label: Intro
+            name: intro
+            widget: markdown
+          - label: Partner principal
+            name: main
+            widget: object
+            fields:
+              - label: Imagen
+                name: image
+                widget: image
+                allow_multiple: false
+                media_folder: /img/partners
+              - label: Alt
+                name: alt
+                widget: string
+              - label: Url
+                name: url
+                widget: string
+              - label: Texto
+                name: text
+                widget: markdown
+          - label: Partners secundarios
+            name: partners
+            widget: list
+            fields:
+              - label: Imagen
+                name: image
+                widget: image
+                allow_multiple: false
+                media_folder: /img/partners
+              - label: Alt
+                name: alt
+                widget: string
+              - label: Url
+                name: url
+                widget: string
+              - label: Texto
+                name: text
+                widget: markdown
+          - label: Patrocinadores
+            name: patrons
+            widget: list
+            fields:
+              - label: Imagen
+                name: image
+                widget: image
+                allow_multiple: false
+                media_folder: /img/partners
+              - label: Alt
+                name: alt
+                widget: string
+              - label: Url
+                name: url
+                widget: string

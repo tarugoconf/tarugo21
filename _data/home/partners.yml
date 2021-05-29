@@ -8,18 +8,21 @@ intro: |
   Si quieres ser parte de este esfuerzo, consulta nuestras oportunidades de patrocinio ¡graciñas!
 
 main:
-  name: Patrocinador principal
+  img: https://via.placeholder.com/800x400/CCCCCC/000000/?text=TU%20LOGO%20AQUI
+  url: https://tarugoconf.com
+  alt: Nombre empresa
+  text: Descripción
 
 partners:
-  - name: Patrocinador estándar
-  - name: Patrocinador estándar
-  - name: Patrocinador estándar
+  - img: https://via.placeholder.com/400x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
+    url: https://tarugoconf.com
+    alt: Nombre empresa
+    text: Descripción
 
-patron:
-  - name: Patrocinador mecenas
-  - name: Patrocinador mecenas
-  - name: Patrocinador mecenas
-  - name: Patrocinador mecenas
+patrons:
+  - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
+    url: https://tarugoconf.com
+    alt: Nombre empresa
 
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
