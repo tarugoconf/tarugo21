@@ -124,7 +124,8 @@
 
 
 dialog {
-  left: 0; right: 0;
+  left: 0;
+  right: 0;
   width: -moz-fit-content;
   width: -webkit-fit-content;
   width: fit-content;
@@ -133,7 +134,7 @@ dialog {
   height: fit-content;
   margin: auto;
   border: solid;
-  padding: 1em;
+  padding: 0;
   background: white;
   color: black;
   display: block;
@@ -146,7 +147,6 @@ dialog:not([open]) {
 dialog + .backdrop {
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
-  background: rgba(0,0,0,0.1);
 }
 
 ._dialog_overlay {
@@ -173,14 +173,18 @@ dialog + .backdrop {
     }
 
     & + .backdrop {
-        background-color: #0009;
+        background-color: transparent;
     }
     & ::backdrop {
-        background-color: #0009;
+        background-color: transparent;
     }
 
     @media (max-width: 900px) {
         height: 100%;
+        max-height: 100%;
+        margin: 0;
+        top: 0;
+        transform: none;
         border-radius: 0;
     }
 }
