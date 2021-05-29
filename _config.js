@@ -10,6 +10,7 @@ site
   .copy("js")
   .copy("img")
   .copy("admin")
+  .copy("favicons", ".")
   .use(inline())
   .use(date())
   .use(postcss())
