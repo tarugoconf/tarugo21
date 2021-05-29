@@ -1,0 +1,26 @@
+.team-members {
+  background-color: #00fa8c;
+  color: #156d6d;
+  font-family: var(--font-pixel);
+  font-size: 12px;
+  padding-bottom: 20px;
+  border: solid 5px;
+  margin-top: 0;
+}
+.team-member {
+  width: 160px !important;
+
+  & img {
+    filter: sepia(80%) hue-rotate(160deg) saturate(150%);
+  }
+
+  & strong {
+    font: inherit;
+    text-transform: uppercase;
+    color: #003e3e;
+  }
+
+  &:hover img {
+    filter: none;
+  }
+}

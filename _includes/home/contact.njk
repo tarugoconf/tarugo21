@@ -30,10 +30,11 @@
   {% set cont = content.team %}
   <h3>{{ cont.title | md(true) | safe }}</h3>
 
-  <ul class="maincontent-cardlist">
+  <ul class="maincontent-cardlist team-members">
     {% for person in cont.people %}
-    <li>
-      <img src="{{ person.img | url }}" alt="{{ person.name }}">
+    <li class="team-member">
+      <img src="{{ person.img | url }}" alt="Foto pixelada de {{ person.name }}">
+      <strong>{{ person.name }}</strong>
       {{ person.title }}
     </li>
     {% endfor %}

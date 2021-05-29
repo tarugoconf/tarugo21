@@ -31,18 +31,15 @@ links:
 team:
   title: "El equipo de la #tarugo21"
   people:
-    - name: Nombre
-      title: Cargo
-      img: https://via.placeholder.com/100x100
-
-    - name: Nombre
-      title: Cargo
-      img: https://via.placeholder.com/100x100
-
-    - name: Nombre
-      title: Cargo
-      img: https://via.placeholder.com/100x100
-
-    - name: Nombre
-      title: Cargo
-      img: https://via.placeholder.com/100x100
+    - name: Miguel
+      title: Corista
+      img: /img/equipo/miguel_caballero.png
+    - name: Miguel
+      title: Corista
+      img: /img/equipo/miguel_caballero.png
+    - name: Miguel
+      title: Corista
+      img: /img/equipo/miguel_caballero.png
+    - name: Miguel
+      title: Corista
+      img: /img/equipo/miguel_caballero.png
