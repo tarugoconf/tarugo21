@@ -195,3 +195,13 @@ collections:
               - label: Url
                 name: url
                 widget: string
+          - label: Únete
+            name: join
+            widget: object
+            fields:
+              - label: Título
+                name: title
+                widget: string
+              - label: Texto
+                name: content
+                widget: markdown
