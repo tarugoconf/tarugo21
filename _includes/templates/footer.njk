@@ -1,0 +1,35 @@
+<footer class="footer">
+  <h3>{{ footer.title | md(true) | safe }}</h3>
+  
+  <ul class="footer-links">
+    {% for link in share.links %}
+    <li>
+      {% if link.copy %}
+        <tarugo-copy data-text="{{ link.href }}">
+        <a href="{{ link.href }}" class="button is-social is-{{ link.type }}" title="{{ link.title }}" target="_blank">
+          <img src="/img/{{ link.type }}.svg" alt="{{ link.type }}" inline>
+        </a>
+        </tarugo-copy>
+        {% else %}
+        <a href="{{ link.href }}" class="button is-social is-{{ link.type }}" title="{{ link.title }}" target="_blank">
+          <img src="/img/{{ link.type }}.svg" alt="{{ link.type }}" inline>
+        </a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+
+  <p>
+    <small>{{ footer.copyright | md | safe }}</small>
+  </p>
+
+  <ul class="footer-menu">
+    {% for link in footer.menu %}
+    <li>
+      <a href="{{ link.href | url }}">
+        {{ link.title }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</footer>

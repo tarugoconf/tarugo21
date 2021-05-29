@@ -1,0 +1,14 @@
+links:
+  - title: Compartir en Twitter
+    type: twitter
+    href: https://twitter.com/intent/tweet?url=https://tarugoconf.com
+  - title: Compartir en Linkedin
+    type: linkedin
+    href: https://www.linkedin.com/shareArticle?url=https://tarugoconf.com
+  - title: Compartir por email
+    type: email
+    href: mailto:?body=https://tarugoconf.com
+  - title: Copiar link
+    type: link
+    copy: true
+    href: https://tarugoconf.com

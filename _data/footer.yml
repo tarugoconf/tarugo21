@@ -1,0 +1,13 @@
+title: Paz, Amor y Tarugo
+
+copyright: "© 2021 Bonillaware SLU"
+
+menu:
+  - title: Aviso legal
+    href: ~/aviso-legal.md
+  - title: Política de privacidad
+    href: ~/politica-de-privacidad.md
+  - title: Código de conducta
+    href: ~/codigo-de-conducta.md
+  - title: Humans.txt
+    href: ~/humans.njk

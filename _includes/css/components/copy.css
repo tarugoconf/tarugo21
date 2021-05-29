@@ -1,0 +1,33 @@
+tarugo-copy {
+  position: relative;
+  cursor: pointer;
+  display: block;
+
+  &.is-copied::before {
+    content: "Copiado!";
+    display: block;
+    padding: 5px 10px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    box-shadow: 0 2px 3px #0003;
+    background: white;
+    border-radius: 4px;
+    color: gray;
+    animation: showMessage 2s;
+    animation-fill-mode: both;
+    font-weight: 400;
+    cursor: inherit;
+  }
+}
+@keyframes showMessage {
+  0%, 100% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  20%, 80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

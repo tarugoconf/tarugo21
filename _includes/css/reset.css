@@ -24,3 +24,10 @@ video {
   display: block;
   margin: 2em 0;
 }
+
+hr {
+  border: none;
+  border-top: solid 1px var(--color-primary-500);
+  width: 80%;
+  margin: 50px auto;
+}

@@ -83,6 +83,7 @@
 .project-subactions {
   display: flex;
   justify-content: space-between;
+  grid-gap: 5px;
 
   & .button.is-secondary {
     flex-grow: 3;

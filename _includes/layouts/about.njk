@@ -1,0 +1,21 @@
+---
+layout: layouts/layout.njk
+menu:
+  - text: ← Volver
+    href: '/'
+scripts:
+---
+
+<nav class="mainbar">
+  <a href="{{ '/' | url }}">
+    <img class="mainbar-logo" src="{{ 'img/tarugo21-kickstarter.svg' | url }}">
+  </a>
+</nav>
+
+{% include "templates/navbar.njk" %}
+
+<div class="maincontent">
+  <section class="maincontent-narrow">
+    {{ content | safe }}
+  </section>
+</div>

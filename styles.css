@@ -3,6 +3,7 @@
 
 /* Components */
 @import "css/components/carousel.css";
+@import "css/components/copy.css";
 @import "css/components/icon.css";
 @import "css/components/progress.css";
 @import "css/components/button.css";
@@ -16,3 +17,4 @@
 @import "css/blocks/maincontent.css";
 @import "css/blocks/calendar.css";
 @import "css/blocks/speakers.css";
+@import "css/blocks/footer.css";

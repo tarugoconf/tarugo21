@@ -48,12 +48,20 @@ scripts:
 
       <p class="project-subactions">
         <a href="#" class="button is-secondary">Patrocínalo</a>
-        <a href="#" class="button is-social is-twitter">
-          <img src="{{ '/img/twitter.svg' | url }}" inline>
-        </a>
-        <a href="#" class="button is-social is-linkedin">
-          <img src="{{ '/img/linkedin.svg' | url }}" inline>
-        </a>
+
+        {% for link in share.links %}
+          {% if link.copy %}
+          <tarugo-copy data-text="{{ link.href }}">
+          <a href="{{ link.href }}" class="button is-social is-{{ link.type }}" title="{{ link.title }}" target="_blank">
+            <img src="/img/{{ link.type }}.svg" alt="{{ link.type }}" inline>
+          </a>
+          </tarugo-copy>
+          {% else %}
+          <a href="{{ link.href }}" class="button is-social is-{{ link.type }}" title="{{ link.title }}" target="_blank">
+            <img src="/img/{{ link.type }}.svg" alt="{{ link.type }}" inline>
+          </a>
+          {% endif %}
+        {% endfor %}
       </p>
     </div>
   </div>
@@ -99,8 +107,7 @@ scripts:
   </div>
 </div>
 
-{% set content = footer %}
-{% include "home/footer.njk" %}
+{% include "templates/footer.njk" %}
 
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
