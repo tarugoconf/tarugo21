@@ -103,7 +103,7 @@ team:
 
     - name: Molpe
       title: Corista
-      img: --
+      img: /img/equipo/Molpe.png
       url: https://twitter.com/molpe
 
     - name: Oscar
