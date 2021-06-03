@@ -34,7 +34,7 @@ menu_cta:
     href: ~/pledge.yml
     class: is-primary
   - text: Patrocinar
-    href: "#"
+    href: "#partners"
     class: is-secondary
 
 aside:
