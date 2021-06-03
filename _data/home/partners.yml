@@ -14,18 +14,16 @@ main:
   url: https://tarugoconf.com
   alt: Nombre empresa
   text: Descripción
-  image: https://via.placeholder.com/400x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
 partners:
   - img: https://via.placeholder.com/400x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
     alt: Nombre empresa
     text: Descripción
-    image: https://via.placeholder.com/400x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
-  - image: https://s03.s3c.es/imag/_v0/900x400/1/c/b/Deiser.jpg
+  - img: https://s03.s3c.es/imag/_v0/900x400/1/c/b/Deiser.jpg
     alt: Deiser
     url: https://www.deiser.com/
     text: Deiser
-  - image: /img/partners/deiser.jpeg
+  - img: /img/partners/deiser.jpeg
     alt: Deiser 2
     url: https://www.deiser.com/
     text: Deiser 2
@@ -33,7 +31,6 @@ patrons:
   - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
     alt: Nombre empresa
-    image: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >

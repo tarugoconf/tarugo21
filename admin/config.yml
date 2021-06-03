@@ -149,7 +149,7 @@ collections:
             widget: object
             fields:
               - label: Imagen
-                name: image
+                name: img
                 widget: image
                 allow_multiple: false
                 media_folder: /img/partners
@@ -167,7 +167,7 @@ collections:
             widget: list
             fields:
               - label: Imagen
-                name: image
+                name: img
                 widget: image
                 allow_multiple: false
                 media_folder: /img/partners
@@ -185,7 +185,7 @@ collections:
             widget: list
             fields:
               - label: Imagen
-                name: image
+                name: img
                 widget: image
                 allow_multiple: false
                 media_folder: /img/partners
