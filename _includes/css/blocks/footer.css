@@ -9,15 +9,24 @@
 .footer-menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
   margin: 50px 0;
   list-style: none;
   padding: 0;
   justify-content: center;
+
+  & a {
+    display: block;
+    padding: 10px;
+
+    &:hover {
+      color: var(--color-grey);
+      text-decoration: none;
+    }
+  }
 }
 .footer-links {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 46px);
   gap: 20px;
   margin: 50px 0;
   list-style: none;

@@ -41,20 +41,6 @@ const menuObserver = new IntersectionObserver((entries) => {
 document.querySelectorAll(".maincontent-content > [id]")
   .forEach((section) => menuObserver.observe(section));
 
-// Abrir e cerrar o menú en móbil
-const menuBtn = document.querySelector(".navbar-menu-button");
-
-menuBtn.addEventListener("click", (event) => {
-  menu.classList.add("is-open");
-  event.stopPropagation();
-});
-menu.addEventListener("click", (event) => {
-  if (event.target.matches("a")) {
-    setTimeout(() => menu.classList.remove("is-open"), 100);
-  }
-  event.stopPropagation();
-});
-document.body.addEventListener("click", () => menu.classList.remove("is-open"));
 
 // Diálogos
 document.querySelectorAll('dialog').forEach((dialog) => {

@@ -148,14 +148,14 @@ collections:
             name: main
             widget: object
             fields:
+              - label: Alt
+                name: alt
+                widget: string
               - label: Imagen
                 name: img
                 widget: image
                 allow_multiple: false
                 media_folder: /img/partners
-              - label: Alt
-                name: alt
-                widget: string
               - label: Url
                 name: url
                 widget: string
@@ -166,14 +166,14 @@ collections:
             name: partners
             widget: list
             fields:
+              - label: Alt
+                name: alt
+                widget: string
               - label: Imagen
                 name: img
                 widget: image
                 allow_multiple: false
                 media_folder: /img/partners
-              - label: Alt
-                name: alt
-                widget: string
               - label: Url
                 name: url
                 widget: string
@@ -184,14 +184,14 @@ collections:
             name: patrons
             widget: list
             fields:
+              - label: Alt
+                name: alt
+                widget: string
               - label: Imagen
                 name: img
                 widget: image
                 allow_multiple: false
                 media_folder: /img/partners
-              - label: Alt
-                name: alt
-                widget: string
               - label: Url
                 name: url
                 widget: string
