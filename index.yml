@@ -27,7 +27,7 @@ menu:
   - text: Blog
     href: "https://www.tarugoconf.com/blog/"
   - text: Tarugoff
-    href: https://www.tarugoconf.com/tarugoff/
+    href: /tarugoff/
 
 menu_cta:
   - text: Asistir

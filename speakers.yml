@@ -64,40 +64,40 @@ benefits:
     Remuneramos a ponentes speakers con una **pequeña gratificación de 250€**, pero el esfuerzo invertido en preparar una charla es igual que el esfuerzo invertido en preparar un evento —nunca es rentable desde el punto de vista económico— así que, lo menos que podemos hacer es compensarlos en su justa medida. Ellos son las verdaderas estrellas de la Tarugoconf.
   benefits:
     - title: Viaje
-      img: img/benefits/plane.svg
+      img: /img/benefits/plane.svg
       description: El evento se grabará en directo en un plató de TV en Madrid. Y, por supuesto, nos hacemos cargo de todos los gastos del viaje.
     - title: Alojamiento
-      img: img/benefits/bed.svg
+      img: /img/benefits/bed.svg
       description: También cubrimos tu alojamiento. Y si quieres venir con la familia, reservaremos una habitación en la que quepáis todos.
     - title: Diseño
-      img: img/benefits/artboard.svg
+      img: /img/benefits/artboard.svg
       description: Si lo deseas, nuestro diseñador revisará tu presentación y la «vestirá» con un aspecto profesional para que brille.
     - title: Storytelling
-      img: img/benefits/unicorn.svg
+      img: /img/benefits/unicorn.svg
       description: Si quieres, te ayudaremos a descubrir la historia detrás de los datos y los hechos, para cautivar a la audiencia.
     - title: Acceso VIP
-      img: img/benefits/vip.svg
+      img: /img/benefits/vip.svg
       description: Tu entrada te dará acceso a todas las actividades de la Tarugoconf, desde los talleres hasta el Open Space del sábado.
     - title: Regalo
-      img: img/benefits/gift.svg
+      img: /img/benefits/gift.svg
       description: Somos gallegos, así que, cuenta con un regalo de cortesía y, probablemente, relacionado con la gastronomía...
     - title: Entradas
-      img: img/benefits/tickets.svg
+      img: /img/benefits/tickets.svg
       description: Todos los ponentes de la Tarugoconf tienen garantizada una entrada para la siguiente edición. Sin coste.
     - title: Sketchnoting
-      img: img/benefits/blueprint.svg
+      img: /img/benefits/blueprint.svg
       description: Tu charla será «dibujada» por nuestro sketchnoter y podrás disponer del dibujo y difundirlo como consideres.
     - title: Vídeo
-      img: img/benefits/video.svg
+      img: /img/benefits/video.svg
       description: Tu charla será grabada por 5 cámaras que recogerán todos los detalles y publicada en Vimeo. Si nos das tu consentimiento, claro :)
     - title: Transporte
-      img: img/benefits/taxi.svg
+      img: /img/benefits/taxi.svg
       description: Nos haremos cargo no sólo de tu viaje hasta Madrid sino de tus desplazamientos dentro de la ciudad. Faltaría más.
     - title: Networking
-      img: img/benefits/networking.svg
+      img: /img/benefits/networking.svg
       description: Por tu seguridad sanitaria, el acceso al plató será muy restringido, así que, conocerás al resto de ponentes en un ambiente familiar.
     - title: Cariño
-      img: img/benefits/music.svg
+      img: /img/benefits/music.svg
       description: Para nosotros no serás un ponente sino nuestro invitado. Nos dejaremos la piel para que te sientas como en casa.
 
 speakers:

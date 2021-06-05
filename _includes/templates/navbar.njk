@@ -11,18 +11,18 @@
     </button>
     <ul class="navbar-menu">
       {% for item in menu %}
-      <li><a href="{{ item.href | url }}">{{ item.text }}</a></li>
+      <li><a href="{{ item.href }}">{{ item.text }}</a></li>
       {% endfor %}
 
       {% for item in menu_cta %}
-      <li class="navbar-menu-cta"><a href="{{ item.href | url }}" class="button {{ item.class }}">{{ item.text }}</a></li>
+      <li class="navbar-menu-cta"><a href="{{ item.href }}" class="button {{ item.class }}">{{ item.text }}</a></li>
       {% endfor %}
     </ul>
 
     {% if menu_cta %}
     <ul class="navbar-ctas">
       {% for item in menu_cta %}
-      <li><a href="{{ item.href | url }}" class="button {{ item.class }}">{{ item.text }}</a></li>
+      <li><a href="{{ item.href }}" class="button {{ item.class }}">{{ item.text }}</a></li>
       {% endfor %}
     </ul>
     {% endif %}

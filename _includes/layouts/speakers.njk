@@ -6,8 +6,8 @@ scripts:
 ---
 
 <nav class="mainbar">
-  <a href="{{ '/' | url }}">
-    <img class="mainbar-logo" src="{{ 'img/tarugo21-kickstarter.svg' | url }}">
+  <a href="/">
+    <img class="mainbar-logo" src="/img/tarugo21-kickstarter.svg">
   </a>
 </nav>
 
@@ -32,12 +32,12 @@ scripts:
 
     <figure class="maincontent-photo">
         <picture>
-          <source srcset="{{ image.src | url }}-1600px.webp" media="(min-width:800px)" type="image/webp">
-          <source srcset="{{ image.src | url }}-1600px.jpg" media="(min-width:800px)">
-          <source srcset="{{ image.src | url }}-800px.webp" type="image/webp">
+          <source srcset="{{ image.src }}-1600px.webp" media="(min-width:800px)" type="image/webp">
+          <source srcset="{{ image.src }}-1600px.jpg" media="(min-width:800px)">
+          <source srcset="{{ image.src }}-800px.webp" type="image/webp">
       
           <img
-            src="{{ image.src | url }}-800px.jpg"
+            src="{{ image.src }}-800px.jpg"
             alt="{{ image.alt }}"
             width="{{ image.width }}"
             height="{{ image.height }}"
@@ -54,7 +54,7 @@ scripts:
 
     <figure class="maincontent-photo">
       <tarugo-video id="video" data-id="305100749" title="#tarugo3 / Andrés Torrubia / Haciendo posible lo imposible">
-        <img src="{{ 'img/speaker-andres.webp' | url }}">
+        <img src="/img/speaker-andres.webp">
         <a href="https://vimeo.com/305100749">#tarugo3 / Andrés Torrubia / Haciendo posible lo imposible</a>
       </tarugo-video>
     </figure>
@@ -68,7 +68,7 @@ scripts:
         <ul class="maincontent-cardlist">
             {% for item in benefits.benefits %}
             <li>
-                <img src="{{ item.img | url }}" inline>
+                <img src="{{ item.img }}" inline>
                 <strong>{{ item.title }}</strong>
                 {{ item.description | md | safe }}
             </li>
@@ -86,7 +86,7 @@ scripts:
                   {{ item.quote | md | safe }}
                 </blockquote>
                 <figcaption>
-                  <img src="{{ item.image | url }}">
+                  <img src="{{ item.image }}">
                   <p>
                     <cite>{{ item.name }}</cite><br>
                     {{ item.position }}
@@ -105,14 +105,14 @@ scripts:
           {% for item in speakers.speakers %}
           <li>
             <tarugo-img>
-            <img class="pastSpeaker-image" src="{{ item.image | url }}">
+            <img class="pastSpeaker-image" src="{{ item.image }}">
             </tarugo-img>
 
             <strong>{{ item.name }}</strong>
             <em>{{ item.position }}</em>
 
             <a href="{{ item.twitter.url }}" class="button is-social is-twitter" title="{{ item.twitter.title }}">
-              <img src="{{ '/img/twitter.svg' | url }}" inline>
+              <img src="/img/twitter.svg" inline>
             </a>
           </li>
           {% endfor %}

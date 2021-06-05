@@ -34,7 +34,7 @@
     {% for person in cont.people %}
     <li class="team-member">
       <a href="{{ person.url }}" target="_blank">
-        <img src="{{ person.img | url }}" alt="Foto pixelada de {{ person.name }}">
+        <img src="{{ person.img }}" alt="Foto pixelada de {{ person.name }}">
         <strong>{{ person.name }}</strong>
         {{ person.title }}
       </a>

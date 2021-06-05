@@ -10,7 +10,7 @@
     <li>
       <figure class="partner">
           <a href="{{ partner.url }}" rel="noopener">
-            <img src="{{ partner.img | url }}" alt="{{ partner.alt }}">
+            <img src="{{ partner.img }}" alt="{{ partner.alt }}">
           </a>
 
           <figcaption>
@@ -25,7 +25,7 @@
     <li>
       <figure class="partner">
           <a href="{{ partner.url }}" rel="noopener">
-            <img src="{{ partner.img | url }}" alt="{{ partner.alt }}">
+            <img src="{{ partner.img }}" alt="{{ partner.alt }}">
           </a>
 
           <figcaption>
@@ -42,7 +42,7 @@
     {% for partner in content.patrons %}
       <li class="partner">
         <a href="{{ partner.url }}" rel="noopener">
-          <img src="{{ partner.img | url }}" alt="{{ partner.alt }}">
+          <img src="{{ partner.img }}" alt="{{ partner.alt }}">
         </a>
       </li>
     {% endfor %}

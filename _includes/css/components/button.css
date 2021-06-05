@@ -75,4 +75,9 @@
       box-shadow: 0px 2px 5px rgba(22,22,22,0.16);
     }
   }
+
+  &.is-centered {
+    max-width: 20em;
+    margin: 2em auto 0;
+  }
 }

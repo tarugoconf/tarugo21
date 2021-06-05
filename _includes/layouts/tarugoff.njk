@@ -1,0 +1,89 @@
+---
+layout: layouts/layout.njk
+scripts:
+  - /js/components.js
+  - /js/menu.js
+---
+
+<nav class="mainbar">
+  <a href="/">
+    <img class="mainbar-logo" src="/img/tarugo21-kickstarter.svg">
+  </a>
+</nav>
+
+{% include "templates/navbar.njk" %}
+
+<div class="maincontent">
+  <div class="maincontent-narrow">
+    <header class="maincontent-aside-header">
+      <img src="/img/logo-tarugo.png" alt="Logo Tarugo" width="50">
+
+      <h2>
+        {{ header.title }}<br>
+        {{ header.subtitle | md(true) | trim | safe }}
+      </h2>
+    </header>
+
+    <figure class="maincontent-photo">
+      <tarugo-video id="video" data-id="456634375" title="#tarugoff">
+        <img src="/img/speaker-andres.webp">
+        <a href="https://vimeo.com/456634375">#tarugoff</a>
+      </tarugo-video>
+    </figure>
+
+    <section id="what">
+      <h2>{{ what.title }}</h2>
+
+      {{ what.text | md | safe }}
+
+      <div class="maincontent-sentence">{{ what.aside | md | safe }}</div>
+    </section>
+
+    <section class="participate" id="participate">
+      <h2 class="participate-title">{{ participate.title }}</h2>
+
+      <div class="maincontent-box">
+        <div class="participate-intro">
+          {{ participate.intro | md | safe }}
+        </div>
+
+        <footer class="participate-footer">
+          {{ participate.footer | md | safe }}
+        </footer>
+      </div>
+
+      <div class="maincontent-cardlist has-2cols">
+        <div>{{ participate.vote | md | safe }}</div>
+        <div>{{ participate.calendar | md | safe }}</div>
+      </div>
+    </section>
+
+    <section class="section" id="sessions">
+      <header class="section-header">
+        <h2 class="section-title">{{ sessions.title }}</h2>
+      </header>
+
+      <div class="section-text">
+        {{ sessions.text | md | safe }}
+      </div>
+
+      <footer class="participate-footer">
+          {{ sessions.footer | md | safe }}
+        </footer>
+    </section>
+
+    <section class="section" id="event">
+      <header class="section-header">
+        <h2 class="section-title">{{ event.title }}</h2>
+      </header>
+
+      <div class="section-text">
+        {{ event.text | md | safe }}
+      </div>
+    </section>
+
+    {% set content = faq %}
+    {% include "templates/faq.njk" %}
+  </div>
+</div>
+{% include "templates/footer.njk" %}

@@ -35,9 +35,9 @@
 
           <div>
             {% if goal.status == "current" %}
-            <img src="{{ '/img/objetivos/cavando.gif' | url }}" alt="Imagen del objetivo">
+            <img src="/img/objetivos/cavando.gif" alt="Imagen del objetivo">
             {% else %}
-            <img src="{{ goal.img | url }}" alt="Imagen del objetivo">
+            <img src="{{ goal.img }}" alt="Imagen del objetivo">
             {% endif %}
           </div>
         </dd>

@@ -7,8 +7,8 @@ scripts:
 ---
 
 <nav class="mainbar">
-  <a href="{{ '/' | url }}">
-    <img class="mainbar-logo" src="{{ 'img/tarugo21-kickstarter.svg' | url }}">
+  <a href="/">
+    <img class="mainbar-logo" src="/img/tarugo21-kickstarter.svg">
   </a>
 </nav>
 
@@ -45,7 +45,7 @@ scripts:
         </li>
       </ul>
 
-      <a href="{{ '~/pledge.yml' | url }}" class="button is-primary">Asiste a este evento</a>
+      <a href="/pledge/" class="button is-primary">Asiste a este evento</a>
 
       <p class="project-subactions">
         <a href="#partners" class="button is-secondary">Patrocínalo</a>
@@ -73,7 +73,7 @@ scripts:
 <div class="maincontent has-2cols">
   <section class="maincontent-aside">
     <header class="maincontent-aside-header">
-      <img src="{{ '/img/logo-tarugo.png' | url }}" alt="Logo Tarugo" width="50">
+      <img src="/img/logo-tarugo.png" alt="Logo Tarugo" width="50">
 
       <h2>{{ aside.title }}</h2>
       {{ aside.intro | md | safe }}
@@ -104,7 +104,7 @@ scripts:
     {% include "home/contact.njk" %}
 
     {% set content = home.faq %}
-    {% include "home/faq.njk" %}
+    {% include "templates/faq.njk" %}
   </div>
 </div>
 
