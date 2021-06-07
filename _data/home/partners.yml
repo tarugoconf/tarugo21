@@ -10,10 +10,10 @@ intro: >
 
   Si quieres ser parte de este esfuerzo, consulta nuestras oportunidades de patrocinio ¡graciñas!
 main:
-  img: https://via.placeholder.com/800x400/CCCCCC/000000/?text=TU%20LOGO%20AQUI
+  img: /img/partners/logo-bv-asesores-jpg-centrado.jpeg
   url: https://tarugoconf.com
   alt: Nombre empresa
-  text: Descripción
+  text: Descripción del partner
 partners:
   - img: https://via.placeholder.com/400x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
@@ -23,10 +23,10 @@ partners:
     alt: Deiser
     url: https://www.deiser.com/
     text: Deiser
-  - img: /img/partners/deiser.jpeg
+  - img: /img/partners/logo-manfred-sponsor-2.png
     alt: Deiser 2
-    url: https://www.deiser.com/
-    text: Deiser 2
+    url: https://www.getmanfred.com/
+    text: Gestionamos carreras, no ofertas de empleo.
 patrons:
   - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
