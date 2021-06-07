@@ -1,0 +1,98 @@
+---
+layout: layouts/layout.njk
+scripts:
+  - /js/filter.js
+---
+
+<nav class="mainbar">
+  <a href="/">
+    <img class="mainbar-logo" src="/img/tarugo21-kickstarter.svg">
+  </a>
+</nav>
+
+{% include "templates/navbar.njk" %}
+
+<div class="maincontent">
+  <div class="maincontent-narrow">
+    <header class="maincontent-aside-header">
+      <img src="/img/logo-tarugo.png" alt="Logo Tarugo" width="50">
+
+      <h2>{{ title }}</h2>
+      
+      {{ description | md | safe }}
+    </header>
+
+    <form id="filter" class="filter">
+      <div class="filter-title">
+        <label for="search-title" class="filter-label">Filtrar</label>
+        <input type="search" name="title" id="search-title" placeholder="Escribe el título del vídeo">
+      </div>
+
+      <div class="filter-tags">
+      {% for tag in sessions.tags %}
+        <label>
+          <input type="checkbox" name="{{ tag.name }}" value="1">
+          <span>{{ tag.label }}</span>
+        </label>
+      {% endfor %}
+      </div>
+
+      <div class="filter-submit">
+        <button class="button">Buscar</button>
+      </div>
+    </form>
+
+    <div id="sessions" class="sessions">
+      {% for session in sessions.sessions %}
+      <article class="session" data-filter="{{ session | dump }}">
+        <header class="session-header">
+          <h2 class="session-title">#Charlaca{{ session.hash }}: {{ session.title }}</h2>
+
+          <ul class="session-tags">
+            {% for tag in session.tags %}
+            <li>{{ tag }}</li>
+            {% endfor %}
+          </ul>
+          <strong id="charlaca-{{session.hash}}-votes" class="session-stars">{{ session.stars }} ★</strong>
+        </header>
+
+        <figure class="session-video">
+          <iframe width="400" height="300" src="https://www.youtube.com/embed/{{ session.code }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </figure>
+
+        <footer class="session-footer">
+          <a href="https://twitter.com/intent/tweet?text=Asistir%C3%A9+a+la+%23tarugoff%2C+el+open+space+de+la+%40tarugoconf%2C+y+me+gustar%C3%ADa+ver+la+%23Charlaca{{ session.hash }}+https%3A%2F%2Fyoutu.be%2F{{ session.code }}" class="button is-primary">
+            Vota
+          </a>
+        </footer>
+      </article>
+      {% endfor %}
+    </div>
+
+    <script>
+      let xhr = new XMLHttpRequest();
+
+      xhr.open('GET', 'https://tarugoff.herokuapp.com/sessions');
+
+      xhr.send();
+
+      xhr.onload = function() {
+        if (xhr.status != 200) {
+          console.error(`Error ${xhr.status}: ${xhr.statusText}`);
+        } else { 
+          const sessions = JSON.parse(xhr.response);
+          sessions.forEach(session => {
+            const element = document.getElementById(`charlaca-${session.id}-votes`);
+            if (element) {
+              element.textContent = `${session.votes}★`;
+            }
+          });
+        }
+      };
+
+      xhr.onerror = function() {
+        console.error("Error getting the votes of the sessions");
+      };
+    </script>
+  </div>
+</div>

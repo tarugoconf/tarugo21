@@ -1,0 +1,101 @@
+tags:
+  - label: Management
+    name: management
+  - label: Desarrollo
+    name: desarrollo
+  - label: Datos
+    name: datos
+  - label: Remoto
+    name: remoto
+  - label: Juegos
+    name: juegos
+  - label: Producto
+    name: producto
+  - label: Marketing
+    name: marketing
+  - label: E-Sports
+    name: esports
+  - label: Innovación
+    name: innovación
+
+sessions:
+  - title: 'Desarrollo Low-code'
+    hash: '1'
+    tags:
+      - desarrollo
+    stars: 1
+    code: zHeBu9RfxW8
+  - title: '¿Cómo motivas a un equipo en tiempos de crisis?'
+    hash: '2'
+    tags:
+      - management
+    stars: 1
+    code: UZ27mNXaYVw
+  - title: 'Data-mierding'
+    hash: '3'
+    tags:
+      - datos
+    stars: 1
+    code: 8gY0tDeZEqY
+  - title: '¿Cómo llevar las charlas de pasillo al remoto?'
+    hash: '4' 
+    tags:
+      - management
+      - remoto
+    stars: 1
+    code: N7QWa7Xu020
+  - title: '¿Cómo se diseña un juego de mesa?'
+    hash: '5'
+    tags:
+      - juegos
+      - producto
+    stars: 1
+    code: VmBIn2SJaQI
+  - title: 'Métricas de marketing'
+    hash: '6'
+    tags:
+      - marketing
+    stars: 1
+    code: wZJ-1pQgmAo
+  - title: 'Bootstraping'
+    hash: '7'
+    tags:
+      - producto
+    stars: 1
+    code: zuXaP4fVNSo
+  - title: 'Seguir programando después de los 40'
+    hash: '8'
+    tags:
+      - desarrollo
+    stars: 1
+    code: fjD6kbLuK48
+  - title: 'La curiosidad no tuvo que matar al Gato'
+    hash: '9'
+    tags:
+      - management
+    stars: 1
+    code: EZwnbc1mif8
+  - title: '¿Cómo se comunica en la empresa los avances de producto?'
+    hash: '10'
+    tags:
+      - management
+    stars: 1
+    code: UjujG9sBINQ
+  - title: 'Tecnología aplicada a esports'
+    hash: '11'
+    tags:
+      - esports
+    stars: 1
+    code: DzhYNa27_cE
+  - title: '¿Cómo es tu plataforma de desarrollo?'
+    hash: '12'
+    tags:
+      - desarrollo
+    stars: 1
+    code: YjorPLpzsoQ
+  - title: 'Pongamos que hablamos de innovación'
+    hash: '13'
+    tags:
+      - innovación
+    stars: 1
+    code: JnPBMsG4sw8

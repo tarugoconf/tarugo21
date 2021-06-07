@@ -1,0 +1,19 @@
+layout: layouts/sessions.njk
+lang: es
+title: Sesiones
+description: |
+  En esta página podrás ver las sesiones propuestas para la Tarugoff, **votar a las que te gustaría asistir** e incluso ¡animarte a enviar la tuya propia!.
+
+  Tienes más info en [la home del evento](/tarugoff)
+
+menu:
+  - text: ← Volver
+    href: '/'
+  - text: Tarugoff
+    href: '/tarugoff'
+
+ctas:
+  - text: Enviar sesión
+    url: 'https://forms.gle/i2RBFiR6mQApMA7J9'
+    class: button
+    target: '_blank'

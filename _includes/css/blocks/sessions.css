@@ -1,0 +1,57 @@
+.sessions {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 20px;
+    row-gap: 80px;
+    justify-content: center;
+}
+.session {
+  display: grid;
+  grid-template-areas: 'video' 'header' 'footer';
+
+  &[hidden] {
+    display: none;
+  }
+}
+.session-header {
+  grid-area: header;
+  text-align: center;
+}
+.session-footer {
+  grid-area: footer;
+  margin-top: 10px;
+}
+.session-title {
+  font: var(--font-18-bold) !important;
+  margin-bottom: 10px;
+}
+.session-tags {
+  font: var(--font-14-bold);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+
+  & > li {
+    display: inline-block;
+    padding: .2em .5em;
+    margin: 0 .5em .5em 0;
+    background: var(--color-primary-100);
+  }
+}
+.session-stars {
+  font: var(--font-18-bold);
+  display: inline-block;
+  vertical-align: middle;
+  color: var(--color-primary-500);
+}
+.session-video {
+  grid-area: video;
+  margin: 0;
+
+  & iframe {
+    width: 100%;
+    height: 220px;
+    display: block;
+  }
+}
