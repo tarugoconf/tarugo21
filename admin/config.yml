@@ -205,3 +205,36 @@ collections:
               - label: Texto
                 name: content
                 widget: markdown
+      - label: Sesiones
+        name: sessions
+        file: _data/sessions.yml
+        fields:
+          - label: Tags
+            name: tags
+            widget: list
+            fields:
+              - label: Nombre
+                name: label
+                widget: string
+              - label: Código
+                name: name
+                widget: string
+          - label: Sesiones
+            name: sessions
+            widget: list
+            fields:
+              - label: Título
+                name: title
+                widget: string
+              - label: Hash
+                name: hash
+                widget: string
+              - label: Tags
+                name: tags
+                widget: list
+              - label: Stars
+                name: stars
+                widget: number
+              - label: Código
+                name: code
+                widget: string
