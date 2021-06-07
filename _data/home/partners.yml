@@ -10,7 +10,7 @@ intro: >-
 
   Si quieres ser parte de este esfuerzo, consulta <a href="https://drive.google.com/file/d/1tdWLZjaXzbiQDTPjrjGRO3pvN-kh2IPb/preview" target="_blank">nuestras <i>awesómicas</i> oportunidades de patrocinio</a> ¡graciñas!
 main:
-  img: /img/partners/logo-bv-asesores-jpg-centrado.jpeg
+  img: https://via.placeholder.com/800x400/CCCCCC/000000/?text=TU%20LOGO%20AQUI
   url: https://tarugoconf.com
   alt: Nombre empresa
   text: Descripción del partner
@@ -27,6 +27,10 @@ partners:
     alt: Sngular
     url: https://www.sngular.com/
     text: Juntos, crearemos algo grande hoy.
+  - alt: BV Asesores
+    img: /img/partners/logo-bv-asesores-jpg-centrado.jpeg
+    url: https://bvasesores.com/
+    text: La gestoría que se adapta a tu empresa.
 patrons:
   - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
