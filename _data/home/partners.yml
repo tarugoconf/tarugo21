@@ -23,14 +23,17 @@ partners:
     alt: Deiser
     url: https://www.deiser.com/
     text: Deiser
-  - img: /img/partners/logo-manfred-sponsor-2.png
-    alt: Deiser 2
-    url: https://www.getmanfred.com/
-    text: Gestionamos carreras, no ofertas de empleo.
+  - img: /img/partners/sngular-logo-dark-tagline.jpeg
+    alt: Sngular
+    url: https://www.sngular.com/
+    text: Juntos, crearemos algo grande hoy.
 patrons:
   - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
     alt: Nombre empresa
+  - img: /img/partners/logo-manfred-sponsor-2.png
+    alt: Manfred
+    url: https://www.getmanfred.com/
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >
