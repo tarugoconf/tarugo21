@@ -7,9 +7,23 @@
 
   &.has-partners {
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    font: var(--font-14);
+
+    & img {
+      height: 130px;
+      width: 100%;
+      object-fit: contain;
+    }
   }
   &.has-patrons {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    font: var(--font-14);
+
+    & img {
+      height: 100px;
+      width: 100%;
+      object-fit: contain;
+    }
   }
 }
 .partner {
