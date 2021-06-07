@@ -1,4 +1,4 @@
-import dialogPolyfill from './dialog-polyfill.esm.js';
+import dialogPolyfill from "./dialog-polyfill.esm.js";
 
 const navbar = document.querySelector(".navbar");
 const menu = document.querySelector(".navbar-menu");
@@ -27,7 +27,7 @@ const menuObserver = new IntersectionObserver((entries) => {
       history.replaceState(null, "", `#${entry.target.id}`);
 
       currentLink = menu.querySelector(`a[href='#${entry.target.id}']`);
-  
+
       if (currentLink) {
         menu.querySelectorAll(".is-visible").forEach((element) =>
           element.classList.remove("is-visible")
@@ -41,9 +41,8 @@ const menuObserver = new IntersectionObserver((entries) => {
 document.querySelectorAll(".maincontent-content > [id]")
   .forEach((section) => menuObserver.observe(section));
 
-
 // Diálogos
-document.querySelectorAll('dialog').forEach((dialog) => {
+document.querySelectorAll("dialog").forEach((dialog) => {
   dialogPolyfill.registerDialog(dialog);
 });
 
@@ -54,8 +53,8 @@ document.querySelectorAll(".js-openDialog").forEach((btn) => {
     if (dialog) {
       dialog.showModal();
     }
-  })
-})
+  });
+});
 document.querySelectorAll(".js-closeDialog").forEach((btn) => {
   btn.addEventListener("click", (ev) => {
     const dialog = btn.closest("dialog");
@@ -63,5 +62,5 @@ document.querySelectorAll(".js-closeDialog").forEach((btn) => {
     if (dialog) {
       dialog.close();
     }
-  })
-})
+  });
+});

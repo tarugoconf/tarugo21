@@ -1,5 +1,5 @@
-const form = document.querySelector('#filter');
-const sessions = document.querySelectorAll('.session');
+const form = document.querySelector("#filter");
+const sessions = document.querySelectorAll(".session");
 
 const initialParams = new URLSearchParams(document.location.search);
 
@@ -12,12 +12,12 @@ for (const [name, value] of initialParams) {
 }
 onChange();
 
-form.addEventListener('submit', (event) => {
+form.addEventListener("submit", (event) => {
   onChange();
   event.preventDefault();
-})
-form.addEventListener('change', onChange)
-form.addEventListener('input', onChange)
+});
+form.addEventListener("change", onChange);
+form.addEventListener("input", onChange);
 
 function onChange() {
   const data = new FormData(form);
@@ -28,10 +28,10 @@ function onChange() {
 
 function filter(data) {
   const filters = {
-    title: '',
-    tags: []
-  }
-  
+    title: "",
+    tags: [],
+  };
+
   for (const [name, value] of data.entries()) {
     if (name === "title") {
       filters.title = clean(value);
@@ -41,7 +41,7 @@ function filter(data) {
     filters.tags.push(name);
   }
 
-  sessions.forEach((session) => session.hidden = !matches(session, filters))
+  sessions.forEach((session) => session.hidden = !matches(session, filters));
 }
 
 function matches(session, filters) {
@@ -67,5 +67,5 @@ function clean(text) {
     .replace(/í/gm, "i")
     .replace(/ó/gm, "o")
     .replace(/ú/gm, "u")
-    .replace(/[^\wñ]/gm, "")
+    .replace(/[^\wñ]/gm, "");
 }

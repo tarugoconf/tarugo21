@@ -8,7 +8,7 @@ class Copy extends HTMLElement {
       ev.preventDefault();
       this.classList.add("is-copied");
       setTimeout(() => this.classList.remove("is-copied"), 3000);
-    })
+    });
   }
 }
 

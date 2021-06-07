@@ -51,7 +51,7 @@ class Img extends HTMLElement {
         0,
         0,
       );
-      
+
       if (animated) {
         requestAnimationFrame(animate);
       }
