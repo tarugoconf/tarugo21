@@ -13,7 +13,7 @@ main:
   img: /img/partners/gfs-logo_1000x200.png
   url: https://startup.google.es/
   alt: Google for Startups
-  text: Google for Startups, para los que nunca dejan de emprender.
+  text: Para los que nunca dejan de emprender.
 partners:
   - img: https://via.placeholder.com/400x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
