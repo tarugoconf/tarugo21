@@ -6,14 +6,17 @@ speakers:
   - name: Jaime Gómez-Obregón
     company: " "
     position: Programador y Activista
-    image: /img/speakers/cris-carrascosa.jpg
+    image: /img/speakers/0469627203e08f42097abe7a48e134fdf737354e.png
     links:
-      - text: "@CarrascosaCris_"
+      - text: "@JaimeObregon"
         type: twitter
-        url: https://twitter.com/CarrascosaCris_
-      - text: Cris Carrascosa
-        type: linkedin
-        url: https://www.linkedin.com/in/cristina-carrascosa-cobos-llm-a3632863/
+        url: https://twitter.com/JaimeObregon
+      - text: Patreon de Jaime
+        type: web
+        url: https://www.patreon.com/jaime_gomez_obregon/
+      - type: linkedin
+        url: https://www.linkedin.com/in/jaimegomezobregon/
+        text: Jaime Gómez-Obregón
     bio: >
       Abogada especializada en los retos legales que han surgido alrededor de la
       descentralización del Blockchain en general y de la fiscalidad de las
