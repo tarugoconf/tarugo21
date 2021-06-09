@@ -11,14 +11,20 @@ days:
   - day: Jueves, 21 octubre
     events:
       - title: Apertura de Stands y Networking 🤝
-        time: "10:00-17:15h"
+        time: "10:00-17:00h"
         details: |
           Podrás **saludar a nuestros patrocinadores y conocer sus productos, servicios u oportunidades de empleo**.
           
           Además, podrás usar los slots de networking para **celebrar reuniones 1:1 con otros asistentes del evento** con los que compartas intereses y aficiones.
 
-      - title: Keynote
-        time: "16:00-16:15h"
+      - title: Icebreakers 🧊
+        time: "17:15-18:45h"
+        details: |
+          Distintos juegos y actividades gestionados por voluntarios de la organización y diseñados para que los asistentes a la #tarugo21 que lo deseéis podáis conocer gente de forma fácil, divertida y segura ;) Estas serán las rondas, y podrás apuntarte a la que más te cuadre (o a todas si te animas 🤠) visitando los enlaces:
+
+          De 17:15 a 17:45 Tarugobreaker 🏓 Warm Up 
+          De 17:45 a 18:15 Super-Tarugobreaker 🦸‍♀️🦸‍♂️ 
+          De 18:15 a 18:45 Tarugobreaker de After 🤠
 
       - title: 20 años de tecnología
         time: "16:15-16:50h"
