@@ -8,7 +8,7 @@ intro: |
   Finalmente, el sábado por la mañana disfrutaremos de la **Tarugoff,** nuestro *Open Space*, donde los asistentes podréis proponer vuestras propias charlas y asistir a las de otros. Y, por la tarde, retransmitiremos el primer **Replay,** la repetición de las charlas grabadas el viernes con la participación en directo de los ponentes en el chat y en el turno de preguntas.
 
 days:
-  - day: Jueves, 21 octubre
+  - day: Jueves, 21 de octubre
     events:
       - title: Apertura de Stands y Networking 🤝
         time: "10:00-17:00h"
@@ -34,14 +34,18 @@ days:
       - title: Premiere de cine 🎞️
         time: "20:00-22:00h"
         details: |
-          Si -como parece- conseguimos que Sony nos venda los derechos, stremearemos en alta calidad ’La Red’, que en 2020 celebra su 25º aniversario. Acompañaremos a Sandra Bullock en su lucha contra "los pretorianos" para recuperar su vida y acabar de paso con un complot para controlar Internet.
+          Dependiendo de lo que decidan los asistentes, stremearemos en alta definición «Conspiración en la Red» —una película tan políticamente incorrecta que dibuja a Bill Gates como si fuera Fu-Manchú— que, en 2021, celebra a su 20º aniversario; o «Terminator 2: el día del juicio final» que cumple 30 años aunque el futuro distópico que plantea sigue siendo completamente vigente.
 
-          Si te preguntas qué sentido tiene streamear una película de hace 25 años en los tiempos que corren, la respuesta es muy sencilla, imagínate lo divertido que puede ser ver la película todos juntos al mismo tiempo y twittear sobre los gazapos técnicos y anacronísmos que encontremos... como, por ejemplo, una puerta trasera que se activa haciendo clic en un icono que está "escondido" en la esquina de una página web... ¡la esquina! :P
+          Si te preguntas qué sentido tiene streamear películas de hace 20 o 30 años en los tiempos que corren, la respuesta es muy sencilla, imagínate lo divertido que puede ser verla todos juntos a la vez —y twittear sobre los gazapos técnicos y anacronísmos que encontremos— con la perspectiva que da el tiempo y la experiencia ¡Hasta la vista, baby! 😎
 
-      - title: Fiscalidad y Legalidad Cripto para Dummmies y otros animales peligrosos.
-        time: "17:00-17:35h"
+      - title: Panel moderado: el sector, 20 años después 🎤
+        time: "22:00-22:45h"
+        details: |
+          Mesa redonda para intensitos y gente a la que le gusta PENSAR MUY FUERTE sobre la evolución de la tecnología y la industría desde el estreno de la película.
+          
+          Una buena oportunidad para revisar las profecias -cumplidas o no- sobre cómo sería el mundo hoy en día y cómo es realmente.
 
-  - day: Viernes, 22 octubre
+  - day: Viernes, 22 de octubre
     events:
       - title: Warm Up!
         time: "15:00-16:00h"
@@ -62,7 +66,7 @@ days:
       - title: Fiscalidad y Legalidad Cripto para Dummmies y otros animales peligrosos.
         time: "17:00-17:35h"
 
-  - day: Sábado, 23 octubre
+  - day: Sábado, 23 de octubre
     events:
       - title: Warm Up!
         time: "15:00-16:00h"
