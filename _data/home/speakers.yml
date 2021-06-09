@@ -1,22 +1,23 @@
 title: Speakers
-
-intro: |
-  El «speaker» o ponente de la Tarugoconf no nace, [SE HACE](./speakers). Estos son los awesómicos invitados con los que contaremos este año:
-
+intro: >
+  El «speaker» o ponente de la Tarugoconf no nace, [SE HACE](./speakers). Estos
+  son los awesómicos invitados con los que contaremos este año:
 speakers:
-  - name: Cris Carrascosa
-    company: Pinsent Masons
-    position: Blockchain Head of Practice
+  - name: Jaime Gómez-Obregón
+    company: " "
+    position: Programador y Activista
     image: /img/speakers/cris-carrascosa.jpg
-
     links:
-      - text: '@CarrascosaCris_'
+      - text: "@CarrascosaCris_"
         type: twitter
-        url: 'https://twitter.com/CarrascosaCris_'
-
-      - text: 'Cris Carrascosa'
+        url: https://twitter.com/CarrascosaCris_
+      - text: Cris Carrascosa
         type: linkedin
-        url: 'https://www.linkedin.com/in/cristina-carrascosa-cobos-llm-a3632863/'
-    
-    bio: |
-      Abogada especializada en los retos legales que han surgido alrededor de la descentralización del Blockchain en general y de la fiscalidad de las criptomonedas en particular. Blockchain Strategy Lead en el prestigioso bufete Pinsent Masons. Profesora en el IE y el ESADE, miembro del Observatorio Europeo de Blockchain, co-autora del libro “Blockchain: la revolución industrial“ y fanática del Valencia F.C.
+        url: https://www.linkedin.com/in/cristina-carrascosa-cobos-llm-a3632863/
+    bio: >
+      Abogada especializada en los retos legales que han surgido alrededor de la
+      descentralización del Blockchain en general y de la fiscalidad de las
+      criptomonedas en particular. Blockchain Strategy Lead en el prestigioso
+      bufete Pinsent Masons. Profesora en el IE y el ESADE, miembro del
+      Observatorio Europeo de Blockchain, co-autora del libro “Blockchain: la
+      revolución industrial“ y fanática del Valencia F.C.
