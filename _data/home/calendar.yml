@@ -3,15 +3,19 @@ title: Agenda
 intro: |
   Continuaremos mejorando contenidos y confirmando más invitados hasta el día del evento, pero aquí siempre podrás consultar la última versión de la agenda.
 
-  El jueves tendremos la **Premiere** de «Conspiración en la Red» —una película tan políticamente incorrecta que dibuja a Bill Gates como si fuera Fu-Manchú— y **el viernes 22 de octubre se celebrará el evento principal.**
+  El jueves nuestra **Premiere de cine** y el posterior debate; y **el viernes 22 de octubre celebraremos el evento principal.**
 
-  Finalmente, el sábado por la mañana se celebrará la **Tarugoff,** nuestro *Open Space* donde los asistentes podréis proponer vuestras propias charlas y asistir a las de otros. Y, por la tarde, retransmitiremos el primer **Replay,** la repetición de las charlas grabadas el viernes con la participación en directo de los ponentes en el chat y en el turno de preguntas.
+  Finalmente, el sábado por la mañana disfrutaremos de la **Tarugoff,** nuestro *Open Space*, donde los asistentes podréis proponer vuestras propias charlas y asistir a las de otros. Y, por la tarde, retransmitiremos el primer **Replay,** la repetición de las charlas grabadas el viernes con la participación en directo de los ponentes en el chat y en el turno de preguntas.
 
 days:
   - day: Jueves, 21 octubre
     events:
-      - title: Warm Up!
-        time: "15:00-16:00h"
+      - title: Apertura de Stands y Networking 🤝
+        time: "10:00-17:15h"
+        details: |
+          Podrás **saludar a nuestros patrocinadores y conocer sus productos, servicios u oportunidades de empleo**.
+          
+          Además, podrás usar los slots de networking para **celebrar reuniones 1:1 con otros asistentes del evento** con los que compartas intereses y aficiones.
 
       - title: Keynote
         time: "16:00-16:15h"
