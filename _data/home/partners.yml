@@ -42,6 +42,9 @@ patrons:
   - img: /img/partners/logo-manfred-sponsor-2.png
     alt: Manfred
     url: https://www.getmanfred.com/
+  - alt: Flywire
+    img: /img/partners/600_479033123.jpeg
+    url: https://www.flywire.com
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >
