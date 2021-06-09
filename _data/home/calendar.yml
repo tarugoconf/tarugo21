@@ -38,7 +38,7 @@ days:
 
           Si te preguntas qué sentido tiene streamear películas de hace 20 o 30 años en los tiempos que corren, la respuesta es muy sencilla, **imagína lo divertido que puede ser verla todos juntos a la vez —y twittear sobre los gazapos técnicos y anacronísmos que encontremos—** con la perspectiva que da el tiempo y la experiencia ¡Hasta la vista, baby! 😎
           
-      - title: Panel moderado "El sector, 20 años después" 🎤
+      - title: Panel moderado «El sector, 20 años después» 🎤
         time: "22:00-22:45h"
         details: |
           Mesa redonda para intensitos y gente a la que le gusta PENSAR MUY FUERTE sobre **la evolución de la tecnología y la industría desde el estreno de la película**.
@@ -56,19 +56,21 @@ days:
           Además, podrás usar los slots de networking para **celebrar reuniones 1:1 con otros asistentes del evento** con los que compartas intereses y aficiones.
           
       - title: Warm Up! 🤖
-        time: "15:45-16:00h"
+        time: "15:30-16:00h"
         details: |
           Mientras nos preparamos para el arranque del evento, nuestro DJ residente -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo)- amenizará la espera con una sesión llena de ROMPEPISTAS       
 
       - title: Keynote
         time: "16:00-16:15h"
-
-      - title: 20 años de tecnología
-        time: "16:15-16:50h"
         details: |
-          En esta charla, Javi y Molpe desgranaran los eventos que ha definido el panorama tecnológico en los últimos 20 años y analizaran como han afectado al mismo.
+          Un rápido resumen de un año que nunca olvidaremos en forma de monólogo, en el que repasaremos las noticias más importantes y los sucesos más relevantes.
+
+      - title: Aportando transparencia a las Administraciones Públicas mediante la informática
+        time: "16:15-16:45h"
+        details: |
+          Jaime es un desarrollador especializado en procesar grandes volúmenes de datos. Después de 16 años trabajando en la empresa privada, dejó su trabajo para dedicarse durante un año a usar sus «superpoderes» para impulsar la transparencia en la Administración mediante datos y tecnología.
           
-          ¡Un mano a mano que marcará una época!
+          En esta charla nos contará cómo podemos usar la tecnología para aportar transparencia a algo tan opaco a veces para el ciudadano como el Sector Público. ¿Puede un solo informático cambiar las cosas?
 
       - title: Concursote de Lanzarote
         time: "16:50-17:00h"
