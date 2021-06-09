@@ -67,6 +67,8 @@ days:
 
       - title: Aportando transparencia a las Administración Pública mediante la Informática
         time: "16:15-16:45h"
+        speakers:
+          - jaime
         details: |
           Jaime es un desarrollador especializado en procesar grandes volúmenes de datos. Después de 16 años trabajando en la empresa privada, dejó su trabajo para dedicarse durante un año a usar sus «superpoderes» para impulsar la transparencia en la Administración mediante datos y tecnología.
           

@@ -24,9 +24,25 @@
   padding: 0;
 
   & summary {
-    display: block;
+    /* display: block; */
     cursor: pointer;
     padding: 5px;
+    padding-left: 35px;
+    text-indent: -28px;
+    
+    & img {
+      float: right;
+      margin-left: 5px;
+      border: solid 1px var(--color-grey-200);
+      width: 24px;
+      height: 24px;
+      transition: transform 200ms;
+
+      &:hover {
+        transform: scale(2);
+        box-shadow: 0 2px 5px #0003;
+      }
+    }
 
     &:hover {
       background-color: #0001;

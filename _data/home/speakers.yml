@@ -4,6 +4,7 @@ intro: >
   son los awesómicos invitados con los que contaremos este año:
 speakers:
   - name: Jaime Gómez-Obregón
+    id: jaime
     company: " "
     position: Programador y Activista
     image: /img/speakers/0469627203e08f42097abe7a48e134fdf737354e.png

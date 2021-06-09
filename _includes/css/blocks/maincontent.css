@@ -97,7 +97,7 @@
     }
   }
 
-  & strong {
+  & > li > strong {
     display: block;
     font: var(--font-16-bold);
   }

@@ -18,12 +18,12 @@
             <em class="speaker-position">{{ speaker.position }}</em>
           </p>
 
-          <button class="speaker-button js-openDialog" data-target="speaker-{{ loop.index }}">
+          <button class="speaker-button js-openDialog" data-target="speaker-{{ speaker.id }}">
             <span>Más info</span>
           </button>
         </article>
 
-        <dialog class="speaker-modal" id="speaker-{{ loop.index }}">
+        <dialog class="speaker-modal" id="speaker-{{ speaker.id }}">
             <button class="js-closeDialog speaker-modal-close button is-primary">Cerrar</button>
             
             <div class="speaker-modal-content">
@@ -48,6 +48,26 @@
                 <div class="speaker-bio">
                     {{ speaker.bio | md | safe }}
                 </div>
+                <ul class="speaker-events">
+                    {% for day in home.calendar.days %}
+                    {% for event in day.events %}
+                    {% for id in event.speakers %}
+                    {% if id == speaker.id %}
+                    <li>
+                      <details>
+                        <summary>
+                            <time>{{ day.day }} - {{ event.time }}</time>
+                            <strong>{{ event.title }}</strong>
+                        </summary>
+
+                        {{ event.details | md | safe }}
+                      </details>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                    {% endfor %}
+                </ul>
             </div>
         </dialog>
       </li>

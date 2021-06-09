@@ -15,6 +15,14 @@
         <li>
           <details class="calendar-event">
             <summary class="calendar-event-header">
+              {% for id in event.speakers %}
+              {% for speaker in home.speakers.speakers %}
+              {% if id == speaker.id %}
+                <img src="{{ speaker.image }}" width="24" height="24" title="{{ speaker.name }}" class="js-openDialog" data-target="speaker-{{ speaker.id }}">
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+
               {{ event.time }}
               <strong>{{ event.title }}</strong>
             </summary>

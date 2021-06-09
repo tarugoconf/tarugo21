@@ -82,6 +82,10 @@ collections:
                   - label: Hora
                     name: time
                     widget: string
+                  - label: Speakers
+                    hint: Identificador de cada speaker separados por comas
+                    name: speakers
+                    widget: list
                   - label: Descripción
                     name: details
                     widget: markdown
@@ -103,6 +107,9 @@ collections:
             fields:
               - label: Nombre
                 name: name
+                widget: string
+              - label: Identificador
+                name: id
                 widget: string
               - label: Empresa
                 name: company
