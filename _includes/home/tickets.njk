@@ -31,8 +31,11 @@
       </dl>
 
       <p>
+        {% set sold = eventbrite.metrics.by_type[ticket.name] or 0 %}
         {% if ticket.stock %}
-          <strong class="ticket-flag">Stock limitado ({{ ticket.stock }})</strong>
+          <strong class="ticket-flag">Stock limitado (Quedan {{ ticket.stock - sold }})</strong>
+        {% else %}
+          <strong class="ticket-flag">Vendidas {{ sold }}</strong>
         {% endif %}
 
         {% if ticket.complements %}

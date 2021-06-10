@@ -5,13 +5,26 @@ const EVENT_ID = Deno.env.get("EVENT_ID");
 
 export const metrics = API_KEY ? await getData() : {
   tickets: 333,
+  by_type: {},
 };
 
 async function getData() {
   const result = await get(`/events/${EVENT_ID}/attendees/`);
+  const by_type = {};
 
+  result.attendees.forEach((user) => {
+    const type = user.ticket_class_name;
+
+    if (type in by_type) {
+      ++by_type[type];
+    } else {
+      by_type[type] = 1;
+    }
+  })
+  
   return {
     tickets: result.pagination.object_count,
+    by_type,
   };
 }
 
