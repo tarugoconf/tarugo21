@@ -106,7 +106,7 @@ days:
 
           Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
       - title: Reportaje 📹
-        time: 17:00-17:05h
+        time: 17:00-17:15h
         details: >-
           Reportaje original de calidad profesional, como los que ya produjimos
           el año pasado sobre [cocinas
@@ -117,7 +117,7 @@ days:
 
           El contenido final lo decidirán los asistentes a la #tarugo21.
       - title: TBA
-        time: 17:05-17:35h
+        time: 17:15-17:45h
         speakers:
           - tba-1
         details: >-
@@ -126,6 +126,19 @@ days:
 
 
           ![Hype Overload](/img/giphy.gif)
+      - title: "Entrevistas a pie de calle: ¿Cuánto saben los muggles de tecnología? 🎤"
+        time: 17:45-18:00h
+        details: Nuestros intrépidos reporteros se lanzarán a la calle, micrófono en
+          mano, para averiguar hasta qué punto el público general -sin
+          experiencia técnica- conoce conceptos como "criptomoneda", "huella
+          digital" u "open source" y cuál es su opinión al respecto.
+      - title: ¿Puede sobrevivir una Comunidad 100% online?
+        details: Para muchos, Google for Startups Campus no es más que un edificio, pero
+          en 2020 y 2021, Sofía y su equipo han tenido que demostrar que es
+          mucho más que eso: **una verdadera Comunidad de emprendedores y
+          técnicos** que -a pesar de estar separada fisicamente- se ha mantenido
+          más unida que nunca para superar esta pandemia.
+        time: 18:00-18:15h
       - title: La tecnología que mueve el mundo
         time: 18:30-19:00h
         speakers:
@@ -146,6 +159,12 @@ days:
 
 
           El intermedio estará amenizado por [Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo), nuestro DJ residente.
+      - title: "Concurso: La Jerocleta 🎰"
+        time: 18:15-18:30h
+        details: "Repasaremos en directo algunos de los tweets más *chanantes* con el
+          hashtag **\\#tarugo21** que hayan publicado los asistentes y
+          sortearemos entre los mismos diversos premios utilizando el software
+          más rentable de este pais:"
   - day: Sábado, 23 de octubre
     events:
       - title: Warm Up!
