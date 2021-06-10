@@ -69,3 +69,8 @@ speakers:
     company: " "
     image: /img/speakers/tba-1.jpg
     position: " "
+    bio: Ponente por confirmar
+    links:
+      - type: web
+        text: Bonilista
+        url: https://www.bonilista.com
