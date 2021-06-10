@@ -43,8 +43,71 @@ speakers:
     bio: >-
       Yaiza es la CEO y fundadora de la startup logística **GOI** —especializada
       en el transporte, montaje e instalación de portes voluminosos y mudanzas—
-      que profesionaliza y añade tecnología a un sector muy fragmentado como es
+      que profesionaliza y añade tecnología a un sector tan fragmentado como es
       «la última milla»
 
 
-      En 2017 fue seleccionada como una de las 30 jóvenes menores de 30 años con mayor proyección profesional tanto dentro como fuera de España por la revista Forbes (30 Under 30).
+      En 2017 fue seleccionada como una de los 30 jóvenes menores de 30 años con mayor proyección profesional tanto dentro como fuera de España por la revista Forbes (30 Under 30), pero más allá de los *fuegos artificiales*, es una curranta que lleva el emprendimiento en la sangre.
+    id: yaiza
+  - name: Antonio Santos
+    id: antonio
+    company: GitHub
+    position: Site Reliability Engineer
+    image: /img/speakers/35972002_10156454695434812_1014099842248474624_n.jpeg
+    links:
+      - type: twitter
+        url: https://twitter.com/wottam
+        text: "@wottam"
+      - text: Antonio Santos
+        type: linkedin
+        url: https://www.linkedin.com/in/santosvelasco/
+      - text: Web de Antonio
+        type: web
+        url: http://blog.santosvelasco.com/
+    bio: >-
+      Antonio es un ingeniero informático onubense que trabaja en GitHub como
+      Site Reliability Engineer, a la que llegó después de disfrutar de una
+      larga trayectoria en algunas de las startups andaluzas más potentes, como
+      BitNami (adquirida recientemente por VMware).
+
+
+      Se considera un «informático recursivo» porque construye software para gente que construye software para gente que construye software :)
+  - name: TBA
+    id: tba-1
+    company: " "
+    image: /img/speakers/tba-1.jpg
+    position: " "
+    bio: Ponente pendiente de anunciar.
+    links:
+      - type: twitter
+        text: "@tarugoconf"
+        url: https://twitter.com/tarugoconf
+      - type: web
+        url: https://www.tarugoconf.com
+        text: tarugoconf.com
+  - id: tba-2
+    name: TBA
+    bio: Ponente pendiente de anunciar.
+    links:
+      - text: "@tarugoconf"
+        type: twitter
+        url: https://twitter.com/tarugoconf
+      - type: web
+        url: https://www.tarugoconf.com
+        text: tarugoconf.com
+    company: " "
+    position: " "
+    image: /img/speakers/luffyjpg.png
+  - name: TBA
+    id: tba-3
+    company: " "
+    position: " "
+    bio: Ponente pendiente de anunciar.
+    links:
+      - text: "@tarugoconf"
+        type: twitter
+        url: https://twitter.com/tarugoconf
+      - type: web
+        text: tarugoconf.com
+        url: https://www.tarugoconf.com
+    image: /img/speakers/celtypng.png

@@ -1,102 +1,222 @@
 title: Agenda
+intro: >
+  Continuaremos mejorando contenidos y confirmando más invitados hasta el día
+  del evento, pero aquí siempre podrás consultar la última versión de la agenda.
 
-intro: |
-  Continuaremos mejorando contenidos y confirmando más invitados hasta el día del evento, pero aquí siempre podrás consultar la última versión de la agenda.
 
   El jueves nuestra **Premiere de cine** y el posterior debate; y **el viernes 22 de octubre celebraremos el evento principal.**
 
-  Finalmente, el sábado por la mañana disfrutaremos de la **Tarugoff,** nuestro *Open Space*, donde los asistentes podréis proponer vuestras propias charlas y asistir a las de otros. Y, por la tarde, retransmitiremos el primer **Replay,** la repetición de las charlas grabadas el viernes con la participación en directo de los ponentes en el chat y en el turno de preguntas.
 
+  Finalmente, el sábado por la mañana disfrutaremos de la **Tarugoff,** nuestro *Open Space*, donde los asistentes podréis proponer vuestras propias charlas y asistir a las de otros. Y, por la tarde, retransmitiremos el primer **Replay,** la repetición de las charlas grabadas el viernes con la participación en directo de los ponentes en el chat y en el turno de preguntas.
 days:
   - day: Jueves, 21 de octubre
     events:
       - title: Apertura de Stands y Networking 🤝
-        time: "10:00-17:00h"
-        details: |
-          Podrás **saludar a nuestros patrocinadores y conocer sus productos, servicios u oportunidades de empleo**.
-          
-          Además, podrás usar los slots de networking para **celebrar reuniones 1:1 con otros asistentes del evento** con los que compartas intereses y aficiones.
+        time: 10:00-17:00h
+        details: >
+          Podrás **saludar a nuestros patrocinadores y conocer sus productos,
+          servicios u oportunidades de empleo**.
 
+
+          Además, podrás usar los slots de networking para **celebrar reuniones 1:1 con otros asistentes del evento** con los que compartas intereses y aficiones.
       - title: Icebreakers 🧊
-        time: "17:15-18:45h"
-        details: |
-          3 rondas de distintos juegos y actividades online, gestionadas por voluntarios de la organización y diseñados para que los asistentes a la #tarugo21 que lo deseéis podáis conocer gente de forma fácil, divertida y segura ;) Podrás apuntarte a la que mejor te encaje (o a todas, si te animas):
+        time: 17:15-18:45h
+        details: >
+          3 rondas de distintos juegos y actividades online, gestionadas por
+          voluntarios de la organización y diseñados para que los asistentes a
+          la #tarugo21 que lo deseéis podáis conocer gente de forma fácil,
+          divertida y segura ;) Podrás apuntarte a la que mejor te encaje (o a
+          todas, si te animas):
+
 
           * De 17:15 a 17:40 Tarugobreaker 🏓 Warm Up 
+
           * De 17:45 a 18:10 Super-Tarugobreaker 🦸‍♀️🦸‍♂️ 
+
           * De 18:15 a 18:45 Tarugobreaker de After 🤠
-
       - title: Networking 🤝
-        time: "18:45-20:00h"
-        details: |
-          Último slot del día bloqueado para que -si así lo deseáis- podáis **celebrar 1:1s como en cualquier evento presencial**, gracias a nuestras herramientas de networking.
-
+        time: 18:45-20:00h
+        details: >
+          Último slot del día bloqueado para que -si así lo deseáis- podáis
+          **celebrar 1:1s como en cualquier evento presencial**, gracias a
+          nuestras herramientas de networking.
       - title: Premiere de cine 🎞️
-        time: "20:00-22:00h"
-        details: |
-          Dependiendo de lo que decidan los asistentes, stremearemos en alta definición «Conspiración en la Red» —una película tan políticamente incorrecta que dibuja a Bill Gates como si fuera Fu-Manchú— que, en 2021, celebra a su 20º aniversario; o «Terminator 2: el día del juicio final» que cumple 30 años aunque el futuro distópico que plantea sigue siendo completamente vigente.
+        time: 20:00-22:00h
+        details: >
+          Dependiendo de lo que decidan los asistentes, stremearemos en alta
+          definición «Conspiración en la Red» —una película tan políticamente
+          incorrecta que dibuja a Bill Gates como si fuera Fu-Manchú— que, en
+          2021, celebra a su 20º aniversario; o «Terminator 2: el día del juicio
+          final» que cumple 30 años aunque el futuro distópico que plantea sigue
+          siendo completamente vigente.
+
 
           Si te preguntas qué sentido tiene streamear películas de hace 20 o 30 años en los tiempos que corren, la respuesta es muy sencilla, **imagína lo divertido que puede ser verla todos juntos a la vez —y twittear sobre los gazapos técnicos y anacronísmos que encontremos—** con la perspectiva que da el tiempo y la experiencia ¡Hasta la vista, baby! 😎
-          
-      - title: Panel moderado «El sector, 20 años después» 🎤
-        time: "22:00-22:45h"
-        details: |
-          Mesa redonda para intensitos y gente a la que le gusta PENSAR MUY FUERTE sobre **la evolución de la tecnología y la industría desde el estreno de la película**.
-          
-          Una buena oportunidad para revisar las profecias -cumplidas o no- sobre cómo sería el mundo hoy en día y cómo es realmente.
+      - title: "Panel moderado: El sector, 20 años después 🎤"
+        time: 22:00-22:45h
+        details: >
+          Mesa redonda para intensitos y gente a la que le gusta PENSAR MUY
+          FUERTE sobre **la evolución de la tecnología y la industría desde el
+          estreno de la película**.
 
+
+          Una buena oportunidad para revisar las profecias -cumplidas o no- sobre cómo sería el mundo hoy en día y cómo es realmente.
   - day: Viernes, 22 de octubre
     events:
-
       - title: Apertura de Stands y Networking 🤝
-        time: "10:00-15:45h"
-        details: |
-          Podrás **saludar a nuestros patrocinadores y conocer sus productos, servicios u oportunidades de empleo**.
-          
+        time: 10:00-15:45h
+        details: >
+          Podrás **saludar a nuestros patrocinadores y conocer sus productos,
+          servicios u oportunidades de empleo**.
+
+
           Además, podrás usar los slots de networking para **celebrar reuniones 1:1 con otros asistentes del evento** con los que compartas intereses y aficiones.
-          
       - title: Warm Up! 🤖
-        time: "15:30-16:00h"
-        details: |
-          Mientras nos preparamos para el arranque del evento, nuestro DJ residente -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo)- amenizará la espera con una sesión llena de ROMPEPISTAS       
-
+        time: 15:30-16:00h
+        details: Mientras nos preparamos para el arranque del evento, nuestro DJ
+          residente -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo)-
+          amenizará la espera con una sesión llena de ROMPEPISTAS.
       - title: Keynote
-        time: "16:00-16:15h"
-        details: |
-          Un rápido resumen de un año que nunca olvidaremos en forma de monólogo, en el que repasaremos las noticias más importantes y los sucesos más relevantes.
-
-      - title: Aportando transparencia a las Administración Pública mediante la Informática
-        time: "16:15-16:45h"
+        time: 16:00-16:15h
+        details: >
+          Un rápido resumen de un año que nunca olvidaremos en forma de
+          monólogo, en el que repasaremos las noticias más importantes y los
+          sucesos más relevantes.
+      - title: Aportando transparencia a la Administración Pública mediante la
+          Informática
+        time: 16:15-16:45h
         speakers:
           - jaime
-        details: |
-          Jaime es un desarrollador especializado en procesar grandes volúmenes de datos. Después de 16 años trabajando en la empresa privada, dejó su trabajo para dedicarse durante un año a usar sus «superpoderes» para impulsar la transparencia en la Administración mediante datos y tecnología.
-          
+        details: >
+          Jaime es un desarrollador especializado en procesar grandes volúmenes
+          de datos. Después de 16 años trabajando en la empresa privada, dejó su
+          trabajo para dedicarse durante un año a usar sus «superpoderes» para
+          impulsar la transparencia en la Administración mediante datos y
+          tecnología.
+
+
           En esta charla nos contará **cómo podemos usar la tecnología para aportar transparencia a algo tan opaco a veces para el ciudadano como el Sector Público**. ¿Puede un solo informático cambiar las cosas?
+      - title: Concursote de Lanzarote 🎲
+        time: 16:50-17:00h
+        details: >-
+          Los asistentes podrán participar desde sus casas en **un disparatado
+          concurso** en el que tendrán que averiguar cuales de las absurdas
+          anécdotas informáticas que presentaremos 
 
-      - title: Concursote de Lanzarote
-        time: "16:50-17:00h"
 
-      - title: Fiscalidad y Legalidad Cripto para Dummmies y otros animales peligrosos.
-        time: "17:00-17:35h"
+          Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
+      - title: Reportaje 📹
+        time: 17:00-17:15h
+        details: >-
+          Reportaje original de calidad profesional, como los que ya produjimos
+          el año pasado sobre [cocinas
+          fantasma](https://vimeo.com/tarugoconf/ghost-kitchen) y [cohetes
+          espaciales
+          españoles](https://www.tarugoconf.com/blog/tarugo20-pld-space/).
 
+
+          El contenido final lo decidirán los asistentes a la #tarugo21.
+      - title: TBA
+        time: 17:15-17:45h
+        speakers:
+          - tba-1
+        details: >-
+          Charla pendiente de anunciar para mantener la Hype Machine. Stay tuned
+          Antunez!
+
+
+          ![Hype Overload](/img/giphy.gif)
+      - title: ¿Qué saben de nuestra profesión los futuros profesionales? 🎤
+        time: 17:45-18:00h
+        details: >-
+          Salimos a la calle a preguntar a estudiantes de *bootcamps*, Formación
+          Profesional y Grado universitario de Informática sobre **su
+          perspectiva de la profesión y las expectativas que tienen puestas en
+          la misma**.
+
+
+          Sus respuestas no te dejarán indiferente.
+      - title: ¿Puede sobrevivir una Comunidad 100% online?
+        details: Para muchos, Google for Startups Campus no es más que un edificio, pero
+          en 2020 y 2021, Sofía y su equipo han tenido que demostrar que es
+          mucho más que eso: **una verdadera Comunidad de emprendedores y
+          técnicos** que -a pesar de estar separada fisicamente- se ha mantenido
+          más unida que nunca para superar esta pandemia.
+        time: 18:00-18:15h
+      - title: Reportaje 📹
+        time: 18:15-18:30h
+        details: >-
+          Reportaje original de calidad profesional, como los que ya produjimos
+          el año pasado sobre [cocinas
+          fantasma](https://vimeo.com/tarugoconf/ghost-kitchen) y [cohetes
+          espaciales
+          españoles](https://www.tarugoconf.com/blog/tarugo20-pld-space/).
+
+
+          El contenido final lo decidirán los asistentes a la #tarugo21.
+      - title: La tecnología que mueve el mundo
+        time: 18:30-19:00h
+        speakers:
+          - yaiza
+        details: >-
+          La logística es como la administración de sistemas: si es buena,
+          apenas se percibe, pero es la responsable de que nunca falten galletas
+          de dinosaurios en el Super; o que podamos comprar online una lavadora
+          y recibirla menos de 24 horas después.
+
+
+          En esta charla, Yaiza nos explicará **cómo la tecnología ha permitido optimizar y democratizar la logística de «última milla»** o, lo que es lo mismo, todos los procesos y recursos necesarios para que las distintas mercancías lleguen a un pequeño comercio o a nuestra casa.
+      - time: 19:00-19:30h
+        title: Intermedio 🍟
+        details: >-
+          Pausa para que preparéis cena y aperitivos (o la pidáis a domicilio) y
+          cojáis fuerzas para sobrevivir a la segunda parte del show.
+
+
+          El intermedio estará amenizado por [Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo), nuestro DJ residente.
+      - title: "Entrevistas a pie de calle: ¿Cuánto saben los muggles de tecnología? 🎤"
+        time: 19:30-19:45h
+        details: Nuestros intrépidos reporteros se lanzarán a la calle, micrófono en
+          mano, para averiguar hasta qué punto el público general -sin
+          experiencia técnica- conoce conceptos como "criptomoneda", "huella
+          digital" u "open source" y cuál es su opinión al respecto.
+      - title: Cómo construir tu propio páncreas
+        speakers:
+          - antonio
+        time: 19:45-20:15h
+        details: >-
+          El movimiento #WeAreNotWaiting nace de la necesidadde un padre de
+          conocer el estado de su hijo —diabético— cuando no estaba físicamente
+          con él.
+
+
+          Basado en la filosofía *maker* y el DIY (Do It Yourself), este movimiento ha impulsado la democratización del uso de tecnología para mejorar la salud y el bienestar de los pacientes. Exactamente lo que hizo Pablo —que padece diabetes de tipo 1— que en esta charla nos contará **cómo construir un páncreas artificial usando hardware y software *open source***, pero sobre todo, las lecciones aprendidas en el proceso.
+      - title: "Concurso: El Precio Justo 💰"
+        time: 20:15-20:30h
+        details: >-
+          Los asistentes podrán participar desde sus casas en **un disparatado
+          concurso** en el que tendrán que estimar el coste más aproximado, sin
+          pasarse, de famosos proyectos de software públicos y privados.
+
+
+          Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
+      - title: TBA
+        speakers:
+          - tba-3
+        details: Charla pendiente de anunciar para mantener la Hype Machine. Stay tuned
+          Antunez!
+        time: 20:45-21:15h
+      - title: TBA
+        speakers:
+          - tba-2
+        details: Charla pendiente de anunciar para mantener la Hype Machine. Stay tuned
+          Antunez!
+        time: 21:15-21:45h
   - day: Sábado, 23 de octubre
     events:
-      - title: Warm Up!
-        time: "15:00-16:00h"
-
-      - title: Keynote
-        time: "16:00-16:15h"
-
-      - title: 20 años de tecnología
-        time: "16:15-16:50h"
-        details: |
-          En esta charla, Javi y Molpe desgranaran los eventos que ha definido el panorama tecnológico en los últimos 20 años y analizaran como han afectado al mismo.
-          
-          ¡Un mano a mano que marcará una época!
-
-      - title: Concursote de Lanzarote
-        time: "16:50-17:00h"
-
-      - title: Fiscalidad y Legalidad Cripto para Dummmies y otros animales peligrosos.
-        time: "17:00-17:35h"
+      - title: TarugOff
+        time: 11:00-14:00h
+        details: El Open Space de la Tarugo
+      - title: Replay 📼
+        time: 16:00-22:00h
+        details: "Redifusión de la #tarugo21"
