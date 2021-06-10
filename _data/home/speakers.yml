@@ -64,3 +64,8 @@ speakers:
       - text: Web de Antonio
         type: web
         url: http://blog.santosvelasco.com/
+  - name: TBA
+    id: tba-1
+    company: " "
+    image: /img/speakers/tba-1.jpg
+    position: " "
