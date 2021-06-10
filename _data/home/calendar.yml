@@ -120,17 +120,23 @@ days:
         time: 17:05-17:35h
         speakers:
           - tba-1
-        details: Charla pendiente de anunciar. Stay tuned Antunez!
-      - title: TBA
-        time: 18:30-19:00h
-        speakers:
-          - tba-2
         details: >-
           Charla pendiente de anunciar para mantener la Hype Machine. Stay tuned
           Antunez!
 
 
           ![Hype Overload](/img/giphy.gif)
+      - title: La tecnología que mueve el mundo
+        time: 18:30-19:00h
+        speakers:
+          - yaiza
+        details: >-
+          La logística es la responsable de que nunca falten galletas de
+          dinosaurios en el Super o que podamos comprar online una lavadora y
+          recibirla menos de 24 horas después en nuestra casa.
+
+
+          En esta charla, Yaiza nos explicará cómo la tecnologia El trabajo sdsdzx
       - time: 19:00-19:30h
         title: Intermedio
         details: >-
