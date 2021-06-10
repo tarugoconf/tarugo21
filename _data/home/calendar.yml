@@ -126,12 +126,16 @@ days:
 
 
           ![Hype Overload](/img/giphy.gif)
-      - title: "Entrevistas a pie de calle: ¿Cuánto saben los muggles de tecnología? 🎤"
+      - title: ¿Qué saben de nuestra profesión los futuros profesionales? 🎤
         time: 17:45-18:00h
-        details: Nuestros intrépidos reporteros se lanzarán a la calle, micrófono en
-          mano, para averiguar hasta qué punto el público general -sin
-          experiencia técnica- conoce conceptos como "criptomoneda", "huella
-          digital" u "open source" y cuál es su opinión al respecto.
+        details: >-
+          Salimos a la calle a preguntar a estudiantes de *bootcamps*, Formación
+          Profesional y Grado universitario de Informática sobre **su
+          perspectiva de la profesión y las expectativas que tienen puestas en
+          la misma**.
+
+
+          Sus respuestas no te dejarán indiferente.
       - title: ¿Puede sobrevivir una Comunidad 100% online?
         details: Para muchos, Google for Startups Campus no es más que un edificio, pero
           en 2020 y 2021, Sofía y su equipo han tenido que demostrar que es
@@ -170,6 +174,12 @@ days:
 
 
           El intermedio estará amenizado por [Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo), nuestro DJ residente.
+      - title: "Entrevistas a pie de calle: ¿Cuánto saben los muggles de tecnología? 🎤"
+        time: 19:30-19:45h
+        details: Nuestros intrépidos reporteros se lanzarán a la calle, micrófono en
+          mano, para averiguar hasta qué punto el público general -sin
+          experiencia técnica- conoce conceptos como "criptomoneda", "huella
+          digital" u "open source" y cuál es su opinión al respecto.
   - day: Sábado, 23 de octubre
     events:
       - title: Warm Up!
