@@ -96,12 +96,12 @@ days:
 
 
           En esta charla nos contará **cómo podemos usar la tecnología para aportar transparencia a algo tan opaco a veces para el ciudadano como el Sector Público**. ¿Puede un solo informático cambiar las cosas?
-      - title: "Concurso: El Precio Justo 💰"
+      - title: Concursote de Lanzarote 🎲
         time: 16:50-17:00h
         details: >-
           Los asistentes podrán participar desde sus casas en **un disparatado
-          concurso** en el que tendrán que estimar el coste más aproximado, sin
-          pasarse, de famosos proyectos de software públicos y privados.
+          concurso** en el que tendrán que averiguar cuales de las absurdas
+          anécdotas informáticas que presentaremos 
 
 
           Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
@@ -191,22 +191,32 @@ days:
 
 
           Basado en la filosofía *maker* y el DIY (Do It Yourself), este movimiento ha impulsado la democratización del uso de tecnología para mejorar la salud y el bienestar de los pacientes. Exactamente lo que hizo Pablo —que padece diabetes de tipo 1— que en esta charla nos contará **cómo construir un páncreas artificial usando hardware y software *open source***, pero sobre todo, las lecciones aprendidas en el proceso.
+      - title: "Concurso: El Precio Justo 💰"
+        time: 20:15-20:30h
+        details: >-
+          Los asistentes podrán participar desde sus casas en **un disparatado
+          concurso** en el que tendrán que estimar el coste más aproximado, sin
+          pasarse, de famosos proyectos de software públicos y privados.
+
+
+          Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
+      - title: TBA
+        speakers:
+          - tba-3
+        details: Charla pendiente de anunciar para mantener la Hype Machine. Stay tuned
+          Antunez!
+        time: 20:45-21:15h
+      - title: TBA
+        speakers:
+          - tba-2
+        details: Charla pendiente de anunciar para mantener la Hype Machine. Stay tuned
+          Antunez!
+        time: 21:15-21:45h
   - day: Sábado, 23 de octubre
     events:
-      - title: Warm Up!
-        time: 15:00-16:00h
-      - title: Keynote
-        time: 16:00-16:15h
-      - title: 20 años de tecnología
-        time: 16:15-16:50h
-        details: >
-          En esta charla, Javi y Molpe desgranaran los eventos que ha definido
-          el panorama tecnológico en los últimos 20 años y analizaran como han
-          afectado al mismo.
-
-
-          ¡Un mano a mano que marcará una época!
-      - title: Concursote de Lanzarote
-        time: 16:50-17:00h
-      - title: Fiscalidad y Legalidad Cripto para Dummmies y otros animales peligrosos.
-        time: 17:00-17:35h
+      - title: TarugOff
+        time: 11:00-14:00h
+        details: El Open Space de la Tarugo
+      - title: Replay 📼
+        time: 16:00-22:00h
+        details: "Redifusión de la #tarugo21"
