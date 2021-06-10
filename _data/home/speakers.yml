@@ -48,3 +48,19 @@ speakers:
 
 
       En 2017 fue seleccionada como una de las 30 jóvenes menores de 30 años con mayor proyección profesional tanto dentro como fuera de España por la revista Forbes (30 Under 30).
+    id: yaiza
+  - name: Antonio Santos
+    id: antonio
+    company: GitHub
+    position: Site Reliability Engineer
+    image: /img/speakers/1516343232713.jpeg
+    links:
+      - type: twitter
+        url: https://twitter.com/wottam
+        text: "@wottam"
+      - text: Antonio Santos
+        type: linkedin
+        url: https://www.linkedin.com/in/santosvelasco/
+      - text: Web de Antonio
+        type: web
+        url: http://blog.santosvelasco.com/
