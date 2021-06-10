@@ -2,8 +2,9 @@ title: Apoyar
 tickets:
   - name: Early tarug@
     pricing: Contribución ~~75€~~ 50€ + IVA
-    description: |
-      Los primeros 500 tarugos que compren su entrada, se ahorrarán 25€ de la entrada estándar. ¡Suficiente para invitar a chocolate con churros a toda la familia!
+    description: Los primeros 600 tarugos que compren su entrada, se ahorrarán 25€
+      de la entrada estándar. ¡Suficiente para invitar a chocolate con churros a
+      toda la familia!
     includes:
       - text: Más de 10h de contenido en directo
       - text: Reestreno de «Conspiración en la Red» en su 20º aniversario
@@ -16,11 +17,12 @@ tickets:
       address: Toda España
     complements: true
     stock: 500
-
   - name: Tarug@ digital
     pricing: Contribución 50€ + IVA
-    description: |
-      Una entrada creada para los que deseen que su asistencia a la Tarugo no deje ninguna huella de carbono y prefieran no recibir ningún tipo de merchandising.
+    description: >
+      Una entrada creada para los que deseen que su asistencia a la Tarugo no
+      deje ninguna huella de carbono y prefieran no recibir ningún tipo de
+      merchandising.
     includes:
       - text: Más de 10h de contenido en directo
       - text: Reestreno de «Conspiración en la Red» en su 20o aniversario
@@ -31,11 +33,12 @@ tickets:
       date: Octubre 2021
       address: Todo el mundo
     complements: false
-
   - name: Tarug@
     pricing: Contribución 75€ + IVA
-    description: |
-      Acceso completo a todos los contenidos de la Tarugoconf y, además, recepción en casa de todos los goodies y regalos promocionales del evento (camisetas, pegatinas, cuadernos, etc...)
+    description: >
+      Acceso completo a todos los contenidos de la Tarugoconf y, además,
+      recepción en casa de todos los goodies y regalos promocionales del evento
+      (camisetas, pegatinas, cuadernos, etc...)
     includes:
       - text: Más de 10h de contenido en directo
       - text: Reestreno de «Conspiración en la Red» en su 20o aniversario
@@ -47,41 +50,44 @@ tickets:
       date: Octubre 2021
       address: Toda España
     complements: true
-
   - name: Family, fools & friends pack
     pricing: Contribución 111€ + IVA
     description: |
       ¡El pack perfecto para disfrutar del evento en familia o con amigos!
     includes:
       - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ y, además...
-      - text: "**3 camisetas extra** (haciendo un totoal de 4) de la talla que deseéis (incluyendo tallas para niños)."
+      - text: "**3 camisetas extra** (haciendo un totoal de 4) de la talla que deseéis
+          (incluyendo tallas para niños)."
     delivery:
       date: Octubre 2021
       address: Toda España
     complements: true
-
   - name: Mecenas
     pricing: Contribución 500€ + IVA
-    description: |
-      Una entrada pensada para particulares que crean en la visión de la Tarugoconf y quieran contribuir a la misma con una aportación especial.
+    description: >
+      Una entrada pensada para particulares que crean en la visión de la
+      Tarugoconf y quieran contribuir a la misma con una aportación especial.
     includes:
       - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ y, además...
       - text: 1 Goodie exclusivo para Mecenas, enviado a tu casa o a tu empresa
       - text: Tu foto en la web del evento
-      - text: 1 entrada VIP que otorga **la posibilidad de asistir EN PERSONA a la grabación del evento**
+      - text: 1 entrada VIP que otorga **la posibilidad de asistir EN PERSONA a la
+          grabación del evento**
     delivery:
       date: Octubre 2021
       address: Toda España
     complements: true
     stock: 40
-
   - name: Empresa taruga
     pricing: Contribución 1.000€ + IVA
-    description: |
-      Una entrada pensada para empresas que quieran ofrecer a sus empleados, clientes e invitados la posibilidad de experimentar una Tarugoconf y, al mismo tiempo, estrechar lazos entre los mismos.
+    description: >
+      Una entrada pensada para empresas que quieran ofrecer a sus empleados,
+      clientes e invitados la posibilidad de experimentar una Tarugoconf y, al
+      mismo tiempo, estrechar lazos entre los mismos.
     includes:
       - text: Logo de tu empresa en la web del evento
-      - text: "**20 entradas** de tipo Tarug@ para tus empleados e invitados (incluyendo 20 camisetas que enviaremos a tu oficina)"
+      - text: "**20 entradas** de tipo Tarug@ para tus empleados e invitados (incluyendo
+          20 camisetas que enviaremos a tu oficina)"
       - text: "**Sala de chat privada durante el evento**"
     delivery:
       date: Octubre 2021
