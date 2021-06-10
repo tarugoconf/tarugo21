@@ -17,34 +17,7 @@
 
   {{ cont.content | md | safe }}
 
-  <video src="/img/objetivos/{{ content.goal }}.mp4" muted autoplay loop></video>
-
-  {# <aside class="maincontent-goals">
-    <h4>{{ cont.goals.title }}</h4>
-
-    <dl>
-      {% for goal in cont.goals.items %}
-      <div class="maincontent-goal is-{{ goal.status }}" style="--percentage:{{ goal.percentage }}">
-        <dt>
-          {{ goal.title | md(true) | safe }}
-        </dt>
-        <dd>
-          <div>
-            {{ goal.description | md | safe }}
-          </div>
-
-          <div>
-            {% if goal.status == "current" %}
-            <img src="/img/objetivos/cavando.gif" alt="Imagen del objetivo">
-            {% else %}
-            <img src="{{ goal.img }}" alt="Imagen del objetivo">
-            {% endif %}
-          </div>
-        </dd>
-      </div>
-      {% endfor %}
-    </dl>
-  </aside> #}
+  <video src="/img/objetivos/{{ content.goal }}.mp4" muted autoplay loop playsinline></video>
 
   {# Purpose #}
   {% set cont = content.purpose %}
