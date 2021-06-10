@@ -184,7 +184,13 @@ days:
         speakers:
           - antonio
         time: 19:45-20:15h
-        details: TBD
+        details: >-
+          El movimiento #WeAreNotWaiting nace de la necesidadde un padre de
+          conocer el estado de su hijo —diabético— cuando no estaba físicamente
+          con él.
+
+
+          Basado en la filosofía *maker* y el DIY (Do It Yourself), este movimiento ha impulsado la democratización del uso de tecnología para mejorar la salud y el bienestar de los pacientes. Exactamente lo que hizo Pablo —que padece diabetes de tipo 1— que en esta charla nos contará **cómo construir un páncreas artificial usando hardware y software *open source***, pero sobre todo, las lecciones aprendidas en el proceso.
   - day: Sábado, 23 de octubre
     events:
       - title: Warm Up!
