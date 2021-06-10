@@ -139,6 +139,17 @@ days:
           técnicos** que -a pesar de estar separada fisicamente- se ha mantenido
           más unida que nunca para superar esta pandemia.
         time: 18:00-18:15h
+      - title: Reportaje 📹
+        time: 18:15-18:30h
+        details: >-
+          Reportaje original de calidad profesional, como los que ya produjimos
+          el año pasado sobre [cocinas
+          fantasma](https://vimeo.com/tarugoconf/ghost-kitchen) y [cohetes
+          espaciales
+          españoles](https://www.tarugoconf.com/blog/tarugo20-pld-space/).
+
+
+          El contenido final lo decidirán los asistentes a la #tarugo21.
       - title: La tecnología que mueve el mundo
         time: 18:30-19:00h
         speakers:
@@ -152,19 +163,13 @@ days:
 
           En esta charla, Yaiza nos explicará **cómo la tecnología ha permitido optimizar y democratizar la logística de «última milla»** o, lo que es lo mismo, todos los procesos y recursos necesarios para que las distintas mercancías lleguen a un pequeño comercio o a nuestra casa.
       - time: 19:00-19:30h
-        title: Intermedio
+        title: Intermedio 🍟
         details: >-
           Pausa para que preparéis cena y aperitivos (o la pidáis a domicilio) y
           cojáis fuerzas para sobrevivir a la segunda parte del show.
 
 
           El intermedio estará amenizado por [Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo), nuestro DJ residente.
-      - title: "Concurso: La Jerocleta 🎰"
-        time: 18:15-18:30h
-        details: "Repasaremos en directo algunos de los tweets más *chanantes* con el
-          hashtag **\\#tarugo21** que hayan publicado los asistentes y
-          sortearemos entre los mismos diversos premios utilizando el software
-          más rentable de este pais:"
   - day: Sábado, 23 de octubre
     events:
       - title: Warm Up!
