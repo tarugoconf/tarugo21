@@ -64,6 +64,14 @@ speakers:
       - text: Web de Antonio
         type: web
         url: http://blog.santosvelasco.com/
+    bio: >-
+      Antonio es un ingeniero informático onubense que trabaja en GitHub como
+      Site Reliability Engineer, a la que llegó después de disfrutar de una
+      larga trayectoria en algunas de las startups andaluzas más potentes, como
+      BitNami (adquirida recientemente por VMware).
+
+
+      Se considera un «informático recursivo» porque construye software para gente que construye software para gente que construye software :)
   - name: TBA
     id: tba-1
     company: " "
