@@ -69,8 +69,21 @@ speakers:
     company: " "
     image: /img/speakers/tba-1.jpg
     position: " "
-    bio: Ponente por confirmar
+    bio: Ponente pendiente de anunciar.
     links:
+      - type: twitter
+        text: "@tarugoconf"
+        url: https://twitter.com/tarugoconf
       - type: web
-        text: Bonilista
-        url: https://www.bonilista.com
+        url: https://www.tarugoconf.com
+        text: tarugoconf.com
+  - id: tba-2
+    name: TBA
+    bio: Ponente pendiente de anunciar.
+    links:
+      - text: "@tarugoconf"
+        type: twitter
+        url: https://twitter.com/tarugoconf
+    company: " "
+    position: " "
+    image: /img/speakers/luffyjpg.png
