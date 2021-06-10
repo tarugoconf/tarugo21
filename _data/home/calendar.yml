@@ -180,6 +180,11 @@ days:
           mano, para averiguar hasta qué punto el público general -sin
           experiencia técnica- conoce conceptos como "criptomoneda", "huella
           digital" u "open source" y cuál es su opinión al respecto.
+      - title: Cómo construir tu propio páncreas
+        speakers:
+          - antonio
+        time: 19:45-20:15h
+        details: TBD
   - day: Sábado, 23 de octubre
     events:
       - title: Warm Up!
