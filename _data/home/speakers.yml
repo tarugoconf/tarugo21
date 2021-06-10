@@ -84,6 +84,22 @@ speakers:
       - text: "@tarugoconf"
         type: twitter
         url: https://twitter.com/tarugoconf
+      - type: web
+        url: https://www.tarugoconf.com
+        text: tarugoconf.com
     company: " "
     position: " "
     image: /img/speakers/luffyjpg.png
+  - name: TBA
+    id: tba-3
+    company: " "
+    position: " "
+    bio: Ponente pendiente de anunciar.
+    links:
+      - text: "@tarugoconf"
+        type: twitter
+        url: https://twitter.com/tarugoconf
+      - type: web
+        text: tarugoconf.com
+        url: https://www.tarugoconf.com
+    image: /img/speakers/celtypng.png
