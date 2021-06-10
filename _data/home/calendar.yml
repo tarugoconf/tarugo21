@@ -121,14 +121,6 @@ days:
         speakers:
           - tba-1
         details: Charla pendiente de anunciar. Stay tuned Antunez!
-      - time: 19:00-19:30h
-        title: Intermedio
-        details: >-
-          Pausa para que preparéis cena y aperitivos (o la pidáis a domicilio) y
-          cojáis fuerzas para sobrevivir a la segunda parte del show.
-
-
-          El intermedio estará amenizado por [Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo), nuestro DJ residente.
       - title: TBA
         time: 18:30-19:00h
         speakers:
@@ -139,6 +131,14 @@ days:
 
 
           ![Hype Overload](/img/giphy.gif)
+      - time: 19:00-19:30h
+        title: Intermedio
+        details: >-
+          Pausa para que preparéis cena y aperitivos (o la pidáis a domicilio) y
+          cojáis fuerzas para sobrevivir a la segunda parte del show.
+
+
+          El intermedio estará amenizado por [Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo), nuestro DJ residente.
   - day: Sábado, 23 de octubre
     events:
       - title: Warm Up!
