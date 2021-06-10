@@ -52,7 +52,7 @@ days:
 
 
           Si te preguntas qué sentido tiene streamear películas de hace 20 o 30 años en los tiempos que corren, la respuesta es muy sencilla, **imagína lo divertido que puede ser verla todos juntos a la vez —y twittear sobre los gazapos técnicos y anacronísmos que encontremos—** con la perspectiva que da el tiempo y la experiencia ¡Hasta la vista, baby! 😎
-      - title: "Panel moderado: «El sector, 20 años después» 🎤"
+      - title: "Panel moderado: El sector, 20 años después 🎤"
         time: 22:00-22:45h
         details: >
           Mesa redonda para intensitos y gente a la que le gusta PENSAR MUY
@@ -73,10 +73,9 @@ days:
           Además, podrás usar los slots de networking para **celebrar reuniones 1:1 con otros asistentes del evento** con los que compartas intereses y aficiones.
       - title: Warm Up! 🤖
         time: 15:30-16:00h
-        details: >
-          Mientras nos preparamos para el arranque del evento, nuestro DJ
+        details: Mientras nos preparamos para el arranque del evento, nuestro DJ
           residente -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo)-
-          amenizará la espera con una sesión llena de ROMPEPISTAS       
+          amenizará la espera con una sesión llena de ROMPEPISTAS.
       - title: Keynote
         time: 16:00-16:15h
         details: >
@@ -97,8 +96,15 @@ days:
 
 
           En esta charla nos contará **cómo podemos usar la tecnología para aportar transparencia a algo tan opaco a veces para el ciudadano como el Sector Público**. ¿Puede un solo informático cambiar las cosas?
-      - title: Concursote de Lanzarote
+      - title: "Concurso: El Precio Justo 💰"
         time: 16:50-17:00h
+        details: >-
+          Los asistentes podrán participar desde sus casas en **un disparatado
+          concurso** en el que tendrán que estimar el coste más aproximado, sin
+          pasarse, de famosos proyectos de software públicos y privados.
+
+
+          Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
       - title: Fiscalidad y Legalidad Cripto para Dummmies y otros animales peligrosos.
         time: 17:00-17:35h
   - day: Sábado, 23 de octubre
