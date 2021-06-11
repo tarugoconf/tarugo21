@@ -12,9 +12,7 @@ intro:
 
     Es, ante todo, **un punto de encuentro para gente de todo tipo que «hace cosas» alrededor del software, la innovación tecnológica e Internet** que, desde la crisis del COVID-19, se ha reconvertido en un evento 100% online.
 
-    <!-- <video src="/img/que/ae-mascara.mp4" muted loop autoplay></video> -->
-
-    ![video](/img/que/twitter.gif){width="100%"}
+    <video src="/img/que/twitter.mp4" muted loop autoplay playsinline></video>
 
     ¿Cómorl? ¿OTRO evento online? ¿En serio? ¿No hemos tenido suficiente ya con todos los que nos hemos tenido que tragar durante un añito de confinamiento y distanciamiento social? Pues la verdad es que sí, pero ya que aun no se dan las condiciones necesarias para organizar con garantías una conferencia técnica presencial con cientos de asistentes, podemos **utilizar todo lo aprendido en la edición del año pasado para intentar crear la experiencia online definitiva.**
   
@@ -36,7 +34,7 @@ zoom:
   content: |
     La #tarugo21 se grabará en plató de TV en el que **crearemos contenido que aproveche todas las ventajas del medio online:** interacción con ponentes y resto de asistentes, concursos y sorteos en directo, reportajes pregrabados y, por supuesto, que el que quiera haga auténtico networking, gracias a un montón de dinámicas y juegos.
 
-    ![Capturas de la edición del año pasado](/img/que/ae-mascara.gif){width="100%"}
+    <video src="/img/que/ae-mascara.mp4" muted loop autoplay playsinline></video>
 
 
 muggles:
