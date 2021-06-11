@@ -1,23 +1,23 @@
 title: Apoyar
 tickets:
-  - name: Early tarug@
+  - name: Early Tarug@
     pricing: Contribución ~~75€~~ 50€ + IVA
     description: Los primeros 600 tarugos que compren su entrada, se ahorrarán 25€
       de la entrada estándar. ¡Suficiente para invitar a chocolate con churros a
       toda la familia!
     includes:
       - text: Más de 10h de contenido en directo
-      - text: Reestreno de «Conspiración en la Red» en su 20º aniversario
+      - Premiere de cine
       - text: Acceso a grabaciones de charlas y reportajes
       - text: Networking y Concursos
-      - text: Propuesta/votación de charlas en la Tarugoff, nuestro Open Space
+      - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
       - text: Camiseta del evento (enviada a tu casa)
     delivery:
       date: Octubre 2021
       address: Toda España
     complements: true
-    stock: 500
-  - name: Tarug@ digital
+    stock: 600
+  - name: Tarug@ Digital
     pricing: Contribución 50€ + IVA
     description: >
       Una entrada creada para los que deseen que su asistencia a la Tarugo no
@@ -25,10 +25,10 @@ tickets:
       merchandising.
     includes:
       - text: Más de 10h de contenido en directo
-      - text: Reestreno de «Conspiración en la Red» en su 20o aniversario
+      - Premiere de cine
       - text: Acceso a grabaciones de charlas y reportajes
       - text: Networking y Concursos
-      - text: Propuesta/votación de charlas en la Tarugoff, nuestro Open Space
+      - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
     delivery:
       date: Octubre 2021
       address: Todo el mundo
@@ -50,12 +50,13 @@ tickets:
       date: Octubre 2021
       address: Toda España
     complements: true
-  - name: Family, fools & friends pack
+  - name: Family, Fools & Friends Pack
     pricing: Contribución 111€ + IVA
     description: |
       ¡El pack perfecto para disfrutar del evento en familia o con amigos!
     includes:
-      - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ y, además...
+      - Todas los beneficios incluidos en la entrada de tipo Tarug@ Classic y,
+        además...
       - text: "**3 camisetas extra** (haciendo un totoal de 4) de la talla que deseéis
           (incluyendo tallas para niños)."
     delivery:
