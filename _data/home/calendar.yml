@@ -203,15 +203,35 @@ days:
       - title: TBA
         speakers:
           - tba-3
-        details: Charla pendiente de anunciar para mantener la Hype Machine. Stay tuned
+        details: >-
+          Charla pendiente de anunciar para mantener la Hype Machine. Stay tuned
           Antunez!
-        time: 20:45-21:15h
+
+
+          ![](/img/giphy-1-.gif)
+        time: 20:30-21:00h
+      - title: Bola Extra 🎱
+        details: Una sorpresa que será desvelada en su debido momento...
+        time: 21:00.21:15h
       - title: TBA
         speakers:
           - tba-2
-        details: Charla pendiente de anunciar para mantener la Hype Machine. Stay tuned
+        details: >-
+          Charla pendiente de anunciar para mantener la Hype Machine. Stay tuned
           Antunez!
+
+
+          ![](/img/giphy-2-.gif)
         time: 21:15-21:45h
+      - title: Despedida y cierre
+        time: 21:45-22:00h 👋
+        speakers:
+          - david
+        details: Como ya es tradición, **haremos públicas todas las cifras del
+          evento** -fuentes de ingresos, partidas de gastos y cuenta de
+          resultados-, acreditaremos y agradeceremos el esfuerzo a todo el
+          equipo de profesionales y voluntarios que lo harán posible y pondremos
+          un broche de oro entonando el 'Miña Terra Galega' 💪
   - day: Sábado, 23 de octubre
     events:
       - title: TarugOff
