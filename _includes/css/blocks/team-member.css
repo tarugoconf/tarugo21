@@ -36,6 +36,7 @@
     font: inherit;
     text-transform: uppercase;
     color: #003e3e;
+    display: block;
   }
 
   &:hover img {
