@@ -88,11 +88,11 @@ tickets:
       - text: Logo de tu empresa en la web del evento
       - text: "**10 entradas** de tipo Tarug@ Classic para tus empleados, clientes e
         invitados, incluyendo 10 camisetas que enviaremos a tu oficina."
-      - text: 1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA
-        a la grabación del evento**
-      - text: (Si estáis interesado en esta entrada para tu empresa, poneros en
+      - text: "1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA
+        a la grabación del evento**"
+      - text: "(Si estáis interesado en esta entrada para tu empresa, poneros en
         contacto con nosotros directamente en
-        [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com))
+        [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com))"
     delivery:
       date: Octubre 2021
       address: Toda España
