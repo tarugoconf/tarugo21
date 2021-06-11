@@ -7,10 +7,10 @@ tickets:
       toda la familia!
     includes:
       - text: Más de 10h de contenido en directo
-      - Premiere de cine
+      - text: Premiere de cine
       - text: Acceso a grabaciones de charlas y reportajes
       - text: Networking y Concursos
-      - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
+      - text: Propuesta/votación de charlas en la TarugOff, nuestro Open Space
       - text: Camiseta del evento (enviada a tu casa)
     delivery:
       date: Octubre 2021
@@ -25,10 +25,10 @@ tickets:
       merchandising.
     includes:
       - text: Más de 10h de contenido en directo
-      - Premiere de cine
+      - text: Premiere de cine
       - text: Acceso a grabaciones de charlas y reportajes
       - text: Networking y Concursos
-      - Propuesta/votación de charlas en la TarugOff, nuestro Open Space
+      - text: Propuesta/votación de charlas en la TarugOff, nuestro Open Space
     delivery:
       date: Octubre 2021
       address: Todo el mundo
@@ -41,10 +41,10 @@ tickets:
       (camisetas, pegatinas, cuadernos, etc...)
     includes:
       - text: Más de 10h de contenido en directo
-      - text: Reestreno de «Conspiración en la Red» en su 20o aniversario
+      - text: Premiere de cine
       - text: Acceso a grabaciones de charlas y reportajes
       - text: Networking y Concursos
-      - text: Propuesta/votación de charlas en la Tarugoff, nuestro Open Space
+      - text: Propuesta/votación de charlas en la TarugOff, nuestro Open Space
       - text: Camiseta del evento (enviada a tu casa)
     delivery:
       date: Octubre 2021
@@ -55,7 +55,7 @@ tickets:
     description: |
       ¡El pack perfecto para disfrutar del evento en familia o con amigos!
     includes:
-      - Todas los beneficios incluidos en la entrada de tipo Tarug@ Classic y,
+      - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ Classic y,
         además...
       - text: "**3 camisetas extra** (haciendo un totoal de 4) de la talla que deseéis
           (incluyendo tallas para niños)."
@@ -72,7 +72,7 @@ tickets:
       - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ y, además...
       - text: 1 Goodie exclusivo para Mecenas, enviado a tu casa o a tu empresa
       - text: Tu foto en la web del evento
-      - 1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA
+      - text: 1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA
         a la grabación del evento**
     delivery:
       date: Octubre 2021
@@ -87,11 +87,11 @@ tickets:
       mismo tiempo, estrechar lazos entre los mismos.
     includes:
       - text: Logo de tu empresa en la web del evento
-      - "**10 entradas** de tipo Tarug@ Classic para tus empleados, clientes e
-        invitados, incluyendo 10 camisetas que enviaremos a tu oficina."
-      - 1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA
+      - text: **10 entradas** de tipo Tarug@ Classic para tus empleados, clientes e
+        invitados, incluyendo 10 camisetas que enviaremos a tu oficina.
+      - text: 1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA
         a la grabación del evento**
-      - (Si estáis interesado en esta entrada para tu empresa, poneros en
+      - text: (Si estáis interesado en esta entrada para tu empresa, poneros en
         contacto con nosotros directamente en
         [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com))
     delivery:
