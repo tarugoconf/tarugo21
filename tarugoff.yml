@@ -15,13 +15,13 @@ menu:
 
 ctas:
   - text: Enviar sesión
-    url: 'https://forms.gle/i2RBFiR6mQApMA7J9'
+    url: 'https://forms.gle/QsDQSLx5NBdGWw3K8'
     class: button
     target: _blank
 
 header:
   title: 'Tarugoff'
-  subtitle: 28 de noviembre de 2020
+  subtitle: 23 de octubre de 2021
 
 what:
   title: Qué
@@ -58,7 +58,7 @@ participate:
     Al ser online, la presentación de sesiones se realizará grabando un vídeo y enviándolo en el botón que dice "Enviar sesión".
   
   footer: |
-    [Enviar sesión](https://forms.gle/i2RBFiR6mQApMA7J9){.button .is-primary .is-centered}
+    [Enviar sesión](https://forms.gle/QsDQSLx5NBdGWw3K8){.button .is-primary .is-centered}
 
   vote: |
     **¿Cómo votar las sesiones?**
@@ -82,7 +82,7 @@ sessions:
 event:
   title: Día del evento
   text: |
-    El día de la Tarugoff tendremos un streaming en Brella por cada track, pero si se trata de una sesión colaborativa y quieres participar, tendrás que conectarte a la herramienta de vídeo-conferencia que seleccionemos.
+    Todavía estamos concretando detalles sobre la plataforma a utilizar, stay tuned!!!
 
 faq:
   title: FAQ
