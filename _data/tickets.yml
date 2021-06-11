@@ -71,8 +71,8 @@ tickets:
       - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ y, además...
       - text: 1 Goodie exclusivo para Mecenas, enviado a tu casa o a tu empresa
       - text: Tu foto en la web del evento
-      - text: 1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA
-        a la grabación del evento**
+      - text: "1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA
+        a la grabación del evento**"
     delivery:
       date: Octubre 2021
       address: Toda España
