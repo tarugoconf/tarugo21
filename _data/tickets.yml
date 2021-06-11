@@ -72,14 +72,14 @@ tickets:
       - text: Todas los beneficios incluidos en la entrada de tipo Tarug@ y, además...
       - text: 1 Goodie exclusivo para Mecenas, enviado a tu casa o a tu empresa
       - text: Tu foto en la web del evento
-      - text: 1 entrada VIP que otorga **la posibilidad de asistir EN PERSONA a la
-          grabación del evento**
+      - 1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA
+        a la grabación del evento**
     delivery:
       date: Octubre 2021
       address: Toda España
     complements: true
     stock: 40
-  - name: Empresa taruga
+  - name: Empresa Taruga
     pricing: Contribución 1.000€ + IVA
     description: >
       Una entrada pensada para empresas que quieran ofrecer a sus empleados,
@@ -87,9 +87,13 @@ tickets:
       mismo tiempo, estrechar lazos entre los mismos.
     includes:
       - text: Logo de tu empresa en la web del evento
-      - text: "**20 entradas** de tipo Tarug@ para tus empleados e invitados (incluyendo
-          20 camisetas que enviaremos a tu oficina)"
-      - text: "**Sala de chat privada durante el evento**"
+      - "**10 entradas** de tipo Tarug@ Classic para tus empleados, clientes e
+        invitados, incluyendo 10 camisetas que enviaremos a tu oficina."
+      - 1 entrada de backstage que otorga **la posibilidad de asistir EN PERSONA
+        a la grabación del evento**
+      - (Si estáis interesado en esta entrada para tu empresa, poneros en
+        contacto con nosotros directamente en
+        [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com))
     delivery:
       date: Octubre 2021
       address: Toda España
