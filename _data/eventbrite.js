@@ -1,7 +1,7 @@
-// deno run --allow-env --allow-net _data/eventbrite.js
-
 const API_KEY = Deno.env.get("API_KEY");
 const EVENT_ID = Deno.env.get("EVENT_ID");
+
+const filteredTypes = ["VIP"];
 
 export const metrics = API_KEY ? await getData() : {
   tickets: 333,
@@ -11,9 +11,15 @@ export const metrics = API_KEY ? await getData() : {
 async function getData() {
   const result = await get(`/events/${EVENT_ID}/attendees/`);
   const by_type = {};
+  let tickets = 0;
 
   result.attendees.forEach((user) => {
     const type = user.ticket_class_name;
+
+    if (filteredTypes.includes(type)) {
+      return;
+    }
+    ++tickets;
 
     if (type in by_type) {
       ++by_type[type];
@@ -23,7 +29,7 @@ async function getData() {
   })
   
   return {
-    tickets: result.pagination.object_count,
+    tickets,
     by_type,
   };
 }
