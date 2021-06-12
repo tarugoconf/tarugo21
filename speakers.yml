@@ -127,23 +127,35 @@ speakers:
         title: '@justyna_adam'
         url: https://twitter.com/Justyna_Adam
     - name: Diego Mariño
-      position: Desarrollador de Videojuegos
+      position: Montador de Legos
       image: /img/past-speakers/diego-marino.jpeg
       twitter:
         title: '@diegomarino'
         url: https://twitter.com/diegomarino
-    - name: Andrea Barber
-      position: Cofundadora de Rated Power
-      image: /img/past-speakers/andrea-barber.jpg
+    - name: Eva Belmonte
+      position: Directora de Civio
+      image: /img/past-speakers/eva-belmonte.jpeg
       twitter:
-        title: '@andreabarberl'
-        url: https://twitter.com/andreabarberl
+        title: '@evabelmonte'
+        url: https://twitter.com/evabelmonte
     - name: Álvaro Videla
       position: Azure Advocate / RabbitMQ Dev
       image: /img/past-speakers/alvaro-videla.jpg
       twitter:
         title: '@old_sound'
         url: https://twitter.com/old_sound
+    - name: Andrea Barber
+      position: Cofundadora de Rated Power
+      image: /img/past-speakers/andrea-barber.jpg
+      twitter:
+        title: '@andreabarberl'
+        url: https://twitter.com/andreabarberl
+    - name: Juanjo Montiel
+      position: Desarrollador de Software y Microsoft MVP
+      image: /img/past-speakers/juanjo-montiel.jpg
+      twitter:
+        title: '@kastwey'
+        url: https://twitter.com/kastwey
     - name: Daniel Lopez
       position: Fundador de Bitnami
       image: /img/past-speakers/daniel-lopez.jpg
@@ -173,8 +185,8 @@ resources:
   title: Recursos para speakers
   links:
     - text: El postmortem, con todas las cifras de la edición anterior
-      href: https://bonillaware.com/postmortem-tarugo4
-    - text: Vídeo-resumen de la última edición (2019)
+      href: https://bonillaware.com/postmortem-tarugo20
+    - text: Vídeo-resumen de la tarugo4 (2019)
       href: https://vimeo.com/384584744
     - text: Vídeo-resumen de la tarugo3 (2018)
       href: https://vimeo.com/304015791
