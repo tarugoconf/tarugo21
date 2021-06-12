@@ -61,18 +61,21 @@ partners:
     alt: Nombre empresa
     text: Descripción
 patrons:
-  - img: /img/partners/logo-manfred-sponsor-2.png
-    alt: Manfred
-    url: https://www.getmanfred.com/
-  - alt: Flywire
-    img: /img/partners/600_479033123.jpeg
-    url: https://www.flywire.com
-  - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
-    url: https://tarugoconf.com
-    alt: Nombre empresa
   - img: /img/partners/daniel-lopez.jpg
     alt: Daniel Lopez
     url: https://twitter.com/vomkriege
+  - alt: Flywire
+    img: /img/partners/600_479033123.jpeg
+    url: https://www.flywire.com
+  - alt: Taiger
+    img: /img/partners/logo-taiger-lineas-negras-vertical.png
+    url: https://taiger.com/
+  - img: /img/partners/logo-manfred-sponsor-2.png
+    alt: Manfred
+    url: https://www.getmanfred.com/
+  - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
+    url: https://tarugoconf.com
+    alt: Nombre empresa
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >
