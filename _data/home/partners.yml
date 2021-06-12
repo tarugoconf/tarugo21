@@ -15,10 +15,6 @@ main:
   alt: Google for Startups
   text: Para los que nunca dejan de emprender.
 partners:
-  - img: https://via.placeholder.com/400x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
-    url: https://tarugoconf.com
-    alt: Nombre empresa
-    text: Descripción
   - img: /img/partners/deiser_-logo_positivo.png
     alt: Deiser
     url: https://www.deiser.com/
@@ -60,16 +56,23 @@ partners:
     url: https://www.autentia.com/
     text: Expertos en creación de software de calidad.
     img: /img/partners/ddj3yqju8aarwsx.png
-patrons:
-  - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
+  - img: https://via.placeholder.com/400x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
     alt: Nombre empresa
+    text: Descripción
+patrons:
   - img: /img/partners/logo-manfred-sponsor-2.png
     alt: Manfred
     url: https://www.getmanfred.com/
   - alt: Flywire
     img: /img/partners/600_479033123.jpeg
     url: https://www.flywire.com
+  - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
+    url: https://tarugoconf.com
+    alt: Nombre empresa
+  - img: /img/partners/daniel-lopez.jpg
+    alt: Daniel Lopez
+    url: https://twitter.com/vomkriege
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >
