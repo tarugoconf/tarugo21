@@ -62,24 +62,27 @@ partners:
     text: Echa un ojo a [nuestras oportunidades de
       patrocinio](https://drive.google.com/file/d/1tdWLZjaXzbiQDTPjrjGRO3pvN-kh2IPb/preview).
 patrons:
-  - alt: Daniel Cerecedo
-    img: /img/partners/daniel-cerecedo.jpeg
-    url: https://twitter.com/dcerecedo
-  - img: /img/partners/daniel-lopez.jpg
-    alt: Daniel Lopez
-    url: https://twitter.com/vomkriege
   - alt: Taiger
     img: /img/partners/logo-taiger-lineas-negras-vertical.png
     url: https://taiger.com/
+  - url: https://adagio.pro/
+    alt: Adagio
+    img: /img/partners/adagio-amati.png
   - img: /img/partners/logo-manfred-sponsor-2.png
     alt: Manfred
     url: https://www.getmanfred.com/
-  - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
-    url: https://tarugoconf.com
-    alt: Nombre empresa
+  - img: /img/partners/daniel-lopez.jpg
+    alt: Daniel Lopez
+    url: https://twitter.com/vomkriege
+  - alt: Daniel Cerecedo
+    img: /img/partners/daniel-cerecedo.jpeg
+    url: https://twitter.com/dcerecedo
   - alt: Jordi Mon
     url: https://twitter.com/jordimonpmm
     img: /img/partners/jordi-mon.jpeg
+  - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
+    url: https://tarugoconf.com
+    alt: Nombre empresa
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >
