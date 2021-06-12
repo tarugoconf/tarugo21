@@ -48,6 +48,10 @@ partners:
     img: /img/partners/social.png
     url: https://coru.net/
     text: Desarrollamos soluciones tecnológicas para grandes empresas.
+  - alt: Panel
+    img: /img/partners/logo_panel_azul_rgb_300-o5fuqk76rlxeysnoi8kro1bwmlhj9b1qyiqtc6m4jq.png
+    text: Creación Inteligente de software, sistemas y servicios TI.
+    url: https://www.panel.es/
 patrons:
   - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
