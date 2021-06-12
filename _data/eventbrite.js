@@ -3,6 +3,12 @@ const EVENT_ID = Deno.env.get("EVENT_ID");
 
 const filteredTypes = ["VIP"];
 
+const day = 24 * 60 * 60 * 1000;
+const now = new Date();
+const future = new Date(2021, 10, 21);
+
+export const days_left = Math.round(Math.abs((now - future) / day));
+
 export const metrics = API_KEY ? await getData() : {
   tickets: 333,
   by_type: {},

@@ -18,13 +18,13 @@ intro:
   
   features:
     - title: "**Banda** en directo"
-      img: img/que/banda.jpg
+      img: img/que/banda.png
     - title: "**Reportajes** inéditos"
-      img: img/que/reportajes.jpg
+      img: img/que/reportajes.png
     - title: "**Concursos** y juegos"
-      img: img/que/concursos.jpg
+      img: img/que/concursos.png
     - title: "**Networking** para todos"
-      img: img/que/networking.jpg
+      img: img/que/networking.png
 
 zoom:
   title: |
@@ -49,21 +49,21 @@ muggles:
 
   features:
     - title: Útil
-      img: img/que/util.jpg
+      img: img/que/util.png
       description: |
         Problemas y soluciones reales, que podrás incorporar a tu caja de herramientas y aplicar en tu día a día.
 
     - title: Práctica
-      img: img/que/practico.jpg
+      img: img/que/practico.png
       description: |
         Un speaker de la Tarugoconf no habla de lo que ha leído sino de lo que ha vivido.
 
     - title: Divertida
-      img: img/que/divertido.jpg
+      img: img/que/divertido.png
       description: |
         Lo contrario de 'divertido' no es 'serio' sino 'aburrido' y lo único que está prohibido en la Tarugoconf es aburrirse.
 
     - title: Para todos
-      img: img/que/para-todos.jpg
+      img: img/que/para-todos.png
       description: |
         Las charlas se trabajan para que sean interesantes para los expertos y accesibles para los no iniciados.
