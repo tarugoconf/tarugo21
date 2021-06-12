@@ -23,7 +23,7 @@ partners:
     alt: Deiser
     url: https://www.deiser.com/
     text: Te ayudamos con tus apps de Atlassian.
-  - img: /img/partners/sngular-logo-dark-tagline.jpeg
+  - img: /img/partners/sngular-logo-big.png
     alt: Sngular
     url: https://www.sngular.com/
     text: Juntos, crearemos algo grande hoy.
@@ -44,6 +44,10 @@ partners:
     url: https://tecnofor.es/
     img: /img/partners/logo_big_new.png
     text: Formación y Consultoría para gestionar tu tecnología.
+  - alt: Corunet
+    img: /img/partners/social.png
+    url: https://coru.net/
+    text: Desarrollamos soluciones tecnológicas para grandes empresas.
 patrons:
   - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
