@@ -35,6 +35,11 @@ partners:
     alt: Eventbrite
     url: https://www.eventbrite.es
     text: Haz lo que te apasiona
+  - alt: Stackscale
+    img: /img/partners/stackscale-logo-hi.jpeg
+    url: https://www.stackscale.com/es/
+    text: Soluciones de infraestructura y cloud hosting para proyectos que necesitan
+      Alta Disponibilidad y rendimiento.
 patrons:
   - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
