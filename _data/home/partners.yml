@@ -62,6 +62,9 @@ partners:
     text: Echa un ojo a [nuestras oportunidades de
       patrocinio](https://drive.google.com/file/d/1tdWLZjaXzbiQDTPjrjGRO3pvN-kh2IPb/preview).
 patrons:
+  - alt: Daniel Cerecedo
+    img: /img/partners/daniel-cerecedo.jpeg
+    url: https://twitter.com/dcerecedo
   - img: /img/partners/daniel-lopez.jpg
     alt: Daniel Lopez
     url: https://twitter.com/vomkriege
@@ -77,9 +80,6 @@ patrons:
   - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
     alt: Nombre empresa
-  - alt: Daniel Cerecedo
-    img: /img/partners/daniel-cerecedo.jpeg
-    url: https://twitter.com/dcerecedo
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >
