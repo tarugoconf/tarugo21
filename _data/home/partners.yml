@@ -40,6 +40,10 @@ partners:
     url: https://www.stackscale.com/es/
     text: Soluciones de infraestructura y cloud hosting para proyectos que necesitan
       Alta Disponibilidad y rendimiento.
+  - alt: Tecnofor
+    url: https://tecnofor.es/
+    img: /img/partners/logo_big_new.png
+    text: Formación y Consultoría para gestionar tu tecnología.
 patrons:
   - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
