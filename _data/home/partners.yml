@@ -77,6 +77,9 @@ patrons:
   - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
     alt: Nombre empresa
+  - alt: Jordi Mon
+    url: https://twitter.com/jordimonpmm
+    img: /img/partners/jordi-mon.jpeg
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >
