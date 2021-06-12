@@ -134,7 +134,7 @@ speakers:
         url: https://twitter.com/diegomarino
     - name: Eva Belmonte
       position: Directora de Civio
-      image: /img/past-speakers/eva-belmonte.jpeg
+      image: /img/past-speakers/eva-belmonte.jpg
       twitter:
         title: '@evabelmonte'
         url: https://twitter.com/evabelmonte
@@ -156,6 +156,12 @@ speakers:
       twitter:
         title: '@kastwey'
         url: https://twitter.com/kastwey
+    - name: Marta López
+      position: Experta en Ciberseguridad
+      image: /img/past-speakers/marta-lopez.jpg
+      twitter:
+        title: '@martixx'
+        url: https://twitter.com/Martixx
     - name: Daniel Lopez
       position: Fundador de Bitnami
       image: /img/past-speakers/daniel-lopez.jpg
@@ -180,6 +186,12 @@ speakers:
       twitter:
         title: '@experiencia_T'
         url: https://twitter.com/experiencia_T
+    - name: Cris Carrascosa
+      position: Abogada, experta en fiscalidad y regulación cripto
+      image: /img/past-speakers/cris-carrascosa.jpg
+      twitter:
+        title: '@CarrascosaCris_'
+        url: https://twitter.com/CarrascosaCris_
 
 resources:
   title: Recursos para speakers
