@@ -10,7 +10,7 @@ video:
 metrics:
   tickets: 257
   sponsors: 14
-  days: 98
+  days: 130
 menu:
   - text: Qué
     href: "#what"
