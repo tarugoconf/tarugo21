@@ -59,7 +59,8 @@ partners:
   - img: https://via.placeholder.com/400x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
     alt: Nombre empresa
-    text: Descripción
+    text: Echa un ojo a [nuestras oportunidades de
+      patrocinio](https://drive.google.com/file/d/1tdWLZjaXzbiQDTPjrjGRO3pvN-kh2IPb/preview).
 patrons:
   - img: /img/partners/daniel-lopez.jpg
     alt: Daniel Lopez
