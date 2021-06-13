@@ -21,3 +21,5 @@ Start a local server:
 ```bash
 lume -s
 ```
+
+V0.1 13/JUN/2021
