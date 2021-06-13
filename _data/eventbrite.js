@@ -15,33 +15,41 @@ export const metrics = API_KEY ? await getData() : {
 };
 
 async function getData() {
-  const result = await get(`/events/${EVENT_ID}/attendees/`);
-  const by_type = {};
-  let tickets = 0;
+  const data = {
+    by_type: {},
+    tickets: 0
+  };
+  
+  await loadData(data, 1);
+
+  return data;
+}
+
+async function loadData(data, page) {
+  const result = await get(`/events/${EVENT_ID}/attendees/`, page);
 
   result.attendees.forEach((user) => {
     const type = user.ticket_class_name;
 
-    if (filteredTypes.includes(type)) {
+    if (filteredTypes.includes(type) || user.cancelled) {
       return;
     }
-    ++tickets;
+    ++data.tickets;
 
-    if (type in by_type) {
-      ++by_type[type];
+    if (type in data.by_type) {
+      ++data.by_type[type];
     } else {
-      by_type[type] = 1;
+      data.by_type[type] = 1;
     }
   })
-  
-  return {
-    tickets,
-    by_type,
-  };
+
+  if (result.pagination.has_more_items) {
+    await loadData(data, page + 1);
+  }
 }
 
-async function get(path) {
-  const url = `https://www.eventbriteapi.com/v3${path}`;
+async function get(path, page) {
+  const url = `https://www.eventbriteapi.com/v3${path}?page=${page}`;
   const response = await fetch(url, {
     headers: {
       "Authorization": `Bearer ${API_KEY}`,
