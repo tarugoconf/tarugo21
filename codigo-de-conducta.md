@@ -28,8 +28,8 @@ Si algo o alguien te molesta u observas cómo molestan a alguien, por favor,
 ponte en contacto inmediatamente con alguno de los organizadores de la
 Tarugoconf:
 
-- Bea Jimenez, Directora del Evento
-  [bea AT bonillaware DOT com](mailto:bea@bonillaware.com)
+- Candela Milán, Directora del Evento
+  [candela AT bonillaware DOT com](mailto:candela@bonillaware.com)
 - David Bonilla, Responsable de Contenidos
   [david AT bonillaware DOT com](mailto:david@bonillaware.com)
 

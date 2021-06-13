@@ -43,20 +43,20 @@ talks:
   aside: |
     - **1** solo track
     - **20** minutos de charla
-    - +**15** de Q&A
-    - **5** cámaras
+    - +**10** de Q&A
+    - **7** cámaras
     - **Sketchnoting** en directo
     - **Control** de difusión audiovisual
     - Alrededor de **1.000** asistentes
 
   text: |
-    «Ningún discurso es demasiado corto». En la Tarugo creemos en las enseñanzas de los legendarios Kenneth Roman y Joel Raphaelson, por eso nuestras charlas «solo» duran 20 minutos. Eso sí, tenemos un turno de preguntas de 15 minutos —desarrollao en formato entrevista, sentado en un sofá, como en un *late night show*— que SIEMPRE se nos queda corto. ¡La interactuación con el público suele ser tan interesante como la charla en sí!
+    «Ningún discurso es demasiado corto». En la Tarugo creemos en las enseñanzas de los legendarios Kenneth Roman y Joel Raphaelson, por eso nuestras charlas «solo» duran 20 minutos. Eso sí, tenemos un turno de preguntas de 10 minutos —desarrollado en formato entrevista, sentado en un sofá, como en un *late night show*— que SIEMPRE se nos queda corto. ¡La interactuación con el público suele ser tan interesante como la charla en sí!
 
     No tendrás que competir con otro ponente. Hay un sólo track, así que **toda la atención del evento estará puesta en tu charla.**
 
     Más allá del tema, **tendrás total libertad para desarrollar tu charla.** Sólo te pediremos que sigas nuestro sencillo [código de conducta](/codigo-de-conducta).
     
-    **La edición de 2020 será 100% online** así que stremearemos tu charla y la grabaremos, pero sólo la publicaremos si nos das tu consentimiento después de visionarla. Durante todo el proceso de creación de tu presentación, contarás con nuestro feedback y nuestra ayuda para **conseguir un resultado memorable.**
+    **La edición de 2021 volverá a ser 100% online**, así que, stremearemos tu charla y la grabaremos, pero sólo la publicaremos si nos das tu consentimiento después de visionarla. Durante todo el proceso de creación de tu presentación, contarás con nuestro feedback y nuestra ayuda para **conseguir un resultado memorable.**
 
 benefits:
   title: Qué aportamos a nuestros speakers
@@ -114,10 +114,15 @@ speakers:
       position: Creadora de Slides Carnival
       image: /img/past-speakers/jimena-catalina.jpg
     - quote: |
-        Después de 4 años, aun me sigue recordando la charla que di en la primera Tarugoconf incluso gente que no estuvo allí.
+        Después de 5 años, aun me sigue recordando la charla que di en la primera Tarugoconf incluso gente que no estuvo allí.
       name: Javi Santana
       position: Jugador de eSports
       image: /img/past-speakers/javi-santana.jpeg
+    - quote: |
+        El número de socios de Civio subió exponencialmente desde que di mi charla en la Tarugo.
+      name: Eva Belmonte
+      position: Directora de Civio
+      image: /img/past-speakers/eva-belmonte.jpeg
 
   speakers:
     - name: Justyna Adamczyk
@@ -127,23 +132,41 @@ speakers:
         title: '@justyna_adam'
         url: https://twitter.com/Justyna_Adam
     - name: Diego Mariño
-      position: Desarrollador de Videojuegos
+      position: Montador de Legos
       image: /img/past-speakers/diego-marino.jpeg
       twitter:
         title: '@diegomarino'
         url: https://twitter.com/diegomarino
-    - name: Andrea Barber
-      position: Cofundadora de Rated Power
-      image: /img/past-speakers/andrea-barber.jpg
+    - name: Eva Belmonte
+      position: Directora de Civio
+      image: /img/past-speakers/eva-belmonte.jpg
       twitter:
-        title: '@andreabarberl'
-        url: https://twitter.com/andreabarberl
+        title: '@evabelmonte'
+        url: https://twitter.com/evabelmonte
     - name: Álvaro Videla
       position: Azure Advocate / RabbitMQ Dev
       image: /img/past-speakers/alvaro-videla.jpg
       twitter:
         title: '@old_sound'
         url: https://twitter.com/old_sound
+    - name: Andrea Barber
+      position: Cofundadora de Rated Power
+      image: /img/past-speakers/andrea-barber.jpg
+      twitter:
+        title: '@andreabarberl'
+        url: https://twitter.com/andreabarberl
+    - name: Juanjo Montiel
+      position: Desarrollador de Software y Microsoft MVP
+      image: /img/past-speakers/juanjo-montiel.jpg
+      twitter:
+        title: '@kastwey'
+        url: https://twitter.com/kastwey
+    - name: Marta López
+      position: Experta en Ciberseguridad
+      image: /img/past-speakers/marta-lopez.jpg
+      twitter:
+        title: '@martixx'
+        url: https://twitter.com/Martixx
     - name: Daniel Lopez
       position: Fundador de Bitnami
       image: /img/past-speakers/daniel-lopez.jpg
@@ -168,15 +191,21 @@ speakers:
       twitter:
         title: '@experiencia_T'
         url: https://twitter.com/experiencia_T
+    - name: Cris Carrascosa
+      position: Abogada, experta en fiscalidad y regulación cripto
+      image: /img/past-speakers/cris-carrascosa.jpg
+      twitter:
+        title: '@CarrascosaCris_'
+        url: https://twitter.com/CarrascosaCris_
 
 resources:
   title: Recursos para speakers
   links:
     - text: El postmortem, con todas las cifras de la edición anterior
-      href: https://bonillaware.com/postmortem-tarugo4
-    - text: Vídeo-resumen de la última edición (2019)
+      href: https://bonillaware.com/postmortem-tarugo20
+    - text: "Vídeo-resumen de la #tarugo4 (2019)"
       href: https://vimeo.com/384584744
-    - text: Vídeo-resumen de la tarugo3 (2018)
+    - text: "Vídeo-resumen de la #tarugo3 (2018)"
       href: https://vimeo.com/304015791
     - text: Álbumes en Flickr con las fotos de todas las ediciones
       href: https://www.flickr.com/photos/tarugoconf/albums
