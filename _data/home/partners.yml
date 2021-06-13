@@ -80,6 +80,12 @@ patrons:
   - alt: Jordi Mon
     url: https://twitter.com/jordimonpmm
     img: /img/partners/jordi-mon.jpeg
+  - alt: Diego Mariño
+    img: /img/partners/diego-marino.jpeg
+    url: https://twitter.com/diegomarino
+  - alt: Walter Kobylanski
+    url: https://twitter.com/walterk
+    img: /img/partners/walter-kobylanski.jpeg
   - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
     alt: Nombre empresa
@@ -87,10 +93,11 @@ join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >
     En la Tarugo intentamos huir de la figura del «sponsor» habitual y
-    convertimos a nuestros patrocinadores en verdaderos socios, que son una parte
-    más del evento. Nos preocupamos por entender sus objetivos y personalizamos
-    los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano
-    con ellos y creando relaciones que perduran a lo largo de los años.
+    convertimos a nuestros patrocinadores en verdaderos socios, que son una
+    parte más del evento. Nos preocupamos por entender sus objetivos y
+    personalizamos los paquetes de patrocinio para intentar alcanzarlos,
+    trabajando mano a mano con ellos y creando relaciones que perduran a lo
+    largo de los años.
 
 
     Si quieres ser parte de la próxima #tarugo21, echa un vistazo a nuestro deck de patrocinio y escríbenos a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) ¡Estaremos encantados de hablar contigo!
