@@ -33,6 +33,8 @@ async function getData() {
       by_type[type] = 1;
     }
   })
+
+  tickets = pagination.object_count;
   
   return {
     tickets,
