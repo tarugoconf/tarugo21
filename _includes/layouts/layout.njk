@@ -9,7 +9,11 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="{{ "/" | url(true) }}">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="Tecnología y negocios en un mundo diferente. Una experiencia online / 21-23 de octubre de 2021">
+  <meta name="twitter:image" content="{{ '/img/video-poster.jpg' | url(true) }}">
 
   {% for script in scripts %}
     <script type="module" src="{{ script }}"></script>

@@ -4,7 +4,9 @@ import inline from "lume/plugins/inline.js";
 import date from "lume/plugins/date.js";
 import base_path from "lume/plugins/base_path.js";
 
-const site = lume();
+const site = lume({
+  location: "https://tarugoconf.com"
+});
 
 site
   .ignore("README.md")
