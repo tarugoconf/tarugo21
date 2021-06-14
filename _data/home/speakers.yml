@@ -85,19 +85,27 @@ speakers:
       - type: web
         url: https://www.tarugoconf.com
         text: tarugoconf.com
-  - id: tba-2
-    name: TBA
-    bio: Ponente pendiente de anunciar.
+  - id: pablo
+    name: Pablo Duchement
+    bio: >-
+      Pablo es profesor vocacional, ingeniero informático y perito judicial, experto en delitos en redes sociales perpetrados por y contra menores.
+
+
+      Su larga trayectoria profesional habla por si misma, pero Pablo se ha esforzado por informar y educar a la Opinión Pública sobre los peligros de las Redes Sociales en general —y para los menores en particular— 
+      así como evangelizar sobre la realidad y el día a día de los peritos informáticos, una labor tan importante como desconocida.
     links:
-      - text: "@tarugoconf"
+      - text: "@PDuchement"
         type: twitter
-        url: https://twitter.com/tarugoconf
+        url: https://twitter.com/pduchement
+      - text: "P.Duchement"
+        type: linkedin
+        url: https://www.linkedin.com/in/pablo-santana-duchement-00a33665/
       - type: web
-        url: https://www.tarugoconf.com
-        text: tarugoconf.com
+        url: https://pduchement.org/
+        text: https://pduchement.org
     company: " "
-    position: " "
-    image: /img/speakers/luffyjpg.png
+    position: "Profesor y perito judicial informático"
+    image: /img/speakers/pablo-duchement.jpg
   - name: TBA
     id: tba-3
     company: " "
