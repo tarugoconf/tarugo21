@@ -56,6 +56,11 @@ partners:
     alt: Sngular
     url: https://www.sngular.com/
     text: You're unique.
+  - alt: Redegal
+    img: /img/partners/logo-redegal.png
+    url: https://www.redegal.com/es/
+    text: Agencia de comunicación experta en SEO, SEM, Social Media, Ecommerce y
+      marketing digital.
   - img: https://via.placeholder.com/400x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
     alt: Nombre empresa
@@ -86,6 +91,9 @@ patrons:
   - alt: Walter Kobylanski
     url: https://twitter.com/walterk
     img: /img/partners/walter-kobylanski.jpeg
+  - alt: Jorge Galindo
+    url: https://twitter.com/Jorge__Galindo
+    img: /img/partners/jorge.jpg
   - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
     alt: Nombre empresa
