@@ -61,15 +61,15 @@ partners:
     url: https://www.redegal.com/es/
     text: Agencia de comunicación experta en SEO, SEM, Social Media, Ecommerce y
       marketing digital.
+  - alt: Velneo
+    img: /img/partners/logo-velneo.png
+    url: https://velneo.es/
+    text: Plataforma completa para programar software de gestión en menos tiempo.
   - img: https://via.placeholder.com/400x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
     alt: Nombre empresa
     text: Echa un ojo a [nuestras oportunidades de
       patrocinio](https://drive.google.com/file/d/1tdWLZjaXzbiQDTPjrjGRO3pvN-kh2IPb/preview).
-  - alt: Velneo
-    img: /img/partners/logo-velneo.png
-    url: https://velneo.es/
-    text: Plataforma completa para programar software de gestión en menos tiempo.
 patrons:
   - alt: Taiger
     img: /img/partners/logo-taiger-lineas-negras-vertical.png
