@@ -83,6 +83,9 @@ patrons:
   - img: /img/partners/logo-manfred-sponsor-2.png
     alt: Manfred
     url: https://www.getmanfred.com/
+  - alt: Vertical Gallery
+    img: /img/partners/unnamed.png
+    url: https://play.google.com/store/apps/details?id=com.mobsnake.verticalgallery
   - img: /img/partners/daniel-lopez.jpg
     alt: Daniel Lopez
     url: https://twitter.com/vomkriege
@@ -107,9 +110,6 @@ patrons:
   - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
     alt: Nombre empresa
-  - alt: Vertical Gallery
-    img: /img/partners/unnamed.png
-    url: https://play.google.com/store/apps/details?id=com.mobsnake.verticalgallery
 join:
   title: ¿Te gustaría ser parte de la Tarugoconf?
   content: >
