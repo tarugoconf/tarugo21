@@ -86,6 +86,9 @@ patrons:
   - alt: Vertical Gallery
     img: /img/partners/unnamed.png
     url: https://play.google.com/store/apps/details?id=com.mobsnake.verticalgallery
+  - alt: Ronin Pixels
+    img: /img/partners/logo_azul.png
+    url: https://roninpixels.com
   - img: /img/partners/daniel-lopez.jpg
     alt: Daniel Lopez
     url: https://twitter.com/vomkriege
