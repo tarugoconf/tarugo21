@@ -116,16 +116,21 @@ days:
 
 
           El contenido final lo decidirán los asistentes a la #tarugo21.
-      - title: TBA
+      - title: "Construyendo Skynet: software que fabrica hardware"
         time: 17:15-17:45h
         speakers:
-          - tba-1
+          - rita
         details: >-
-          Charla pendiente de anunciar para mantener la Hype Machine. Stay tuned
-          Antunez!
+          Gestionar datos de producción —en tiempo real— para comprobar que tu
+          producto cumple con todos los requisitos exigidos para poder ser
+          vendido, es la única manera de ser competitivo en el sector
+          industrial.
 
 
-          ![Hype Overload](/img/giphy.gif)
+          En esta charla, Rita nos explicará a través de su experiencia personal **cómo implementar de manera efectiva un software que controle una cadena de producción y sacarle el mayor partido**. 
+
+
+          Además, nos contara los retos y avances de la implementación de la conocida «industria 4.0» en una fábrica real.
       - title: ¿Qué saben de nuestra profesión los futuros profesionales? 🎤
         time: 17:45-18:00h
         details: >-
@@ -217,12 +222,12 @@ days:
         speakers:
           - pablo
         details: >-
-          Todos —especialmente los informáticos— creemos controlar las Redes Sociales y los peligros que ocultan, pero 
-          hay todo un mundo oculto ahí fuera que desconocemos. 
+          Todos —especialmente los informáticos— creemos controlar las Redes
+          Sociales y los peligros que ocultan, pero  hay todo un mundo oculto
+          ahí fuera que desconocemos. 
 
 
-          Durante su charla, Pablo nos guiará por ese oscuro universo a través de sus experiencias trabajando en casos reales y nos dará 
-          las claves para navegar por el mismo con una cierta seguridad, para que sepamos como proteger tanto a los menores a nuestro cargo como... a nosotros mismos.
+          Durante su charla, Pablo nos guiará por ese oscuro universo a través de sus experiencias trabajando en casos reales y nos dará  las claves para navegar por el mismo con una cierta seguridad, para que sepamos como proteger tanto a los menores a nuestro cargo como... a nosotros mismos.
         time: 21:15-21:45h
       - title: Despedida y cierre
         time: 21:45-22:00h 👋
