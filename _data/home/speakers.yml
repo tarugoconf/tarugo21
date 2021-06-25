@@ -72,39 +72,48 @@ speakers:
 
 
       Se considera un «informático recursivo» porque construye software para gente que construye software para gente que construye software :)
-  - name: TBA
-    id: tba-1
-    company: " "
-    image: /img/speakers/tba-1.jpg
-    position: " "
-    bio: Ponente pendiente de anunciar.
+  - name: Rita Sobrido
+    id: rita
+    company: " Vinfast"
+    image: /img/speakers/img_9265.jpg
+    position: " Directora IT de Fabricación"
+    bio: >-
+      Ingeniera industrial especializada en la implementación de software para
+      el control de la fabricación de productos, desde el sector alimentario al
+      automovilístico.
+
+
+      Con 23 años, abandonó España para implementar diferentes soluciones de software en Australia, Singapore y Vietnam. Actualmente, **dirige el equipo de desarrollo, implementación y soporte del software que controla la producción en 16 plantas pertenecientes a la primera empresa automovilística vietnamita**, Vinfast.
     links:
       - type: twitter
-        text: "@tarugoconf"
-        url: https://twitter.com/tarugoconf
+        text: "@SobridoRita"
+        url: https://twitter.com/SobridoRita
+      - type: linkedin
+        url: https://www.linkedin.com/in/rita-sobrido-garcia-64a072a4/
+        text: Rita Sobrido
       - type: web
-        url: https://www.tarugoconf.com
-        text: tarugoconf.com
+        url: https://vinfastauto.com/vn_en
+        text: Vinfast
   - id: pablo
     name: Pablo Duchement
     bio: >-
-      Pablo es profesor vocacional, ingeniero informático y perito judicial, experto en delitos en redes sociales perpetrados por y contra menores.
+      Pablo es profesor vocacional, ingeniero informático y perito judicial,
+      experto en delitos en redes sociales perpetrados por y contra menores.
 
 
-      Su larga trayectoria profesional habla por si misma, pero Pablo se ha esforzado por informar y educar a la Opinión Pública sobre los peligros de las Redes Sociales en general —y para los menores en particular— 
-      así como evangelizar sobre la realidad y el día a día de los peritos informáticos, una labor tan importante como desconocida.
+      Su larga trayectoria profesional habla por si misma, pero Pablo se ha esforzado por informar y educar a la Opinión Pública sobre los peligros de las Redes Sociales en general —y para los menores en particular—  así como evangelizar sobre la realidad y el día a día de los peritos informáticos, una labor tan importante como desconocida.
     links:
       - text: "@PDuchement"
         type: twitter
         url: https://twitter.com/pduchement
-      - text: "P.Duchement"
+      - text: P.Duchement
         type: linkedin
         url: https://www.linkedin.com/in/pablo-santana-duchement-00a33665/
       - type: web
         url: https://pduchement.org/
         text: https://pduchement.org
     company: " "
-    position: "Profesor y perito judicial informático"
+    position: Profesor y perito judicial informático
     image: /img/speakers/pablo-duchement.jpg
   - name: TBA
     id: tba-3
