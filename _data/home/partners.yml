@@ -65,11 +65,18 @@ partners:
     img: /img/partners/logo-velneo.png
     url: https://velneo.es/
     text: Plataforma completa para programar software de gestión en menos tiempo.
-  - img: https://via.placeholder.com/400x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
-    url: https://tarugoconf.com
-    alt: Nombre empresa
-    text: Echa un ojo a [nuestras oportunidades de
-      patrocinio](https://drive.google.com/file/d/1tdWLZjaXzbiQDTPjrjGRO3pvN-kh2IPb/preview).
+  - alt: heytrade!
+    img: /img/partners/heytrade_logo.png
+    url: https://heytrade.com/es/
+    text: Inversión sencilla para todos los traders.
+  - img: /img/partners/arima_300_gray.jpg
+    url: https://arima.eu/es/
+    alt: Arima
+    text: 100% SOFTWARE DESIGN.
+  - alt: The Cocktail
+    img: /img/partners/logo_blanco.png
+    url: https://the-cocktail.com/
+    text: Impulsamos conocimiento.
 patrons:
   - alt: Taiger
     img: /img/partners/logo-taiger-lineas-negras-vertical.png
