@@ -11,7 +11,9 @@ export const days_left = Math.round(Math.abs((now - future) / day));
 
 export const metrics = API_KEY ? await getData() : {
   tickets: 333,
-  by_type: {},
+  by_type: {
+    "Early Tarug@": 600
+  },
 };
 
 async function getData() {

@@ -24,6 +24,9 @@
       }
     }
   }
+  &.is-sold-out:hover {
+    border: solid 1px var(--color-grey-100);
+  }
 }
 
 @media (min-width: 700px) {
@@ -134,5 +137,8 @@ dt.ticket-keyname {
 
   &.is-complement {
     background-color: var(--color-primary-100);
+  }
+  &.is-big {
+    font: var(--font-16-bold);
   }
 }
