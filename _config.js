@@ -1,10 +1,10 @@
-import lume from "lume/mod.js";
-import postcss from "lume/plugins/postcss.js";
-import inline from "lume/plugins/inline.js";
-import date from "lume/plugins/date.js";
-import base_path from "lume/plugins/base_path.js";
-import attributes from "lume/plugins/attributes.js";
-import slugify_urls from "lume/plugins/slugify_urls.js";
+import lume from "lume/mod.ts";
+import postcss from "lume/plugins/postcss.ts";
+import inline from "lume/plugins/inline.ts";
+import date from "lume/plugins/date.ts";
+import base_path from "lume/plugins/base_path.ts";
+import attributes from "lume/plugins/attributes.ts";
+import slugify_urls from "lume/plugins/slugify_urls.ts";
 
 const site = lume({
   location: "https://tarugoconf.com"
