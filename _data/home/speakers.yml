@@ -124,8 +124,20 @@ speakers:
       - text: "@varisb"
         url: https://twitter.com/varisb
         type: twitter
-    bio: Emprendedor en Internet «desde que todo esto era campo». Después de una
-      exitosa carrera en España, llego a
+      - text: Evaristo Babé
+        type: linkedin
+        url: https://www.linkedin.com/in/evaristo/
+      - text: Pulpomatic
+        url: https://pulpomatic.com/es/
+        type: web
+    bio: >-
+      Emprendedor en Internet «desde que todo esto era campo». Después de una
+      exitosa carrera en España, llego a México para vender (por segunda vez)
+      SinDelantal.com... y se quedó, enamorado por el dinamismo y el crecimiento
+      del país azteca. 
+
+
+      En 2016 fundó Pulpomatic, una plataforma tecnológica para gestionar flotas de vehículos que ya cuenta con más de 100 clientes y 200.000 vehículos, a caballo entre México y Madrid.
   - name: TBA
     id: tba-3
     company: " "
