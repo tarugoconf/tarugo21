@@ -115,6 +115,17 @@ speakers:
     company: " "
     position: Profesor y perito judicial informático
     image: /img/speakers/pablo-duchement.jpg
+  - name: Evaristo Babé
+    id: varis
+    company: Pulpomatic
+    position: Fundador y CEO
+    image: /img/speakers/varis.jpg
+    links:
+      - text: "@varisb"
+        url: https://twitter.com/varisb
+        type: twitter
+    bio: Emprendedor en Internet «desde que todo esto era campo». Después de una
+      exitosa carrera en España, llego a
   - name: TBA
     id: tba-3
     company: " "
