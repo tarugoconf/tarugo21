@@ -21,7 +21,6 @@ site
   .use(postcss())
   .use(base_path())
   .use(attributes())
-  .use(slugify_urls())
-  .data("now", new Date());
+  .use(slugify_urls());
 
 export default site;
