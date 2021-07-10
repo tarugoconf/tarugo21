@@ -151,3 +151,19 @@ speakers:
         text: tarugoconf.com
         url: https://www.tarugoconf.com
     image: /img/speakers/celtypng.png
+  - name: Diego Ballesteros
+    id: diego
+    image: /img/speakers/diego_oficina_peq.jpg
+    company: Bewe
+    position: Fundador
+    links:
+      - type: twitter
+        url: https://twitter.com/diegoteca
+        text: "@diegoteca"
+      - type: linkedin
+        url: https://www.linkedin.com/in/diegoballesteros/
+        text: Diego Ballesteros
+      - type: web
+        url: https://www.bewe.io/
+        text: bewe.io
+    bio: TBD
