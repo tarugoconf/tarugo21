@@ -205,19 +205,26 @@ days:
 
 
           Los ganadores se llevarán jugosos premios a casa ¡A Jugar!
-      - title: TBA
+      - title: Cómo hacer las Américas en 2021
         speakers:
-          - tba-3
+          - diego
+          - varis
         details: >-
-          Charla pendiente de anunciar para mantener la Hype Machine. Stay tuned
-          Antunez!
+          LATAM es un mercado inmenso y lleno de oportunidades que, sin embargo,
+          ha sido ignorado sistematicamente por la mayoría de empresas y
+          emprendedores españoles.
 
 
-          ![](/img/giphy-1-.gif)
+          En esta charla, Varis y Diego nos contarán **las principales peculiaridades a tener en cuenta a la hora de hacer negocios en América latina en general, y en el sector digital en particular**, a partir de su propia experiencia montando (y vendiendo) SinDelantal.com en México. 
+
+
+          Sal de esta charla con trucos, consejos y un montón de buenas prácticas para que puedas «hacer las Américas» con las mayores posibilidades de éxito.
         time: 20:30-21:00h
       - title: Bola Extra 🎱
         details: Una sorpresa que será desvelada en su debido momento...
         time: 21:00.21:15h
+        speakers:
+          - tba-3
       - title: "Menores y Redes Sociales: la realidad que no conoces"
         speakers:
           - pablo
