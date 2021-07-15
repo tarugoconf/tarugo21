@@ -77,7 +77,14 @@ partners:
     img: /img/partners/logo_blanco.png
     url: https://the-cocktail.com/
     text: Impulsamos conocimiento.
+  - img: /img/partners/primarylogo-rgb-green-black.jpg
+    alt: Celonis
+    url: https://www.celonis.com/
+    text: The global leader in execution management.
 patrons:
+  - alt: SNGULAR
+    img: /img/partners/sngular-logo-big.png
+    url: https://www.sngular.com/
   - alt: Taiger
     img: /img/partners/logo-taiger-lineas-negras-vertical.png
     url: https://taiger.com/
