@@ -220,11 +220,11 @@ days:
 
           Sal de esta charla con trucos, consejos y un montón de buenas prácticas para que puedas «hacer las Américas» con las mayores posibilidades de éxito.
         time: 20:30-21:00h
-      - title: Bola Extra 🎱
+      - title: La historia de la primera programadora de España
         details: Una sorpresa que será desvelada en su debido momento...
         time: 21:00.21:15h
         speakers:
-          - tba-3
+          - paz
       - title: "Menores y Redes Sociales: la realidad que no conoces"
         speakers:
           - pablo
