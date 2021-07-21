@@ -7,7 +7,7 @@ import attributes from "lume/plugins/attributes.ts";
 import slugify_urls from "lume/plugins/slugify_urls.ts";
 
 const site = lume({
-  location: "https://tarugoconf.com"
+  location: new URL("https://tarugoconf.com")
 });
 
 site
