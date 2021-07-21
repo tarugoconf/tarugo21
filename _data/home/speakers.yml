@@ -160,16 +160,10 @@ speakers:
 
 
       Siguió apostando por el crecimiento y las oportunidades de América latina con el lanzamiento de Bewe en 2016, una plataforma tecnológica para gestionar un sector tan poco digitalizado y fragmentado como es el de los salones de belleza y peluquerías.
-  - name: TBA
-    id: tba-3
+  - name: Paz Gimeno
+    id: paz
     company: " "
     position: " "
     bio: Ponente pendiente de anunciar.
-    links:
-      - text: "@tarugoconf"
-        type: twitter
-        url: https://twitter.com/tarugoconf
-      - type: web
-        text: tarugoconf.com
-        url: https://www.tarugoconf.com
-    image: /img/speakers/celtypng.png
+    links: []
+    image: /img/speakers/paz.jpg
