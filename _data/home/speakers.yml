@@ -163,24 +163,18 @@ speakers:
   - name: Paz Gimeno
     id: paz
     company: " "
-    position: " "
+    position: " Jubilada"
     bio: >-
-      Paz estudió Ciencias Físicas en la Universidad de Madrid e ingresó en IBM
-      después de un curso de formación de programación en Fortran.
+      Paz tiene 83 años. Estudió Ciencias Físicas en la Universidad de Madrid y
+      cuando se licenció —en 1962— ingresó en IBM.
 
 
-      La destinaron al Centro de Cálculo para soporte del primer ordenador 1620 que iba a llegar a la escuela de Ingenieros Industriales. Era **la primera mujer programadora.**
+      Trabajó dando soporte al primer ordenador 1620 que llegó a la escuela de Ingenieros Industriales y, posteriormente, pasó a dar soporte de distintos sistemas operativos en clientes de toda Europa y Estados Unidos.
 
 
-      Posteriormente pasó a un departamento de soporte técnico de los sistemas operativos donde tenía que aprender y . Mi función fue conocer y después trasladar a los usuarios las funcionalidades nuevas que se iban incorporando.
-
-      Esta responsabilidad me hizo viajar a formarme en diferentes lugares de Europa y Estados Unidos. 
-
-      Esta misma función de soporte la desarrolle también en Inglaterra en una asignación durante cuatro años. Mis clientes ahora eran europeos.
-
-
-
-
-      Siempre era la única mujer, aunque luego fueron llegando muchas más.
-    links: []
-    image: /img/speakers/paz.jpg
+      Su labor fue reconocida y se trasladó al Reino Unido durante cuatro años. Siempre fue la primera y única mujer que llegaba a todos los departamentos técnicos por donde fue pasando, aunque afortunadamente luego fueron llegando muchas más.
+    links:
+      - type: web
+        url: https://www.xataka.com/historia-tecnologica/yo-programaba-decada-60-asi-trabajaban-primeros-programadores-espana
+        text: Así trabajaban los primeros programadores de España
+    image: /img/speakers/paz_gimeno.jpg
