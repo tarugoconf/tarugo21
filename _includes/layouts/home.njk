@@ -32,6 +32,9 @@ scripts:
       <ul class="project-details">
         <li class="project-details-tickets">
           <strong>{{ eventbrite.metrics.tickets }} entradas vendidas</strong>
+          {% if eventbrite.metrics.invitations %}
+            <b>+ {{ eventbrite.metrics.invitations }} entradas para partners y colaboradores</b><br>
+          {% endif %}
           de un mínimo de 500 para celebrar el evento
         </li>
 

@@ -2,6 +2,7 @@ const API_KEY = Deno.env.get("API_KEY");
 const EVENT_ID = Deno.env.get("EVENT_ID");
 
 const filteredTypes = ["VIP"];
+const invitationType = "INVITACION";
 
 const day = 24 * 60 * 60 * 1000;
 const now = new Date();
@@ -11,6 +12,7 @@ export const days_left = Math.round(Math.abs((now - future) / day));
 
 export const metrics = API_KEY ? await getData() : {
   tickets: 333,
+  invitations: 10,
   by_type: {
     "Early Tarug@": 600
   },
@@ -19,7 +21,8 @@ export const metrics = API_KEY ? await getData() : {
 async function getData() {
   const data = {
     by_type: {},
-    tickets: 0
+    tickets: 0,
+    invitations: 0,
   };
   
   await loadData(data, 1);
@@ -36,6 +39,12 @@ async function loadData(data, page) {
     if (filteredTypes.includes(type) || user.cancelled) {
       return;
     }
+
+    if (type === invitationType) {
+      ++data.invitations
+      return;
+    }
+
     ++data.tickets;
 
     if (type in data.by_type) {
