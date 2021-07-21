@@ -221,7 +221,16 @@ days:
           Sal de esta charla con trucos, consejos y un montón de buenas prácticas para que puedas «hacer las Américas» con las mayores posibilidades de éxito.
         time: 20:30-21:00h
       - title: La historia de la primera programadora de España
-        details: Una sorpresa que será desvelada en su debido momento...
+        details: >-
+          Conoceremos la historia de Paz, que empezó a trabajar en IBM en 1962
+          después de licenciarse en Físicas y recibir un curso de programación
+          en Fortran.
+
+
+          Era la primera programadora de la compañía en España en un tiempo en el que la presencia de las mujeres no era habitual no ya en los departamentos técnicos sino en el mercado laboral en general.
+
+
+          En esta entrevista disfrutaremos de anécdotas, destaparemos mitos y conoceremos la realidad del pasado de la Informática, para intentar comprender mejor su presente.
         time: 21:00.21:15h
         speakers:
           - paz
