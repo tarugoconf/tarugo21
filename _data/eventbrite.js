@@ -2,7 +2,8 @@ const API_KEY = Deno.env.get("API_KEY");
 const EVENT_ID = Deno.env.get("EVENT_ID");
 
 const filteredTypes = ["VIP"];
-const invitationType = ["INVITACION", "VIP"];
+//const invitationType = ["INVITACION", "VIP"];
+const invitationType = "INVITACION";
 
 const day = 24 * 60 * 60 * 1000;
 const now = new Date();
