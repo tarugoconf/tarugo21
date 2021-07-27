@@ -1,9 +1,7 @@
 const API_KEY = Deno.env.get("API_KEY");
 const EVENT_ID = Deno.env.get("EVENT_ID");
 
-const filteredTypes = ["VIP"];
-//const invitationType = ["INVITACION", "VIP"];
-const invitationType = "INVITACION";
+const invitationTypes = ["INVITACION", "VIP"];
 
 const day = 24 * 60 * 60 * 1000;
 const now = new Date();
@@ -37,11 +35,11 @@ async function loadData(data, page) {
   result.attendees.forEach((user) => {
     const type = user.ticket_class_name;
 
-    if (filteredTypes.includes(type) || user.cancelled) {
+    if (user.cancelled) {
       return;
     }
 
-    if (type === invitationType) {
+    if (invitationTypes.includes(type)) {
       ++data.invitations
       return;
     }
