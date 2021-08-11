@@ -103,6 +103,12 @@ patrons:
   - alt: Ronin Pixels
     img: /img/partners/logo_azul.png
     url: https://roninpixels.com
+  - img: /img/partners/personio1d7ad.png
+    alt: Personio
+    url: https://www.personio.es/
+  - alt: Avantgarde
+    img: /img/partners/avantgardelogo-02.png
+    url: http://www.avantgardeit.es/
   - img: /img/partners/daniel-lopez.jpg
     alt: Daniel Lopez
     url: https://twitter.com/vomkriege
