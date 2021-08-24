@@ -17,3 +17,23 @@ ctas:
     url: 'https://forms.gle/i2RBFiR6mQApMA7J9'
     class: button
     target: '_blank'
+
+sessions:
+  tags:
+    - label: Comunidad
+      name: comunidad
+    - label: Desarrollo
+      name: desarrollo
+  sessions:
+    - title: 'Como hacer comunidad en tiempos de pandemia'
+      hash: '1'
+      tags:
+        - comunidad
+      stars: 1
+      code: 79flu63EVYw
+    - title: 'Limitar la complejidad técnica en una nueva funcionalidad'
+      hash: '2'
+      tags:
+        - desarrollo
+      stars: 1
+      code: lJnvc45yRPc
