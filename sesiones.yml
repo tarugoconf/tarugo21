@@ -37,3 +37,9 @@ sessions:
         - desarrollo
       stars: 1
       code: lJnvc45yRPc
+    - title: '¿Por qué testeamos?'
+      hash: '3'
+      tags:
+        - desarrollo
+      stars: 1
+      code: nN8RnKnUem0
