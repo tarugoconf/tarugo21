@@ -24,6 +24,10 @@ sessions:
       name: comunidad
     - label: Desarrollo
       name: desarrollo
+    - label: Salud
+      name: salud
+    - label: Organización
+      name: organizacion
   sessions:
     - title: 'Como hacer comunidad en tiempos de pandemia'
       hash: '1'
@@ -43,3 +47,23 @@ sessions:
         - desarrollo
       stars: 1
       code: nN8RnKnUem0
+    - title: 'Tecnologías para la salud mental'
+      hash: '4'
+      tags:
+        - desarrollo
+        - salud
+      stars: 1
+      code: HvknGc1-bmM
+    - title: '¿Cómo alinear Business con Tech lo máximo posible? ¿Qué impedimentos son los más comunes?'
+      hash: '5'
+      tags:
+        - organizacion
+      stars: 1
+      code: IYwTo1i_43o
+    - title: '¿Cómo debería ser el onboarding para quienes entran en una empresa?'
+      hash: '6'
+      tags:
+        - organizacion
+        - desarrollo
+      stars: 1
+      code: 8aAcsn7fEJU
