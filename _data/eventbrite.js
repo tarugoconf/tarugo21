@@ -26,6 +26,9 @@ async function getData() {
   
   await loadData(data, 1);
 
+  // Forzar todas as entradas esgotadas
+  data.by_type["Early Tarug@"] = 600;
+
   return data;
 }
 
