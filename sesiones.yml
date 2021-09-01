@@ -20,14 +20,16 @@ ctas:
 
 sessions:
   tags:
+    - label: Aprendizaje
+      name: aprendizaje
     - label: Comunidad
       name: comunidad
     - label: Desarrollo
       name: desarrollo
-    - label: Salud
-      name: salud
     - label: Organización
       name: organizacion
+    - label: Salud
+      name: salud
   sessions:
     - title: 'Como hacer comunidad en tiempos de pandemia'
       hash: '1'
@@ -67,3 +69,16 @@ sessions:
         - desarrollo
       stars: 1
       code: 8aAcsn7fEJU
+    - title: '¿Por qué mentorizar aunque seas junior y cómo conseguir un mentor?'
+      hash: '7'
+      tags:
+        - aprendizaje
+        - desarrollo
+      stars: 1
+      code: NJr-iq-akhc
+    - title: 'Recicla, cacharrea y aprende'
+      hash: '8'
+      tags:
+        - desarrollo
+      stars: 1
+      code: b0ci7Xr-SNM
