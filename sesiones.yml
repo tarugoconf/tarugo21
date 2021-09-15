@@ -30,6 +30,8 @@ sessions:
       name: organizacion
     - label: Salud
       name: salud
+    - label: Datos
+      name: datos
   sessions:
     - title: 'Como hacer comunidad en tiempos de pandemia'
       hash: '1'
@@ -96,3 +98,9 @@ sessions:
         - comunidad
       stars: 1
       code: z8rRNX875BM
+    - title: 'Cómo mienten los gráficos'
+      hash: '11'
+      tags:
+        - datos
+      stars: 1
+      code: fg-i0C4laAc
