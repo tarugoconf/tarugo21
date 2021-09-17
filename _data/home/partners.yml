@@ -123,7 +123,7 @@ patrons:
     url: https://twitter.com/diegomarino
   - alt: Walter Kobylanski
     url: https://twitter.com/walterk
-    img: /img/partners/walter-kobylanski.jpeg
+    img: /img/partners/file.jpg
   - alt: Jorge Galindo
     url: https://twitter.com/Jorge__Galindo
     img: /img/partners/jorge.jpg
@@ -136,6 +136,9 @@ patrons:
   - url: https://twitter.com/odrasile
     alt: Elisardo González
     img: /img/partners/elisardo-gonzalez.jpeg
+  - url: https://twitter.com/oyabun
+    alt: Javier Alonso
+    img: /img/partners/lfb2pa7b_400x400.jpeg
   - img: https://via.placeholder.com/300x300/CCCCCC/000000/?text=TU%20LOGO%20AQUI
     url: https://tarugoconf.com
     alt: Nombre empresa
