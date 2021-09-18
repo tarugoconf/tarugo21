@@ -104,3 +104,9 @@ sessions:
         - datos
       stars: 1
       code: fg-i0C4laAc
+    - title: 'Hablemos de IOT pero no de arduino ...'
+      hash: '12'
+      tags:
+        - desarrollo
+      stars: 1
+      code: xMAyHhGnSaM
