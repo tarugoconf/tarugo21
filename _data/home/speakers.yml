@@ -178,3 +178,24 @@ speakers:
         url: https://www.xataka.com/historia-tecnologica/yo-programaba-decada-60-asi-trabajaban-primeros-programadores-espana
         text: Así trabajaban los primeros programadores de España
     image: /img/speakers/paz_gimeno.jpg
+  - name: Eva Janeiro
+    id: eva
+    position: Diseñadora de contenido freelance
+    image: /img/speakers/eva-janeiro.jpeg
+    bio: >-
+      Eva es diseñadora de contenido y UX writer freelance, desde antes de que
+      esto tuviera un nombre.
+
+
+      Desde pequeña, tiene una historia de amor/amor con las palabras y por eso estudió Publicidad, para ser copy. Todavía estudiando la carrera, se le cruzó el diseño de interfaces por el camino y ya no hubo vuelta atrás. Desde entonces, trabaja construyendo experiencias más humanas y amables, poniendo palabras a los procesos.
+    links:
+      - type: twitter
+        url: https://twitter.com/EvaJaneiroUXW
+        text: "@EvaJaneiroUXW"
+      - text: Eva Janeiro
+        type: linkedin
+        url: https://www.linkedin.com/in/evajaneiro/
+      - type: web
+        url: https://evajaneiro.com/
+        text: evajaneiro.com
+    company: " "
