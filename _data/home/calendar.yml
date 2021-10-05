@@ -116,21 +116,17 @@ days:
 
 
           El contenido final lo decidirán los asistentes a la #tarugo21.
-      - title: "Construyendo Skynet: software que fabrica hardware"
+      - title: Palabras Mágicas
         time: 17:20-17:50h
         speakers:
-          - rita
+          - eva
         details: >-
-          Gestionar datos de producción —en tiempo real— para comprobar que tu
-          producto cumple con todos los requisitos exigidos para poder ser
-          vendido, es la única manera de ser competitivo en el sector
-          industrial.
+          En esta charla sabremos qué es eso del UX Writing, en qué se
+          diferencia de otras disciplinas y **por qué es fundamental en el
+          proceso de diseño de productos y servicios digitales**.
 
 
-          En esta charla, Rita nos explicará a través de su experiencia personal **cómo implementar de manera efectiva un software que controle una cadena de producción y sacarle el mayor partido**. 
-
-
-          Además, nos contara los retos y avances de la implementación de la conocida «industria 4.0» en una fábrica real.
+          Aprenderemos cuáles son los principios de la disciplina, cómo aplicarlos y revisaremos un montón de ejemplos para que quede todo cristalino. También hablaremos de lenguaje inclusivo y de cómo podemos hacer un mundo más amable para todo tipo de personas, a través de las palabras.
       - title: ¿Qué saben de nuestra profesión los futuros profesionales? 🎤
         time: 17:50-17:55h
         details: >-
@@ -225,9 +221,8 @@ days:
           - paz
       - title: Spots
         time: 20:45-20:50h
-        details: >-
-          Breve receso en el que emitiremos unos spots antes de encarar la traca final.
-
+        details: Breve receso en el que emitiremos unos spots antes de encarar la traca
+          final.
       - title: "Menores y Redes Sociales: la realidad que no conoces"
         speakers:
           - pablo
@@ -250,7 +245,6 @@ days:
 
 
           El contenido final lo decidirán los asistentes a la #tarugo21.
-
       - title: Despedida y cierre
         time: 21:50-22:00h 👋
         speakers:
