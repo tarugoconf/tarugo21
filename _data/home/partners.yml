@@ -109,6 +109,9 @@ patrons:
   - alt: Avantgarde
     img: /img/partners/avantgardelogo-02.png
     url: http://www.avantgardeit.es/
+  - alt: Redis
+    img: /img/partners/redis-logo-full-color-rgb.png
+    url: https://redis.com/es
   - img: /img/partners/daniel-lopez.jpg
     alt: Daniel Lopez
     url: https://twitter.com/vomkriege
