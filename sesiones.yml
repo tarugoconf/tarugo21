@@ -116,3 +116,10 @@ sessions:
         - desarrollo
       stars: 1
       code: uzV2Oa3KDFw
+    - title: 'Estrategias y herramientas para optimizar el aprendizaje continuo'
+      hash: '14'
+      tags:
+        - desarrollo
+        - aprendizaje
+      stars: 1
+      code: ZZkhXOe_vug
