@@ -259,9 +259,36 @@ days:
           un broche de oro entonando el 'Miña Terra Galega' 💪
   - day: Sábado, 23 de octubre
     events:
-      - title: TarugOff
-        time: 11:00-14:00h
-        details: El Open Space de la Tarugo
+      - title: Warm-up TarugOff
+        time: 10:45-11:00
+        details: >-
+          Para aquellos que no lo sepáis, enseñaremos como funciona Vidiv, la plataforma que usaremos para
+          colaborar durante la TarugOff. Así tendréis un poco de tiempo para configurar todo y que no haya problemas
+          durante el evento.
+      - title: Presentación de la TarugOff
+        time: 11:00-11:30h
+        details: Explicaremos en qué consiste la TarugOff, las reglas básicas y resolveremos las preguntas que tengáis.
+      - title: Track 1 - Tecnologías para la salud mental; Patricia Pons
+        time: 11:30-12:00h
+        details: TBD (enlace a la sesión)
+      - title: Track 2 - ¿Cómo debería ser el onboarding para los que entramos a nuestro primer trabajo en el sector?; Ariane Jurado
+        time: 11:30-12:00h
+        details: TBD (enlace a la sesión)
+      - title: Track 1 - Limitar la complejidad técnica en una nueva funcionalidad; David González
+        time: 12:15-12:45h
+        details: TBD (enlace a la sesión)
+      - title: Track 2 - Como mienten los gráficos; Manolo Lopez
+        time: 12:15-12:45h
+        details: TBD (enlace a la sesión)
+      - title: Track 1 - ¿Cómo alinear business con tech?; Luis Artola
+        time: 13:00-13:30h
+        details: TBD (enlace a la sesión)
+      - title: Track 2 - ¿Por qué mentorizar aunque seas junior y cómo conseguir un mentor?; Nadine Thêry
+        time: 13:00-13:30h
+        details: TBD (enlace a la sesión)
+      - title: Cierre de la TarugOff
+        time: 13:30-13:45h
+        details: Despedida y cierre hasta, tal vez, el próximo año :-)
       - title: Replay 📼
         time: 16:00-22:00h
         details: "Redifusión de la #tarugo21"
