@@ -27,8 +27,8 @@ speakers:
 
       Con 23 años y nada más salir de la universidad,  fundó su propia empresa especializada en software libre. 16 años después, decidió tomarse un año «libre» para desarrollar **software que ayude a concienciar a la opinión pública sobre la importancia de auditar a las distintas Administraciones** y a los cargos públicos que las dirigen.
   - image: /img/speakers/yaiza.jpg
-    name: Yaiza Canosa
-    company: Goi
+    name: Javier G. Recuenco
+    company: Singular Solving
     position: Fundadora y CEO
     links:
       - type: twitter
@@ -48,7 +48,7 @@ speakers:
 
 
       En 2017 fue seleccionada como una de los 30 jóvenes menores de 30 años con mayor proyección profesional tanto dentro como fuera de España por la revista Forbes (30 Under 30), pero más allá de los *fuegos artificiales*, es una curranta que lleva el emprendimiento en la sangre.
-    id: yaiza
+    id: recuenco
   - name: Antonio Santos
     id: antonio
     company: GitHub
