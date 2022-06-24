@@ -3,9 +3,9 @@ intro: >
   El «speaker» o ponente de la Tarugoconf no nace, [SE HACE](./speakers). Estos
   son los awesómicos invitados con los que contaremos este año:
 speakers:
-  - name: Jaime Gómez-Obregón
-    id: jaime
-    company: " "
+  - name: Ana Freire
+    id: ana
+    company: " UPF Barcelona School of Management"
     position: Programador y Activista
     image: /img/speakers/0469627203e08f42097abe7a48e134fdf737354e.png
     links:
