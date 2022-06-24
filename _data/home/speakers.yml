@@ -7,16 +7,16 @@ speakers:
     id: ana
     company: " UPF Barcelona School of Management"
     position: Programador y Activista
-    image: /img/speakers/0469627203e08f42097abe7a48e134fdf737354e.png
+    image: https://comunitat.canodrom.barcelona/uploads/decidim/user/avatar/73431/profile_E1F8004B-3FC9-451E-AEF2-F76EF2B0D145.jpeg
     links:
       - text: "@JaimeObregon"
         type: twitter
-        url: https://twitter.com/JaimeObregon
+        url: https://twitter.com/ana__freire
       - text: Web de Jaime
         type: web
-        url: https://jaime.gomezobregon.com/
+        url: https://anafreire.es/
       - type: linkedin
-        url: https://www.linkedin.com/in/jaimegomezobregon/
+        url: https://www.linkedin.com/in/freireana/
         text: Jaime Gómez-Obregón
     bio: >-
       Ingeniero especializado en *open data*, autor de herramientas digitales
